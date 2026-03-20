@@ -198,11 +198,13 @@ Word 초안 섹션 구성 및 섹션 6 상세 스펙 → `references/word-templa
 
 "{솔루션명} 완성본 배포해줘" 요청이 오면 실행하세요.
 
-1. SharePoint에서 해당 Word 파일 최종본 확인
+1. SharePoint에서 해당 Word 파일 최종본 다운로드
+   - 경로: `네이밍검토/{사업부}/{솔루션명}_{YYYYMMDD}/{파일명}.docx`
+   - Microsoft Graph API로 파일 내용(bytes) 가져오기 → base64 인코딩
 2. Teams 채널에 완성본 공지 (`TEAMS_WEBHOOK_URL`)
-3. Outlook으로 이메일 발송
-
-이메일 규칙 및 HTML 레이아웃 스펙 → `references/email-template.md` 참조
+3. Outlook으로 이메일 발송 — **Word 파일을 반드시 첨부**
+   - attachments 배열에 base64 인코딩된 파일 포함
+   - 이메일 규칙 및 첨부 기술 스펙 → `references/email-template.md` 참조
 
 ---
 

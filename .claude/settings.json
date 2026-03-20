@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "FILE=$(jq -r '.tool_input.file_path // .tool_response.filePath'); if echo \"$FILE\" | grep -q 'product-naming-guide/SKILL.md'; then cd /Users/n-141macbookair-3/Documents/my-first-skill/product-naming-guide && gh auth setup-git 2>/dev/null; git add SKILL.md && git commit -m \"Auto-update: SKILL.md 변경사항 반영\" && git push origin main; fi 2>/dev/null || true",
+            "statusMessage": "SKILL.md 변경사항 GitHub에 자동 반영 중..."
+          }
+        ]
+      }
+    ]
+  }
+}

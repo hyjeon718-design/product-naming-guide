@@ -1,44 +1,48 @@
+---
+name: product-naming-guide
+description: AIWORKX 사업부/솔루션 네이밍 검토를 자동화하는 스킬. 사업부명(카테고리)과 솔루션 가칭·역할을 입력하면 브랜드 아키텍처 5대 Golden Rules 기준으로 이름 후보 3~5개를 생성하고, KIPRIS 상표권 조회 링크 + WebSearch 유사 상표 검색 + SNS/경쟁사 브랜드 검색까지 자동 수행. 결과는 SharePoint Word 초안으로 저장하고 이메일로 배포. 다음 중 하나라도 해당하면 반드시 이 스킬을 사용하세요: (1) "네이밍 검토", "이름 추천", "네이밍 후보"가 포함된 요청 (2) "{사업부} {솔루션명} 네이밍" 형식 입력 (3) "완성본 배포해줘" 요청 (4) 제품·솔루션·기술 브랜드 이름을 새로 짓거나 변경할 때 (5) AIWORKX 브랜드 아키텍처 관련 이름 검토.
+---
+
 # product-naming-guide
 
 사업부/솔루션별 네이밍 검토를 자동화하는 스킬입니다.
 네이밍 아키텍처 기준으로 이름 후보를 생성하고, 상표권 조회 · SNS/Google 유사 브랜드 검색 · 경쟁사 검색까지 수행한 뒤 SharePoint에 폴더를 생성하고 Word 초안을 업로드합니다.
 
-## 트리거
-
-다음 중 하나에 해당하면 이 스킬을 실행하세요:
-- `/product-naming-guide` 호출
-- "네이밍 검토해줘", "이름 추천해줘", "네이밍 후보 생성해줘" 등의 요청
-- "{사업부} {솔루션명} 네이밍 검토해줘" 형식의 입력
-
 ## 실행 순서
 
 ### 0단계: 정보 수집
 
-사용자 입력에서 아래 정보를 파악하세요. 누락된 필수 항목은 질문하세요.
+사용자 입력에서 아래 정보를 파악하세요. 누락된 필수 항목은 아래 가이드 질문 형식으로 한 번에 물어보세요.
 
-**필수**:
-- 사업부명
-- 솔루션명 (가칭)
-- 핵심 기능 설명 (한 줄)
+**필수 3가지 (항상 확인)**:
+1. **카테고리** — Test / Agent / Data / Verification / Edu / 기타 중 하나
+   - "기타"는 제품명이 아닌 기술 브랜드 검토 (예: ToD™ 같은 Ingredient Brand)
+2. **가칭(프로젝트명)** — 현재 내부에서 부르는 이름
+3. **역할** — 이 제품/기술이 하는 일 한 줄 설명
 
 **선택**:
 - 타겟 고객
 - 포지셔닝 키워드
 - 기존 제품과의 관계
 - 피해야 할 단어/패턴
+- **ToD™ 기술 탑재 여부** — "Powered by ToD™" 표기 대상인가요?
+  (5대 카테고리의 제품명 검토 시 반드시 확인. 탑재 시 출시 문서에 명시 필요)
 
-정보가 부족할 때 예시:
-> 네이밍 검토를 위해 몇 가지 정보가 필요해요!
-> 1. 솔루션 이름(가칭)은?
-> 2. 핵심 기능을 한 줄로 설명하면?
-> 3. 피해야 할 단어나 패턴이 있나요?
+정보가 부족할 때 반드시 이 형식으로 질문하세요:
+> 네이밍 검토를 시작할게요! 아래를 알려주세요.
+>
+> 1. **카테고리**: Test / Agent / Data / Verification / Edu / 기타 중 어디에 해당하나요?
+> 2. **가칭**: 현재 팀에서 부르는 이름이 있나요? (없으면 없다고 알려주세요)
+> 3. **역할**: 이 제품/기술이 하는 일을 한 줄로 설명해주세요.
+> 4. **ToD™ 탑재**: 이 제품에 ToD™ 기술이 사용되나요? (Powered by ToD™ 표기 여부 결정에 필요)
+>    - 5대 카테고리(Test/Agent/Data/Verification/Edu) 제품만 해당 / "기타"는 건너뜀
 
 ---
 
 ### 1단계: 네이밍 가이드 참조
 
 `~/Documents/naming architecture/` 폴더의 파일들을 읽어 브랜드 아키텍처 기준을 파악하세요.
-- 지원 형식: `.pptx`, `.docx`, `.md`, `.pdf`
+- 핵심 파일: `aiworkx_naming_architecture_master_diagram_l_0_l_6.md`, `AIWORKX_Brand_Governance.md`
 - 파일이 없으면: "naming architecture 폴더에 파일이 없어요. 자료를 먼저 넣어주세요." 안내 후 중단
 
 ---
@@ -87,8 +91,6 @@ https://www.kipris.or.kr/srch/srchList.jsp?searchString={후보명}&tab=trademar
 ✅ "{후보명}" — 검색된 유사 상표 없음 (정식 출원 전 법무팀 최종 확인 권장)
 ```
 
-> 참고: KIPRIS_API_KEY 환경변수가 설정된 경우 KIPRIS PLUS API로 자동 조회합니다.
-
 ---
 
 ### 4단계: SNS · Google · 경쟁사 유사 브랜드명 검색 (B-4)
@@ -96,21 +98,18 @@ https://www.kipris.or.kr/srch/srchList.jsp?searchString={후보명}&tab=trademar
 각 후보명에 대해 WebSearch를 활용해 아래 채널을 검색하세요.
 
 #### 4-1. Google 검색
-
 ```
 "{후보명}" 브랜드 제품
 "{후보명}" company product
 ```
 
 #### 4-2. SNS 검색
-
 ```
 "{후보명}" site:linkedin.com OR site:twitter.com OR site:instagram.com
 "@{후보명}" OR "#{후보명}"
 ```
 
 #### 4-3. 경쟁사 유사 브랜드명 검색
-
 ```
 "{후보명}" Microsoft OR Google OR AWS OR Salesforce OR ServiceNow OR SAP
 "{후보명}" AI 솔루션 OR SaaS OR 플랫폼
@@ -143,72 +142,9 @@ https://www.kipris.or.kr/srch/srchList.jsp?searchString={후보명}&tab=trademar
 
 **파일명**: `{사업부}_{솔루션명}_네이밍검토_{YYYYMMDD}.docx`
 
-Word 초안에 포함할 내용:
-1. 검토 정보 (사업부, 솔루션명, 날짜, 담당자)
-2. 제품 개요 (핵심 기능, 사업 방향, 탈락 후보)
-3. 네이밍 후보 목록 + 적합성 설명
-4. 상표권 조회 결과 (KIPRIS 링크 + 유사 상표 경고)
-5. SNS · Google · 경쟁사 검색 결과 요약
-6. 최종 추천 및 브랜드팀 의견
-7. 피드백 의견란
+Word 초안 섹션 구성 및 섹션 6 상세 스펙 → `references/word-template.md` 참조
 
-#### 섹션 6 구성 — 최종 추천 및 브랜드팀 의견
-
-**6-1. 네이밍 가이드 원칙 적용 결과**
-
-각 후보명에 대해 5대 Golden Rules 준수 여부를 표로 정리하세요:
-
-| 후보명 | Rule1 AIWORKX 시작 | Rule2 카테고리→제품 | Rule3 5대 카테고리 | Rule4 신규 토큰 | 종합 |
-|--------|-------------------|--------------------|--------------------|----------------|------|
-| {후보1} | ✅ | ✅ | ✅ | ✅/🔵 | ✅ 완전 부합 |
-
-**6-2. 최종 추천**
-
-1순위·2순위를 선정하고 추천 이유를 명시하세요:
-- 브랜드 아키텍처 원칙 부합 여부
-- 상표권·경쟁사 리스크
-- 회사 핵심 가치(Core Value) 및 사업 방향성과의 alignment
-
-> ⚠️ 특정 인물 귀속 표현("CEO가 강조") 금지. "브랜드 전략 방향과 alignment", "회사 핵심 가치(Core Value)에 부합" 표현 사용.
-
-**6-3. 브랜드팀 의견**
-
-아래 두 파트로 구성하세요.
-
-**(a) 경쟁 환경 개요**
-
-해당 제품/솔루션 카테고리의 시장 상황을 2~3문장으로 요약하세요:
-- 글로벌/국내 시장 트렌드
-- 규제·컴플라이언스 환경
-- AAEF(해당 제품)의 포지셔닝 기회
-
-**(b) 주요 경쟁사 분석**
-
-WebSearch로 아래 두 그룹을 조사하세요:
-- **글로벌 최강자 2개 이내**: 해당 카테고리 글로벌 시장 리더
-- **국내 기업 3개 이내**: 국내 경쟁사 또는 유사 솔루션 보유 기업
-
-| 구분 | 경쟁사 | 핵심 제품 | 강점 | 약점 | AIWORKX 대비 차별점 |
-|------|--------|-----------|------|------|---------------------|
-| 🌐 글로벌 | | | | | |
-| 🇰🇷 국내 | | | | | |
-
-검색어 예시:
-```
-"{핵심 기능 키워드}" platform global leader 2025 2026
-"{제품 카테고리}" 국내 기업 스타트업
-"{솔루션명}" competitor Korea 한국
-```
-
-**(c) 브랜드팀 종합 의견**
-
-다음 내용을 번호 목록으로 정리하세요:
-1. 최종 추천 네이밍 확정 의견 + 근거
-2. 경쟁사 대비 포지셔닝 전략 제언
-3. 브랜드 핵심 가치와의 alignment 평가
-4. 추가 검토 필요 사항 (있을 경우)
-
-동일 폴더 이미 존재 시:
+동일 폴더 이미 존재 시 (`@microsoft.graph.conflictBehavior: fail` → 409):
 > "{사업부}/{솔루션명}_{날짜}" 폴더가 이미 있어요. 덮어쓸까요?
 
 ---
@@ -264,18 +200,17 @@ WebSearch로 아래 두 그룹을 조사하세요:
 
 1. SharePoint에서 해당 Word 파일 최종본 확인
 2. Teams 채널에 완성본 공지 (`TEAMS_WEBHOOK_URL`)
-3. Outlook으로 전사 이메일 발송 (`OUTLOOK_CLIENT_ID`, `OUTLOOK_CLIENT_SECRET`)
+3. Outlook으로 이메일 발송
 
-이메일 형식:
-- 제목: `[네이밍 확정] {사업부} {솔루션명} 브랜드명 안내`
-- 본문: 확정된 브랜드명 + 선택 이유 + Word 파일 첨부 또는 SharePoint 링크
+이메일 규칙 및 HTML 레이아웃 스펙 → `references/email-template.md` 참조
 
 ---
 
 ## 여러 솔루션 동시 처리
 
 여러 솔루션 요청 시 각각 독립적으로 처리하되, 결과는 구분선(`---`)으로 분리하여 출력하세요.
-각 솔루션은 별도 폴더로 생성하고, 완성본 배포도 개별 트리거로 진행하세요.
+각 솔루션은 별도 폴더(`{사업부}/{솔루션명}_{날짜}`)로 생성하고, 완성본 배포도 개별 트리거로 진행하세요.
+기존 폴더가 있으면 즉시 409 감지 → 덮어쓰기 확인 메시지 출력 후 처리하세요.
 
 ---
 
@@ -287,53 +222,15 @@ WebSearch로 아래 두 그룹을 조사하세요:
 | SharePoint 권한 없음 | "SharePoint 폴더 생성 권한이 없어요. IT팀에 권한 요청해주세요." |
 | 네이밍 가이드 파일 없음 | "naming architecture 폴더에 파일이 없어요. 자료를 먼저 넣어주세요." |
 | SharePoint 성공 / Teams 실패 | SharePoint 링크는 제공, Teams 오류 원인 안내 |
+| 동일 폴더 이미 존재 (409) | 덮어쓰기 확인 메시지 출력 → yes 시 `replace`, no 시 중단 |
 
 SharePoint 업로드가 성공하면 Teams/이메일 실패 여부와 관계없이 링크는 항상 제공하세요.
 
 ---
 
-## 검토 이력
+## 참고 파일
 
-### AAEF — Test 사업부 (2026-03-20)
-
-**솔루션명 (가칭)**: AAEF (AI Agent Evaluation Framework)
-**핵심 기능**: AI 에이전트 신뢰성·성능 자동 평가 프레임워크
-
-**네이밍 후보 검토 결과**:
-
-| 후보명 | 최종 AIWORKX 브랜드명 | 결과 | 비고 |
-|--------|----------------------|------|------|
-| AgentProbe | AIWORKX AgentProbe | ✅ **1순위** | 상표권 안전, 경쟁사 충돌 없음, NRB 확인 |
-| TrustBench | AIWORKX TrustBench | ✅ **2순위** | AI 신뢰성 직접 반영, Bench 시리즈 일관성 |
-| AgentAudit | — | ❌ 탈락 | 미국 상표 충돌 위험 |
-| AgentGuard | — | ❌ 탈락 | 주요 경쟁사 다수 사용 중 |
-
-**최종 추천**:
-- 1순위: **AIWORKX AgentProbe** — NRB(Net Rater-Blind) 방법론 직결, 브랜드 아키텍처 원칙 완전 부합, 상표권·경쟁사 리스크 없음
-- 2순위: **AIWORKX TrustBench** — 신뢰성(Trust) 직접 반영, Bench 시리즈로 확장 가능
-
-**Word 초안 SharePoint 링크**:
-https://testworks.sharepoint.com/:w:/s/aiworkx-/IQATaAMWldFtSbf1aFpTFRqIAY-xosxK7QkwL497IdNF-cI
-
----
-
-### Q One — Test 사업부 (2026-03-20)
-
-**솔루션명 (가칭)**: Q One (AI 기반 Web/App UI 테스트 자동화 솔루션)
-**핵심 기능**: 스텝 기반 + AI 의도 기반 UI 테스트 자동화, ToD/NLU 통합, 온프레미스 LLM, Persona 기반 테스트, 금융·공공 특화
-
-**네이밍 후보 검토 결과**:
-
-| 후보명 | 최종 AIWORKX 브랜드명 | 결과 | 비고 |
-|--------|----------------------|------|------|
-| UIProbe | AIWORKX UIProbe | ✅ **1순위** | 상표권 안전(🟢), SNS·경쟁사 충돌 없음, Probe 토큰 기등재 |
-| AppBench | AIWORKX AppBench | ⚠️ **2순위** | Brand Governance 기등재 후보, 단 appbench.ai(YC 기반 AI 벤치마크)와 충돌 위험 — 법무팀 조회 필요 |
-| SceneScan | — | ❌ 탈락 | Nerian Vision·Wärtsilä 등록 상표 충돌 |
-
-**최종 추천**:
-- 1순위: **AIWORKX UIProbe** — 상표권·SNS·경쟁사 리스크 없음, Test 카테고리 완전 부합, ToD 기반 UI 탐침 의미 직관적 표현
-- 2순위: **AIWORKX AppBench** — Brand Governance 기등재 후보이나 법무팀 상표권 확인 필요
-
-**경쟁사 요약**: 글로벌 — BrowserStack, Sauce Labs / 국내 — 큐밋(Q-Meet)
-
-**다음 단계**: NRB 상정, Brand Governance 레지스트리 AppBench → UIProbe 변경 검토, Word 초안 SharePoint 업로드 필요
+- `references/word-template.md` — Word 초안 섹션 구성 + 섹션 6 상세 스펙
+- `references/email-template.md` — 이메일 HTML 레이아웃 + 발송 규칙
+- `references/review-history.md` — 지금까지의 네이밍 검토 이력 (AAEF, Q One, ToD™)
+- `references/ingredient-brand-guide.md` — Ingredient Brand(Powered by X™) 검토 기준 + 적용 시점

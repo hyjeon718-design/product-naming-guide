@@ -164,7 +164,28 @@ Word 초안 섹션 구성 및 섹션 6 상세 스펙 → `references/word-templa
 
 ---
 
-### 7단계: 완료 메시지 출력
+### 7단계: review-history.md 동기화
+
+SharePoint Word 초안 업로드 완료 후 반드시 실행하세요.
+
+`references/review-history.md`를 SharePoint 발행 문서 기준으로 업데이트하세요.
+
+업데이트 항목:
+- 솔루션명·카테고리·검토일·버전
+- 최종 1순위·2순위 추천명 (AIWORKX 브랜드명 포함)
+- 탈락 후보 및 사유
+- 상표권·경쟁사 리스크 요약
+- 다음 단계 (NRB 상정 여부, 법무팀 조회 필요 항목)
+- SharePoint 문서 링크
+
+업데이트 완료 시 `.claude/settings.json` PostToolUse hook이 자동으로 `git add → commit → push origin main`을 실행합니다.
+
+> **재발 방지 원칙**: review-history.md는 항상 SharePoint 최신 발행 문서 기준으로 유지합니다.
+> 버전 업데이트(v2/v3 등)가 발생할 때마다 이 파일도 동기화해야 합니다.
+
+---
+
+### 8단계: 완료 메시지 출력
 
 ```
 {사업부} / {솔루션명} 네이밍 검토 완료!

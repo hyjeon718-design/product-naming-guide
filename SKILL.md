@@ -51,8 +51,14 @@ description: AIWORKX 사업부/솔루션 네이밍 검토를 자동화하는 스
 
 가이드 기준에 맞춰 이름 후보 3~5개를 생성하세요.
 
+**⚠️ Master Brand 표기 원칙 (절대 누락 금지)**:
+- 후보명은 반드시 **AIWORKX [ProductName]** 전체 형식으로 표기
+- As-Is / To-Be 비교표, 선택란, 이메일, 요약 등 **모든 곳에 AIWORKX 접두어 포함**
+- 단순히 "Forge", "Relay" 등 토큰만 표기하는 것은 Rule 1 위반
+- 올바른 예: `AIWORKX Forge` / 잘못된 예: `Forge`
+
 각 후보별로 제공할 내용:
-- 후보명
+- 후보명 (AIWORKX 포함 전체 표기)
 - 아키텍처 적합성 설명 (한 줄)
 - 포지셔닝 특징
 

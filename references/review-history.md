@@ -232,3 +232,37 @@
 **다음 단계**: 현업 선택 확정 → 법무팀 KIPRIS Class 42 정식 조회 → NRB 상정
 
 **SharePoint (v3)**: [Agent_AgentCategory_신규솔루션_네이밍검토_20260401_v3.docx](https://testworks.sharepoint.com/sites/aiworkx-/_layouts/15/Doc.aspx?sourcedoc=%7B246D2DB0-D9F2-403E-8560-A0307E427789%7D&file=Agent_AgentCategory_%EC%8B%A0%EA%B7%9C%EC%86%94%EB%A3%A8%EC%85%98_%EB%84%A4%EC%9D%B4%EB%B0%8D%EA%B2%80%ED%86%A0_20260401_v3.docx&action=default&mobileredirect=true)
+
+**SharePoint (통합본 ★최신)**: [Agent_AgentCategory_네이밍검토_통합본_20260401.docx](https://testworks.sharepoint.com/sites/aiworkx-/_layouts/15/Doc.aspx?sourcedoc=%7B586DE29E-A3A8-4DE6-9821-595101D53E03%7D&file=Agent_AgentCategory_%EB%84%A4%EC%9D%B4%EB%B0%8D%EA%B2%80%ED%86%A0_%ED%86%B5%ED%95%A9%EB%B3%B8_20260401.docx&action=default&mobileredirect=true)
+
+---
+
+## As Built — Data 사업부 (최신: v1, 2026-04-01)
+
+**솔루션명 (가칭)**: As Built (건설 현장 블랙박스)
+**핵심 기능**: 시공 과정의 모든 데이터(영상·로그·시공기록·안전기록 등)를 AI로 자동 수집·구조화·분석하여 건설 현장과 시설 관리 전반에 활용하는 데이터 파운데이션 플랫폼
+**ToD™ 탑재**: ✅ Powered by AXDC™ (ToD™ 기반) 표기 필수
+
+**⛔ 기존 후보 전원 DROP (v1)**:
+
+| 후보명 | 판정 | 탈락 사유 |
+|--------|------|---------|
+| FieldPrint | 🔴 DROP | Fieldprint Inc.(FBI 인증 신원확인, ISO 9001) + Fieldprint Platform®(농업 지속가능성, 등록상표) |
+| BuildTrace | 🔴 DROP | BuildTrace AI(buildtraceai.com) — 건설 AI 변경 인텔리전스 플랫폼, 동일 업종 직접 충돌 |
+| SiteLog | 🔴 DROP | sitelog.co / SiteLog Infra(독일 Zech) / site-log.com / SitelogIQ — 건설 업종 4개 기업 사용 |
+
+**신규 후보 검토 결과 (WebSearch TM 조사 완료)**:
+
+| 순위 | 후보명 | 최종 AIWORKX 브랜드명 | TM 리스크 | 결과 |
+|------|--------|----------------------|----------|------|
+| ★ 1순위 | **SiteProbe** | AIWORKX SiteProbe | 🟢 안전 | Probe 기등재 토큰, NRB 즉시 상정 가능 |
+| 2순위 | SiteVault | AIWORKX SiteVault | 🟢 안전 | 블랙박스 VP 가장 직관적, Vault 신규 토큰 NRB 필요 |
+| 3순위 | BuildPrint | AIWORKX BuildPrint | 🟡 주의 | build-to-print 범용 용어 존재, 시설 관리 확장 시 범위 제약 |
+
+**최종 추천**:
+- 1순위: **AIWORKX SiteProbe** — 상표권 클린, Probe 기등재 토큰으로 NRB 즉시 상정 가능, "Site"가 건설+시설 모두 포괄, Probe 시리즈 일관성 우수
+- 2순위: **AIWORKX SiteVault** — 블랙박스 VP 가장 직관적 전달, 상표 클린, Vault 신규 토큰 Rule 4 NRB 상정 필요
+
+**다음 단계**: 법무팀 SiteProbe·SiteVault KIPRIS Class 42 정식 조회 → 클린 확인 시 NRB 즉시 상정 → Brand Governance 레지스트리 FieldPrint → SiteProbe 업데이트
+
+**로컬 문서**: `Data_AsBuilt_네이밍검토_20260401.docx`

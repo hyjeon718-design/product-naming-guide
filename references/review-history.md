@@ -195,3 +195,40 @@
 **SharePoint (v2r6, 최종)**: [Agent_AgentCategory_네이밍검토_20260401_v2r6.docx](https://testworks.sharepoint.com/sites/aiworkx-/_layouts/15/Doc.aspx?sourcedoc=%7B6BE9AAC4-D22C-46B2-885C-4B2384505171%7D&file=Agent_AgentCategory_%EB%84%A4%EC%9D%B4%EB%B0%8D%EA%B2%80%ED%86%A0_20260401_v2r6.docx&action=default&mobileredirect=true)
 
 **SharePoint (v1, 2026-03-30)**: [Agent_AgentCategory_네이밍검토_20260330.docx](https://testworks.sharepoint.com/sites/aiworkx-/Shared%20Documents/네이밍%20검토/Agent/AgentCategory_20260330/Agent_AgentCategory_네이밍검토_20260330.docx)
+
+---
+
+## Agent Category 신규 솔루션 — 8개 (최신: v3, 2026-04-01)
+
+**검토 대상**: Agent Category 신규 솔루션 8개 (v2r6 별도 문서)
+**상태**: 현업 피드백 요청 중 — 모든 신규 토큰 Rule 4 NRB 상정 필요
+
+### 네이밍 추천 요약 (WebSearch TM 조사 완료)
+
+| 솔루션 (가칭) | ★ 1순위 | TM | 2순위 | TM | ⛔ DROP |
+|-------------|--------|-----|------|-----|--------|
+| 기업카드 발급 심사 Agent | **AIWORKX Screen** | 🟢 | AIWORKX Verdict | 🟡 | ~~Assess~~ 🔴 |
+| IT 코드 리뷰 Agent | **AIWORKX DevProbe** | 🟢 | AIWORKX CodeTrace | 🟢 | — |
+| 유통 물류 콜봇 | **AIWORKX RouteCall** | 🟢 | AIWORKX FreightCall | 🟢 | ~~Dispatch~~ 🔴 |
+| LLM 챗봇 | **AIWORKX Thread** | 🟢 | AIWORKX Chat | 🟡 | ~~Dialog~~ 🔴 ~~Converse~~ 🔴 |
+| 행정 민원 AI | **AIWORKX GovDesk** | 🟢 | AIWORKX CivicServe | 🟢 | ~~Civic~~ 🔴 |
+| AI 심사 자동화 | **AIWORKX Adjudge** | 🟢 | AIWORKX Screen | 🟢 | ~~Triage~~ 🔴 |
+| 정책 데이터 분석 | **AIWORKX Radar** | 🟢 | AIWORKX Prism | 🟢 | ~~Foresight~~ 🔴 ~~Signal~~ 🔴 |
+| 공공 RAG 시스템 | **AIWORKX Corpus** | 🟢 | AIWORKX Archive | 🟢 | ~~Codex~~ 🔴 ~~Lex~~ 🔴 |
+
+**ToD™ 표기 대상 (Powered by AXDC™)**: GovDesk, Adjudge, Corpus
+
+**DROP 사유 요약**:
+- ~~Dispatch~~: Bland AI Dispatch·DispatchMVP·VoiceInfra 등 동일 물류 AI 업종 다수 충돌
+- ~~Dialog~~: Dialog.ai $4.4M 시드펀딩 AI 에이전트 동일 업종
+- ~~Converse~~: Converse AI by Cerebro·Conversed.ai 등록 상표 다수
+- ~~Civic~~: Civic AI Inc. LinkedIn 등재, CivicPlus 정부 AI 솔루션 동일 업종
+- ~~Triage~~: CLARA Triage·OverseeAI Claims Triage·Sirion AI Underwriting Triage 보험 AI 다수
+- ~~Foresight~~: foresightai.ai·foresight.ai·ForesightIQ 다수 직접 충돌
+- ~~Signal~~: Signal AI (영국 상장사, 레퓨테이션 관리 AI 전문기업) 직접 충돌
+- ~~Codex~~: OpenAI Codex 주간 활성 200만+ 절대 충돌
+- ~~Lex~~: Lextar AI·LexisNexis Lexis+ 법률 AI 직접 충돌
+
+**다음 단계**: 현업 선택 확정 → 법무팀 KIPRIS Class 42 정식 조회 → NRB 상정
+
+**SharePoint (v3)**: [Agent_AgentCategory_신규솔루션_네이밍검토_20260401_v3.docx](https://testworks.sharepoint.com/sites/aiworkx-/_layouts/15/Doc.aspx?sourcedoc=%7B246D2DB0-D9F2-403E-8560-A0307E427789%7D&file=Agent_AgentCategory_%EC%8B%A0%EA%B7%9C%EC%86%94%EB%A3%A8%EC%85%98_%EB%84%A4%EC%9D%B4%EB%B0%8D%EA%B2%80%ED%86%A0_20260401_v3.docx&action=default&mobileredirect=true)

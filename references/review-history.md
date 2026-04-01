@@ -197,6 +197,6 @@
 
 **다음 단계**: 현업 피드백 취합(기한 2026-04-01) → 선택 확정 → 법무팀 TM 조회 → NRB 상정 → 고객 커뮤니케이션 반영
 
-**SharePoint (v2r5, 최신)**: [Agent_AgentCategory_네이밍검토_20260401_v2r4.docx](https://testworks.sharepoint.com/sites/aiworkx-/_layouts/15/Doc.aspx?sourcedoc=%7B3F695B03-5375-477C-AAB6-563CEC1F65C1%7D&file=Agent_AgentCategory_%EB%84%A4%EC%9D%B4%EB%B0%8D%EA%B2%80%ED%86%A0_20260401_v2r5.docx&action=default&mobileredirect=true)
+**SharePoint (v2r6, 최신)**: [Agent_AgentCategory_네이밍검토_20260401_v2r4.docx](https://testworks.sharepoint.com/sites/aiworkx-/_layouts/15/Doc.aspx?sourcedoc=%7B3F695B03-5375-477C-AAB6-563CEC1F65C1%7D&file=Agent_AgentCategory_%EB%84%A4%EC%9D%B4%EB%B0%8D%EA%B2%80%ED%86%A0_20260401_v2r5.docx&action=default&mobileredirect=true)
 
 **SharePoint (v1, 2026-03-30)**: [Agent_AgentCategory_네이밍검토_20260330.docx](https://testworks.sharepoint.com/sites/aiworkx-/Shared%20Documents/네이밍%20검토/Agent/AgentCategory_20260330/Agent_AgentCategory_네이밍검토_20260330.docx)

@@ -106,6 +106,33 @@
 
 ---
 
+## blackolive — Data 사업부 (최신: v3, 2026-03-31)
+
+**솔루션명 (가칭)**: blackolive
+**핵심 기능**: 비정형 데이터(문서·이미지·음성) AI 활용 가능 형태로 가공·저장하는 데이터 파운데이션 플랫폼
+**역할**: Omni LLM Ops 파이프라인 04 Data Foundation — Omni Model/AI Studio/Document 전 제품에 AI-Ready 데이터 공급
+**⚠️ Engine Layer 검토 이슈**: Omni Docu(AIWORKX Docu), Omni OCR(AIWORKX OCR)과 함께 Agent 카테고리 제품이 아닌 별도 Engine 레이어 또는 Data 카테고리 적용 여부 추가 검토 필요 (Agent Category v2r2 섹션 4 참조)
+
+**네이밍 후보 검토 결과**:
+
+| 순위 | 후보명 | 최종 AIWORKX 브랜드명 | TM 리스크 | 결과 |
+|------|--------|----------------------|----------|------|
+| ★ 1순위 | **DataMill** | AIWORKX DataMill | ⚠️ 주의 (data.mill·Data Mill 글로벌 다수, 한국 충돌 없음) | KIPRIS Class 42 법무팀 확인 후 확정 |
+| 2순위 | RawFlow | AIWORKX RawFlow | ⚠️ 주의 (경미한 유사명, 동일 업종 없음) | DataMill TM 이슈 시 대체 |
+| 탈락 | DataSmith | — | 🔴 위험 | DATASMITH AI SOLUTIONS Pvt. Ltd.(인도) Generative AI 직접 충돌 |
+
+**파이프라인 시너지**: DataMill(가공) → QualScan(검증) → Docs/Index(색인) 3단 파이프라인 스토리 성립
+
+**최종 추천**:
+- 1순위: **AIWORKX DataMill** — Mill(제분소) 은유로 비정형→AI-Ready 가공 의미 직관적, 한국 충돌 없음 (KIPRIS 확인 후 확정)
+- 2순위: **AIWORKX RawFlow** — 파이프라인 흐름 강조, 상표 클린
+
+**다음 단계**: DataMill KIPRIS Class 42 법무팀 정식 조회 → Brand Governance NRB 등록 → Engine Layer 위치 결정 (Agent Category v2r2 피드백 연동)
+
+**SharePoint**: [Data_Blackolive_네이밍검토_20260331_v3.docx](https://testworks.sharepoint.com/sites/aiworkx-/Shared%20Documents/네이밍%20검토/Data/Blackolive_20260331/Data_Blackolive_네이밍검토_20260331_v3.docx)
+
+---
+
 ## TedWorks — Test 사업부 (최신: v2, 2026-03-26)
 
 **솔루션명 (가칭)**: TedWorks

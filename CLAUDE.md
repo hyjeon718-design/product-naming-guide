@@ -41,7 +41,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## 네이밍 아키텍처 기준 파일 위치
 
-`~/Documents/naming architecture/` 폴더에 브랜드 아키텍처 기준 파일을 위치시켜야 한다.
+`~/Documents/claude/projects/솔루션 네이밍 리뷰/` 폴더에 브랜드 아키텍처 기준 파일을 위치시켜야 한다.
 - 지원 형식: `.pptx`, `.docx`, `.md`, `.pdf`
 - 핵심 파일: `aiworkx_naming_architecture_master_diagram_l_0_l_6.md`, `AIWORKX_Brand_Governance.md`
 - 파일이 없으면 스킬이 1단계에서 중단된다.

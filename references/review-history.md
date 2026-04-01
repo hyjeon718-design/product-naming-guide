@@ -138,23 +138,29 @@
 **검토 대상**: Omni AI 브랜드 → AIWORKX Agent 카테고리 전환
 **현업 피드백 요청 중** (기한: 2026-04-01) — v2에서 As-Is vs. To-Be 비교 추가
 
-**As-Is vs. To-Be 네이밍 비교**:
+**현행 네이밍 vs. 대안 비교** (v2r2 기준, 수정 반영):
 
-| 기존명 (Omni) | As-Is (현행) | To-Be (신규 제안) | 변경 근거 | 상태 |
-|--------------|-------------|-----------------|----------|------|
-| Omni AI Studio | **AIWORKX Studio** | **AIWORKX Forge** | Microsoft Studio 충돌 회피 + AI 에이전트 빌더 능동 표현 | 🔄 현업 선택 중 |
-| Omni AI API | **AIWORKX Connect** | **AIWORKX Relay** | MuleSoft Anypoint Connect 차별화 + 경량 중계 포지셔닝 | 🔄 현업 선택 중 |
-| Omni AI Center | **AIWORKX Care** | **AIWORKX Care (유지)** | 양측 동일 — 변경 불필요 | ✅ 유지 확정 |
-| Omni Document (RAG) | **AIWORKX Index** | **AIWORKX Ingest** | RAG E2E 파이프라인 전체 포괄, Data 카테고리 중복 혼선 방지 | 🔄 현업 선택 중 |
-| Omni OCR | **AIWORKX Scan** | **AIWORKX Lens** | IDP 프리미엄 포지셔닝, 소비자 스캔 앱 혼동 탈피 | 🔄 현업 선택 중 |
+| 기존명 (Omni) | 현행 | 대안 A | 대안 B | 브랜드팀 권장 | 상태 |
+|--------------|------|--------|--------|-------------|------|
+| Omni AI Studio | **AIWORKX Studio** | **AIWORKX Forge** | — | Forge | 🔄 현업 선택 중 |
+| Omni AI API | **AIWORKX Connect** | **AIWORKX Relay** | — | Relay | 🔄 현업 선택 중 |
+| Omni AI Center | **AIWORKX Center** | **AIWORKX Care** | — | Care | 🔄 현업 선택 중 |
+| Omni Document (RAG) | **AIWORKX Docu** | **AIWORKX Index** | **AIWORKX Ingest** | Ingest 1순위 | ⚠️ 3안 병렬 검토 |
+| Omni OCR | **AIWORKX OCR** | **AIWORKX Scan** | **AIWORKX Lens** | Lens 1순위 | ⚠️ 3안 병렬 검토 |
 
-**브랜드팀 To-Be 권장 근거**:
+**브랜드팀 권장 근거**:
 - Forge > Studio: Microsoft 'Copilot Studio' 혼동 회피 + 능동적 에이전트 빌더 표현
 - Relay > Connect: MuleSoft 차별화 + 경량 API 중계자 포지셔닝
-- Ingest > Index: E2E 파이프라인(수집→파싱→임베딩) 전체 커버
-- Lens > Scan: IDP 프리미엄 포지셔닝, 소비자 OCR 연상 탈피
+- Care > Center: Amazon Connect/컨택센터 연상 탈피 + 고객 케어 외부 포지셔닝 명확
+- Ingest > Docu/Index: Docu 브랜드성 부족, Index 결과만 표현 — Ingest가 RAG E2E 파이프라인 전체 포괄
+- Lens > OCR/Scan: OCR 브랜드성 부족, Scan 소비자 혼동 — Lens가 IDP 프리미엄 포지셔닝 최적
 
-**상표권 조회 필요**: Forge·Relay·Ingest·Lens KIPRIS Class 42 법무팀 조회 필요
+**추가 검토 이슈 (v2r2 신규)**: Omni Docu / Omni OCR 카테고리 구조 결정 필요
+- Option A: Agent 카테고리 유지 (Ingest/Lens 적용)
+- Option B: Data 카테고리 이동 (데이터 파이프라인 관점)
+- Option C: Engine 레이어 신설 — NRB Rule 4 상정 필요
+
+**상표권 조회 필요**: Forge·Relay·Care·Ingest·Lens KIPRIS Class 42 법무팀 조회 필요
 
 **피드백 대기 중인 주요 이슈**:
 1. Omni Document / Omni OCR이 Data 카테고리와 동일 제품인지 여부 확인 필요 (중복 등재)

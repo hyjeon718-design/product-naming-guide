@@ -160,43 +160,38 @@
 
 ---
 
-## Agent Category — 5개 솔루션 한꺼번에 (최신: v2, 2026-04-01)
+## Agent Category — 5개 솔루션 한꺼번에 (최신: v2r6, 2026-04-01) ✅ 최종 확정
 
 **검토 대상**: Omni AI 브랜드 → AIWORKX Agent 카테고리 전환
-**현업 피드백 요청 중** (기한: 2026-04-01) — v2에서 As-Is vs. To-Be 비교 추가
+**상태**: **v2r6 최종 확정** (2026-04-01) — 향후 네이밍 검토 시 이 문서를 기준으로 사용
 
-**현행 네이밍 vs. 대안 비교** (v2r2 기준, 수정 반영):
+### TM 조사 결과 및 확정 네이밍
 
-| 기존명 (Omni) | 현행 | 대안 A | 대안 B | 브랜드팀 권장 | 상태 |
-|--------------|------|--------|--------|-------------|------|
-| Omni AI Studio | **AIWORKX Studio** | **AIWORKX Forge** | — | Forge | 🔄 현업 선택 중 |
-| Omni AI API | **AIWORKX Connect** | **AIWORKX Relay** | — | Relay | 🔄 현업 선택 중 |
-| Omni AI Center | **AIWORKX Center** | **AIWORKX Care** | — | Care | 🔄 현업 선택 중 |
-| Omni Document (RAG) | **AIWORKX Docu** | **AIWORKX Index** | **AIWORKX Ingest** | Ingest 1순위 | ⚠️ 3안 병렬 검토 |
-| Omni OCR | **AIWORKX OCR** | **AIWORKX Scan** | **AIWORKX Lens** | Lens 1순위 | ⚠️ 3안 병렬 검토 |
+| 기존명 (Omni) | 현행 | TM 리스크 | 확정 추천 | TM 리스크 | 비고 |
+|--------------|------|----------|----------|----------|------|
+| Omni AI Studio | ~~AIWORKX Studio~~ | 🔴 DROP | **AIWORKX Forge** | 🟡 주의 | Honeywell Forge·Mistral Forge — 법무팀 KIPRIS 조회 필요 |
+| Omni AI API | ~~AIWORKX Connect~~ | 🔴 DROP | **AIWORKX Relay** | 🟡 주의 | Relay.app AI 자동화 SaaS — 법무팀 KIPRIS 조회 필요 |
+| Omni AI Center | AIWORKX Center | 🟡 주의 | **AIWORKX Care** ★1순위 | 🟢 안전 | Center는 Amazon Connect 연상, Care는 클린 |
+| Omni Document (RAG) | AIWORKX Docu | 🟢 안전 | **AIWORKX Ingest** ★1순위 | 🟢 안전 | Docu 브랜드성 부족 — Ingest가 RAG E2E 파이프라인 포괄 |
+| Omni OCR | AIWORKX OCR | 🟡 주의 | **AIWORKX Lens** ★1순위 | 🟢 안전 | OCR 범용기술용어, MS Lens 종료 확인 — Lens 클린 |
 
-**브랜드팀 권장 근거**:
-- Forge > Studio: Microsoft 'Copilot Studio' 혼동 회피 + 능동적 에이전트 빌더 표현
-- Relay > Connect: MuleSoft 차별화 + 경량 API 중계자 포지셔닝
-- Care > Center: Amazon Connect/컨택센터 연상 탈피 + 고객 케어 외부 포지셔닝 명확
-- Ingest > Docu/Index: Docu 브랜드성 부족, Index 결과만 표현 — Ingest가 RAG E2E 파이프라인 전체 포괄
-- Lens > OCR/Scan: OCR 브랜드성 부족, Scan 소비자 혼동 — Lens가 IDP 프리미엄 포지셔닝 최적
+**⛔ DROP 메모**:
+- ~~AIWORKX Studio~~ — Microsoft Copilot Studio 동일 업종 직접 충돌 (🔴). Forge로 대체.
+- ~~AIWORKX Connect~~ — MuleSoft Anypoint Connect 동일 업종 직접 충돌 (🔴). Relay로 대체.
 
-**추가 검토 이슈 (v2r2 신규)**: Omni Docu / Omni OCR 카테고리 구조 결정 필요
-- Option A: Agent 카테고리 유지 (Ingest/Lens 적용)
-- Option B: Data 카테고리 이동 (데이터 파이프라인 관점)
-- Option C: Engine 레이어 신설 — NRB Rule 4 상정 필요
+**카테고리 구조 결정**:
+- Omni Docu (AIWORKX Ingest) / Omni OCR (AIWORKX Lens): **Agent 카테고리 유지** (Option A 채택)
+- Engine 레이어 신설(Option C) 삭제 — Ingredient Tech는 **AXDC™(ToD™ 기반) 단일 체계**로 운영
 
-**상표권 조회 필요**: Forge·Relay·Care·Ingest·Lens KIPRIS Class 42 법무팀 조회 필요
+**최종 추천 요약**:
+- AIWORKX Forge (🟡) — Studio 대체, No-Code Agent 빌더 (KIPRIS 법무팀 확인 필요)
+- AIWORKX Relay (🟡) — Connect 대체, API 연동·중계 (KIPRIS 법무팀 확인 필요)
+- **AIWORKX Care** (🟢) — Center 대체, AICC 고객 케어 ★즉시 사용 가능
+- **AIWORKX Ingest** (🟢) — Docu 대체, RAG 파이프라인 ★즉시 사용 가능
+- **AIWORKX Lens** (🟢) — OCR 대체, IDP 문서 인식 ★즉시 사용 가능
 
-**피드백 대기 중인 주요 이슈**:
-1. Omni Document / Omni OCR이 Data 카테고리와 동일 제품인지 여부 확인 필요 (중복 등재)
-2. 신규 Vertical Agent(카드추천·거래내역·채권추심 등 금융 특화) 카테고리 구조 결정 필요
-   - Option A: Agent 카테고리 내 단순 제품명 (AIWORKX Pick, Brief, Settle)
-   - Option B: Layer 2.5 Vertical Segment 신설 — 권장 (AIWORKX Pick for Finance 등)
+**다음 단계**: Forge·Relay KIPRIS Class 42 법무팀 정식 조회 → NRB 상정 → Care·Ingest·Lens 즉시 NRB 상정 가능
 
-**다음 단계**: 현업 피드백 취합(기한 2026-04-01) → 선택 확정 → 법무팀 TM 조회 → NRB 상정 → 고객 커뮤니케이션 반영
-
-**SharePoint (v2r6, 최신)**: [Agent_AgentCategory_네이밍검토_20260401_v2r4.docx](https://testworks.sharepoint.com/sites/aiworkx-/_layouts/15/Doc.aspx?sourcedoc=%7B6BE9AAC4-D22C-46B2-885C-4B2384505171%7D&file=Agent_AgentCategory_%EB%84%A4%EC%9D%B4%EB%B0%8D%EA%B2%80%ED%86%A0_20260401_v2r6.docx&action=default&mobileredirect=true)
+**SharePoint (v2r6, 최종)**: [Agent_AgentCategory_네이밍검토_20260401_v2r6.docx](https://testworks.sharepoint.com/sites/aiworkx-/_layouts/15/Doc.aspx?sourcedoc=%7B6BE9AAC4-D22C-46B2-885C-4B2384505171%7D&file=Agent_AgentCategory_%EB%84%A4%EC%9D%B4%EB%B0%8D%EA%B2%80%ED%86%A0_20260401_v2r6.docx&action=default&mobileredirect=true)
 
 **SharePoint (v1, 2026-03-30)**: [Agent_AgentCategory_네이밍검토_20260330.docx](https://testworks.sharepoint.com/sites/aiworkx-/Shared%20Documents/네이밍%20검토/Agent/AgentCategory_20260330/Agent_AgentCategory_네이밍검토_20260330.docx)

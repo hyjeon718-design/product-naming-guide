@@ -133,20 +133,28 @@
 
 ---
 
-## Agent Category — 5개 솔루션 한꺼번에 (최신: 2026-03-30)
+## Agent Category — 5개 솔루션 한꺼번에 (최신: v2, 2026-04-01)
 
 **검토 대상**: Omni AI 브랜드 → AIWORKX Agent 카테고리 전환
-**현업 피드백 요청 중** (기한: 2026-04-01)
+**현업 피드백 요청 중** (기한: 2026-04-01) — v2에서 As-Is vs. To-Be 비교 추가
 
-**현재까지 확정된 네이밍 현황**:
+**As-Is vs. To-Be 네이밍 비교**:
 
-| 기존명 (Omni) | 외부 표기 | 상태 |
-|--------------|----------|------|
-| Omni AI Studio | **AIWORKX Studio** | 🔄 NRB 검토 중 |
-| Omni AI API | **AIWORKX Connect** | 🔄 NRB 검토 중 |
-| Omni AI Center | **AIWORKX Care** | 🔄 NRB 검토 중 |
-| Omni Document (RAG) | **AIWORKX Index** | ⚠️ 현업 피드백 필요 |
-| Omni OCR | **AIWORKX Scan** | ⚠️ 현업 피드백 필요 |
+| 기존명 (Omni) | As-Is (현행) | To-Be (신규 제안) | 변경 근거 | 상태 |
+|--------------|-------------|-----------------|----------|------|
+| Omni AI Studio | **AIWORKX Studio** | **AIWORKX Forge** | Microsoft Studio 충돌 회피 + AI 에이전트 빌더 능동 표현 | 🔄 현업 선택 중 |
+| Omni AI API | **AIWORKX Connect** | **AIWORKX Relay** | MuleSoft Anypoint Connect 차별화 + 경량 중계 포지셔닝 | 🔄 현업 선택 중 |
+| Omni AI Center | **AIWORKX Care** | **AIWORKX Care (유지)** | 양측 동일 — 변경 불필요 | ✅ 유지 확정 |
+| Omni Document (RAG) | **AIWORKX Index** | **AIWORKX Ingest** | RAG E2E 파이프라인 전체 포괄, Data 카테고리 중복 혼선 방지 | 🔄 현업 선택 중 |
+| Omni OCR | **AIWORKX Scan** | **AIWORKX Lens** | IDP 프리미엄 포지셔닝, 소비자 스캔 앱 혼동 탈피 | 🔄 현업 선택 중 |
+
+**브랜드팀 To-Be 권장 근거**:
+- Forge > Studio: Microsoft 'Copilot Studio' 혼동 회피 + 능동적 에이전트 빌더 표현
+- Relay > Connect: MuleSoft 차별화 + 경량 API 중계자 포지셔닝
+- Ingest > Index: E2E 파이프라인(수집→파싱→임베딩) 전체 커버
+- Lens > Scan: IDP 프리미엄 포지셔닝, 소비자 OCR 연상 탈피
+
+**상표권 조회 필요**: Forge·Relay·Ingest·Lens KIPRIS Class 42 법무팀 조회 필요
 
 **피드백 대기 중인 주요 이슈**:
 1. Omni Document / Omni OCR이 Data 카테고리와 동일 제품인지 여부 확인 필요 (중복 등재)
@@ -154,6 +162,8 @@
    - Option A: Agent 카테고리 내 단순 제품명 (AIWORKX Pick, Brief, Settle)
    - Option B: Layer 2.5 Vertical Segment 신설 — 권장 (AIWORKX Pick for Finance 등)
 
-**다음 단계**: 현업 피드백 취합 후 확정 → 고객 커뮤니케이션 메시지 반영
+**다음 단계**: 현업 피드백 취합(기한 2026-04-01) → 선택 확정 → 법무팀 TM 조회 → NRB 상정 → 고객 커뮤니케이션 반영
 
-**SharePoint**: [Agent_AgentCategory_네이밍검토_20260330.docx](https://testworks.sharepoint.com/sites/aiworkx-/Shared%20Documents/네이밍%20검토/Agent/AgentCategory_20260330/Agent_AgentCategory_네이밍검토_20260330.docx)
+**SharePoint (v2)**: [Agent_AgentCategory_네이밍검토_20260401_v2.docx](https://testworks.sharepoint.com/sites/aiworkx-/_layouts/15/Doc.aspx?sourcedoc=%7B74B3C47F-2BD9-4B02-9F2E-9D455CFF0A64%7D&file=Agent_AgentCategory_%EB%84%A4%EC%9D%B4%EB%B0%8D%EA%B2%80%ED%86%A0_20260401_v2.docx&action=default&mobileredirect=true)
+
+**SharePoint (v1, 2026-03-30)**: [Agent_AgentCategory_네이밍검토_20260330.docx](https://testworks.sharepoint.com/sites/aiworkx-/Shared%20Documents/네이밍%20검토/Agent/AgentCategory_20260330/Agent_AgentCategory_네이밍검토_20260330.docx)

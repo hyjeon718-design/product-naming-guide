@@ -133,30 +133,47 @@
 
 ---
 
-## TedWorks — Test 사업부 (최신: v2, 2026-03-26)
+## TedWorks — Test 사업부 (최신: v3, 2026-04-02) — 상표권 재조회 반영
 
 **솔루션명 (가칭)**: TedWorks
 **핵심 기능**: SW/SoC/App V&V(검증·확인) 자동화 솔루션 — AI 반도체·차량용 SoC Intelligent Board Farm 기반 대용량 테스트 자동화
 **ToD™ 탑재**: Q.One 연동 → 반복 테스트 자동 스케줄링 / Powered by ToD™ 표기 필수
 
-**네이밍 후보 검토 결과**:
+**⚠️ WebSearch 상표권 재조회 결과 (2026-04-02)**:
 
-| 후보명 | 최종 AIWORKX 브랜드명 | 결과 | 비고 |
-|--------|----------------------|------|------|
-| TestFarm | AIWORKX TestFarm | ✅ **1순위** | Test(기능)+Farm(핵심 아키텍처 'Intelligent Board Farm' 직결), KIPRIS 조회 필요 |
-| FarmProbe | AIWORKX FarmProbe | ✅ **2순위** | Probe 기등재 토큰, KIPRIS·SNS·경쟁사 클린, TestFarm TM 이슈 시 즉시 대체 |
-| SystemProbe | AIWORKX SystemProbe | ✅ **3순위** | V&V 전문성 직접 표현, 범용 포지셔닝 적합 |
-| AutoBench | AIWORKX AutoBench | ⚠️ 후보 | 오픈소스 동명 도구 존재 — 주의 |
-| SiliconBench | — | ❌ 탈락 | 반도체 한정 포지셔닝, 확장성 부족 |
-| DevBench | — | ❌ 탈락 | 개발자 도구 연상, V&V 포지셔닝 불명확 |
+| 후보명 | TM 리스크 | 조회 결과 |
+|--------|----------|----------|
+| TestFarm | 🔴 위험 | testfarm.org ("Test Automation for HMI and Embedded Software") 운영 중 / GitHub testfarm 조직 / SourceForge 배포 / SEGGER Knowledge Base 등재 — 동일 업종(임베디드 소프트웨어 테스트 자동화) 직접 충돌 |
+| FarmProbe | 🟢 안전 | 동일/유사명 사용 없음 — KIPRIS Class 42 법무팀 최종 확인 권고 |
+| SystemProbe | 🟢 안전 | 동일/유사명 사용 없음 (SOFTPROBE는 다른 명칭) — KIPRIS Class 42 법무팀 최종 확인 권고 |
+| AutoBench | 🔴 위험 | autobench.org (AI LLM 벤치마크 플랫폼 운영 중) / GitHub AutoBench 조직 / 오픈소스 LLM testbench generator — 동일 업종(AI 소프트웨어 테스트·평가) 직접 충돌 |
 
-**최종 추천**:
-- 1순위: **AIWORKX TestFarm** — Test+Farm으로 제품 본질 가장 직관적 표현, 2음절 간결성 (KIPRIS 조회 후 확정)
-- 2순위: **AIWORKX FarmProbe** — TestFarm TM 리스크 발생 시 즉시 대체 확정
+**⛔ DROP 메모**:
+- ~~AIWORKX TestFarm~~ — testfarm.org 동일 업종(임베디드 SW 테스트 자동화) 직접 충돌 (🔴). FarmProbe로 즉시 대체.
+- ~~AIWORKX AutoBench~~ — autobench.org AI 벤치마크 플랫폼 + GitHub AutoBench 조직 동일 업종 충돌 (🔴). DROP 확정.
 
-**다음 단계**: TestFarm KIPRIS 클래스 9·42 상표 조회 → 클린 확인 시 NRB 즉시 상정
+**네이밍 후보 최종 결과 (v3)**:
 
-**SharePoint**: [Test_TedWorks_네이밍검토_20260326_v2.docx](https://testworks.sharepoint.com/sites/aiworkx-/Shared%20Documents/네이밍%20검토/Test/TedWorks_20260326_v2/Test_TedWorks_네이밍검토_20260326_v2.docx)
+| 후보명 | 최종 AIWORKX 브랜드명 | 결과 | TM 리스크 |
+|--------|----------------------|------|----------|
+| ~~TestFarm~~ | — | ⛔ DROP | 🔴 위험 — testfarm.org 동일 업종 충돌 |
+| FarmProbe | AIWORKX FarmProbe | ✅ **1순위** | 🟢 안전 — Probe 기등재 토큰, KIPRIS 법무팀 확인 후 NRB 즉시 상정 가능 |
+| SystemProbe | AIWORKX SystemProbe | ✅ **2순위** | 🟢 안전 — V&V 전문성 직접 표현, 범용 포지셔닝 적합 |
+| ~~AutoBench~~ | — | ⛔ DROP | 🔴 위험 — autobench.org 동일 업종 충돌 |
+| ~~SiliconBench~~ | — | ❌ 탈락 | — 반도체 한정 포지셔닝, 확장성 부족 |
+| ~~DevBench~~ | — | ❌ 탈락 | — 개발자 도구 연상, V&V 포지셔닝 불명확 |
+
+**최종 추천 (v3)**:
+- 1순위: **AIWORKX FarmProbe** — Probe 기등재 토큰, TM 클린, Intelligent Board Farm 아키텍처 직결, NRB 즉시 상정 가능
+- 2순위: **AIWORKX SystemProbe** — V&V 시스템 전체 포괄, 글로벌 직관적, TM 클린
+
+**KIPRIS 조회 링크**:
+- [FarmProbe KIPRIS 조회](https://www.kipris.or.kr/srch/srchList.jsp?searchString=FarmProbe&tab=trademark)
+- [SystemProbe KIPRIS 조회](https://www.kipris.or.kr/srch/srchList.jsp?searchString=SystemProbe&tab=trademark)
+
+**다음 단계**: 법무팀 FarmProbe·SystemProbe KIPRIS Class 42 정식 조회 → 클린 확인 시 NRB 즉시 상정
+
+**SharePoint (v2)**: [Test_TedWorks_네이밍검토_20260326_v2.docx](https://testworks.sharepoint.com/sites/aiworkx-/Shared%20Documents/네이밍%20검토/Test/TedWorks_20260326_v2/Test_TedWorks_네이밍검토_20260326_v2.docx)
 
 ---
 

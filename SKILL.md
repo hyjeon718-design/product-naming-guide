@@ -184,14 +184,15 @@ https://www.kipris.or.kr/srch/srchList.jsp?searchString={후보명}&tab=trademar
 - `OUTLOOK_CLIENT_ID`, `OUTLOOK_CLIENT_SECRET`: 없으면 Microsoft Graph API 연동 불가 안내
 - `SHAREPOINT_SITE_URL`: 없으면 기본 경로 사용 또는 확인 요청
 
-**폴더 경로**: `네이밍 검토/{사업부}/{솔루션명}_{YYYYMMDD}/`
+**폴더 경로 규칙**:
+- **신규 솔루션**: `네이밍 검토/{사업부}/{솔루션명}_{YYYYMMDD}/` 폴더 생성
+- **기존 솔루션 버전 업데이트**: 기존 폴더 그대로 유지. 새 폴더 생성 금지. 파일명에 날짜·버전만 변경하여 동일 폴더에 추가.
 
-**파일명**: `{사업부}_{솔루션명}_네이밍검토_{YYYYMMDD}.docx`
+**파일명**: `{사업부}_{솔루션명}_네이밍검토_{YYYYMMDD}_v{n}.docx`
+- 초안(첫 버전): `_v1` 생략 가능 또는 명시
+- 버전 업데이트: `_v2`, `_v3` 순으로 파일명에 반영
 
 Word 초안 섹션 구성 및 섹션 6 상세 스펙 → `references/word-template.md` 참조
-
-동일 폴더 이미 존재 시 (`@microsoft.graph.conflictBehavior: fail` → 409):
-> "{사업부}/{솔루션명}_{날짜}" 폴더가 이미 있어요. 덮어쓸까요?
 
 ---
 

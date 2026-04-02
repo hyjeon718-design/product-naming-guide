@@ -172,6 +172,10 @@ https://www.kipris.or.kr/srch/srchList.jsp?searchString={후보명}&tab=trademar
 
 ### 5단계: SharePoint 폴더 생성 + Word 초안 업로드
 
+> ⚠️ **필수 전제 조건**: 3단계(상표권 조회) + 4단계(SNS·Google·경쟁사 검색)가 **완전히 완료된 후**에만 이 단계를 실행하세요.
+> Word 초안에는 반드시 3단계·4단계의 실제 조회 결과(리스크 판정 포함)가 반영되어야 합니다.
+> 조회 전에 리포트를 작성하거나 업로드하지 마세요.
+
 환경변수 확인:
 - `OUTLOOK_CLIENT_ID`, `OUTLOOK_CLIENT_SECRET`: 없으면 Microsoft Graph API 연동 불가 안내
 - `SHAREPOINT_SITE_URL`: 없으면 기본 경로 사용 또는 확인 요청

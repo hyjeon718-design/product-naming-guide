@@ -4,31 +4,34 @@
 
 ---
 
-## AAEF — Test 사업부 (최신: v2, 2026-03-31)
+## AAEF — Test 사업부 (최신: v3, 2026-04-02) ★최신
 
 **솔루션명 (가칭)**: AAEF (AI Agent Evaluation Framework)
 **핵심 기능**: AI 에이전트 신뢰성·성능 자동 평가 프레임워크
-**⚠️ 가칭 충돌 주의**: RagaAI가 'AAEF(Agentic Application Evaluation Framework)'를 공식 브랜드로 사용 중 → 외부 표기·마케팅에 가칭 AAEF 사용 금지
+**⚠️ 가칭 충돌 주의 1**: RagaAI가 'AAEF(Agentic Application Evaluation Framework)'를 공식 브랜드로 사용 중 → 외부 표기·마케팅에 가칭 AAEF 사용 금지
+**🚨 신규 충돌 경고 (v3, 2026-04-02)**: Akto가 'Agent Probe'를 에이전틱 AI 자동화 레드팀 엔진으로 2025.12 공개·운영 중 → AgentProbe 1순위 → ⚠️ 조건부 보류 변경. EvalProbe 1순위 승격.
 
-**네이밍 후보 검토 결과**:
+**네이밍 후보 검토 결과 (v3)**:
 
 | 후보명 | 최종 AIWORKX 브랜드명 | 결과 | 비고 |
 |--------|----------------------|------|------|
-| AgentProbe | AIWORKX AgentProbe | ✅ **1순위** | 상표권 안전, NRB 방법론 직결, 경쟁사 충돌 없음 |
-| EvalProbe | AIWORKX EvalProbe | ✅ **2순위 (v2 신규)** | Eval+Probe 조합, 기술적 정확성 우수 |
-| ReliProbe | AIWORKX ReliProbe | ✅ **3순위 (v2 신규)** | Reliability 차별점 명확 |
-| TrustBench | AIWORKX TrustBench | — 유지 | AI 신뢰성 직접 반영, Bench 시리즈 일관성 |
+| AgentProbe | AIWORKX AgentProbe | ⚠️ **조건부 보류** | Akto 'Agent Probe' 2025.12 동일명 선사용 — 국내 단기 사용 가능, 글로벌 출원 리스크 |
+| EvalProbe | AIWORKX EvalProbe | ✅ **1순위 (v3 승격)** | Eval+Probe 조합, 기술적 정확성 우수, Akto 충돌 없음 |
+| TrustProbe | AIWORKX TrustProbe | ✅ **2순위** | Trust 키워드, 금융·공공 고객 공감도 높음 |
+| ReliProbe | AIWORKX ReliProbe | ✅ **3순위** | Reliability 차별점 명확 |
 | AgentAudit | — | ❌ 탈락 | 미국 상표 충돌 위험 |
 | AgentGuard | — | ❌ 탈락 | 주요 경쟁사 다수 사용 중 |
 | AgentBench | — | ❌ 탈락 | Tsinghua THUDM ICLR 2024 논문·GitHub 브랜드 충돌 |
 
-**최종 추천**:
-- 1순위: **AIWORKX AgentProbe** — 상표권·경쟁사 리스크 없음, NRB 방법론 직결
-- 2순위: **AIWORKX EvalProbe** — Eval+Probe 조합 기술적 정확성 우수
+**최종 추천 (v3)**:
+- 1순위: **AIWORKX EvalProbe** — Akto 충돌 없음, 네이밍 아키텍처 원칙에 적합, Probe 시리즈 일관성
+- 2순위: **AIWORKX TrustProbe** — AI 신뢰성 직결, 금융·공공 특화 포지셔닝
 
-**다음 단계**: 법무팀 AgentProbe·EvalProbe KIPRIS Class 42 정식 조회 → NRB 상정
+**다음 단계**: 법무팀 EvalProbe·TrustProbe KIPRIS Class 42 정식 조회 → NRB 상정 (EvalProbe 1순위·TrustProbe 대안)
 
-**SharePoint**: [Test_AAEF_네이밍검토_20260331.docx](https://testworks.sharepoint.com/sites/aiworkx-/Shared%20Documents/네이밍%20검토/Test/AAEF_20260331/Test_AAEF_네이밍검토_20260331.docx)
+**SharePoint (v3 ★최신)**: [Test_AAEF_네이밍검토_20260402_v3.docx](https://testworks.sharepoint.com/sites/aiworkx-/_layouts/15/Doc.aspx?sourcedoc=%7BAF3896F9-B767-4DFF-9D1F-544F0CBCF43E%7D&file=Test_AAEF_%EB%84%A4%EC%9D%B4%EB%B0%8D%EA%B2%80%ED%86%A0_20260402_v3.docx&action=default&mobileredirect=true)
+
+**SharePoint (v2)**: [Test_AAEF_네이밍검토_20260331.docx](https://testworks.sharepoint.com/sites/aiworkx-/Shared%20Documents/네이밍%20검토/Test/AAEF_20260331/Test_AAEF_네이밍검토_20260331.docx)
 
 ---
 

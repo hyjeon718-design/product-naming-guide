@@ -184,7 +184,7 @@ https://www.kipris.or.kr/srch/srchList.jsp?searchString={후보명}&tab=trademar
 - `OUTLOOK_CLIENT_ID`, `OUTLOOK_CLIENT_SECRET`: 없으면 Microsoft Graph API 연동 불가 안내
 - `SHAREPOINT_SITE_URL`: 없으면 기본 경로 사용 또는 확인 요청
 
-**폴더 경로**: `네이밍검토/{사업부}/{솔루션명}_{YYYYMMDD}/`
+**폴더 경로**: `네이밍 검토/{사업부}/{솔루션명}_{YYYYMMDD}/`
 
 **파일명**: `{사업부}_{솔루션명}_네이밍검토_{YYYYMMDD}.docx`
 
@@ -236,7 +236,7 @@ SharePoint Word 초안 업로드 완료 후 반드시 실행하세요.
 ```
 {사업부} / {솔루션명} 네이밍 검토 완료!
 
-📁 SharePoint: 네이밍검토/{사업부}/{솔루션명}_{날짜}/
+📁 SharePoint: 네이밍 검토/{사업부}/{솔루션명}_{날짜}/
 📄 Word 초안: [Teams에서 열기 →]({링크})
 
 **이름 후보:**
@@ -266,7 +266,7 @@ SharePoint Word 초안 업로드 완료 후 반드시 실행하세요.
 "{솔루션명} 완성본 배포해줘" 요청이 오면 실행하세요.
 
 1. SharePoint에서 해당 Word 파일 최종본 다운로드
-   - 경로: `네이밍검토/{사업부}/{솔루션명}_{YYYYMMDD}/{파일명}.docx`
+   - 경로: `네이밍 검토/{사업부}/{솔루션명}_{YYYYMMDD}/{파일명}.docx`
    - Microsoft Graph API로 파일 내용(bytes) 가져오기 → base64 인코딩
 2. Teams 채널에 완성본 공지 (`TEAMS_WEBHOOK_URL`)
 3. Outlook으로 이메일 발송 — **Word 파일을 반드시 첨부**
@@ -281,7 +281,7 @@ SharePoint Word 초안 업로드 완료 후 반드시 실행하세요.
 
 1. **review-history.md 업데이트** — 변경된 결과(DROP·순위 변경·리스크 재판정) 반영
 2. **SharePoint Word 문서 신규 버전 업로드** — 파일명에 `_v{n}` 버전 번호 부여
-   - 경로: `네이밍검토/{사업부}/{솔루션명}_{YYYYMMDD}_v{n}/`
+   - 경로: `네이밍 검토/{사업부}/{솔루션명}_{YYYYMMDD}_v{n}/`
    - 재검토 사유(예: "상표권 재조회 반영")를 문서 제목·섹션 1에 명시
 3. **이메일 발송** — 신규 버전 Word 파일 첨부 후 `Impact.brand@aiworkx.ai`로 발송
 4. **review-history.md SharePoint 링크** — 최신 버전 링크로 업데이트 (★최신 표시)

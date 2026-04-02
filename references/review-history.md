@@ -173,6 +173,8 @@
 
 **다음 단계**: 법무팀 FarmProbe·SystemProbe KIPRIS Class 42 정식 조회 → 클린 확인 시 NRB 즉시 상정
 
+**SharePoint (v3 ★최신)**: [Test_TedWorks_네이밍검토_20260402_v3.docx](https://testworks.sharepoint.com/:w:/s/aiworkx-/IQCzNa3SBHVnSog6atftvRsyAcTS4pKDKJmETMjv-3rQi34)
+
 **SharePoint (v2)**: [Test_TedWorks_네이밍검토_20260326_v2.docx](https://testworks.sharepoint.com/sites/aiworkx-/Shared%20Documents/네이밍%20검토/Test/TedWorks_20260326_v2/Test_TedWorks_네이밍검토_20260326_v2.docx)
 
 ---

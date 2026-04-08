@@ -164,7 +164,7 @@
 
 ---
 
-## TedWorks — Test 사업부 (최신: v3, 2026-04-02) — 상표권 재조회 반영
+## TedWorks — Test 사업부 (최신: v4, 2026-04-08) ★최신 — V&V Farm·V-Farm·DeviceProbe 추가 검토
 
 **솔루션명 (가칭)**: TedWorks
 **핵심 기능**: SW/SoC/App V&V(검증·확인) 자동화 솔루션 — AI 반도체·차량용 SoC Intelligent Board Farm 기반 대용량 테스트 자동화

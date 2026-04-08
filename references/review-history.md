@@ -206,9 +206,14 @@
 - [FarmProbe KIPRIS 조회](https://www.kipris.or.kr/srch/srchList.jsp?searchString=FarmProbe&tab=trademark)
 - [SystemProbe KIPRIS 조회](https://www.kipris.or.kr/srch/srchList.jsp?searchString=SystemProbe&tab=trademark)
 
-**다음 단계**: 법무팀 FarmProbe·SystemProbe KIPRIS Class 42 정식 조회 → 클린 확인 시 NRB 즉시 상정
+**다음 단계**:
+- ① [이번 주] 변리사 의뢰: FarmProbe·DeviceProbe KIPRIS Class 9 + Class 42 정식 조회
+- ② [이번 주] SystemProbe — Datadog 'system-probe' 상표 혼동 가능성 법무팀 검토
+- ③ [조회 완료 후] NRB 상정: FarmProbe 1순위·DeviceProbe 대안 병행
 
-**SharePoint (v3 ★최신)**: [Test_TedWorks_네이밍검토_20260402_v3.docx](https://testworks.sharepoint.com/:w:/s/aiworkx-/IQCzNa3SBHVnSog6atftvRsyAcTS4pKDKJmETMjv-3rQi34)
+**SharePoint (v4 ★최신)**: [Test_TedWorks_네이밍검토_20260408_v4.docx](https://testworks.sharepoint.com/sites/aiworkx-/_layouts/15/Doc.aspx?sourcedoc=%7B230595BC-9816-42CB-BEA7-18C6EC89D73D%7D&file=Test_TedWorks_%EB%84%A4%EC%9D%B4%EB%B0%8D%EA%B2%80%ED%86%A0_20260408_v4.docx&action=default&mobileredirect=true)
+
+**SharePoint (v3)**: [Test_TedWorks_네이밍검토_20260402_v3.docx](https://testworks.sharepoint.com/:w:/s/aiworkx-/IQCzNa3SBHVnSog6atftvRsyAcTS4pKDKJmETMjv-3rQi34)
 
 **SharePoint (v2)**: [Test_TedWorks_네이밍검토_20260326_v2.docx](https://testworks.sharepoint.com/sites/aiworkx-/Shared%20Documents/네이밍%20검토/Test/TedWorks_20260326_v2/Test_TedWorks_네이밍검토_20260326_v2.docx)
 

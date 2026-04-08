@@ -27,7 +27,11 @@
 - 1순위: **AIWORKX EvalProbe** — Akto 충돌 없음, 네이밍 아키텍처 원칙에 적합, Probe 시리즈 일관성
 - 2순위: **AIWORKX TrustProbe** — AI 신뢰성 직결, 금융·공공 특화 포지셔닝
 
-**다음 단계**: 법무팀 EvalProbe·TrustProbe KIPRIS Class 42 정식 조회 → NRB 상정 (EvalProbe 1순위·TrustProbe 대안)
+**KIPRIS WebSearch 사전 조회 결과 (2026-04-07)**:
+- EvalProbe: 🟢 안전 — 동일명 미발견, 조어(Eval+Probe) 독창성 높음
+- TrustProbe: 🟢 안전 — 동일명 미발견
+
+**다음 단계**: 변리사 EvalProbe·TrustProbe KIPRIS Class 42 정식 조회 의뢰 → NRB 상정 (EvalProbe 1순위·TrustProbe 대안)
 
 **SharePoint (v3 ★최신)**: [Test_AAEF_네이밍검토_20260402_v3.docx](https://testworks.sharepoint.com/sites/aiworkx-/_layouts/15/Doc.aspx?sourcedoc=%7BAF3896F9-B767-4DFF-9D1F-544F0CBCF43E%7D&file=Test_AAEF_%EB%84%A4%EC%9D%B4%EB%B0%8D%EA%B2%80%ED%86%A0_20260402_v3.docx&action=default&mobileredirect=true)
 
@@ -35,77 +39,97 @@
 
 ---
 
-## Q One — Test 사업부 (최신: v2, 2026-03-31)
+## Q One — Test 사업부 (최신: v3, 2026-04-06) ★검토 중 — UIProbe/QualProbe 미확정
 
-**솔루션명 (가칭)**: Q One (AI 기반 Web/App UI 테스트 자동화 솔루션)
-**핵심 기능**: 스텝 기반 + AI 의도 기반 UI 테스트 자동화, ToD/NLU 통합, 온프레미스 LLM, Persona 기반 테스트, 금융·공공 특화
+**솔루션명 (가칭)**: Q One (AI 기반 UX/UI 테스트 + API 테스트 + 데이터 검증 AI 자동화 솔루션)
+**핵심 기능**: 스텝 기반 + AI 의도 기반 UI 테스트 자동화, API 테스트, 데이터 검증, ToD/NLU 통합, 온프레미스 LLM, Persona 기반 테스트, 금융·공공 특화
+**⚠️ v3 재검토 사유**: 솔루션 PO UIProbe 피드백 — "UI 영역 한정 인식, API·데이터 검증 확장성 미반영, AI 지능형(Intelligence)·에이전트 자율성(Autonomous)·품질 근간(Foundation) 키워드 요청"
+**🔄 UIProbe 충돌 현황 (2026-04-07 재확인)**: uiprobe.io(Figma 디자인 QA, Beta 운영 중) + mcp-ui-probe(npm v0.2.0, MCP 기반 UI 테스트, Star 6) — AgentProbe(Akto) 대비 상대적으로 낮은 충돌. uiprobe.io는 디자인 QA(도메인 다름), mcp-ui-probe는 소규모. **사업부 최종 확정 대기 중.**
 
-**네이밍 후보 검토 결과**:
+**⛔ DROP 확정 메모**:
+- ~~AIWORKX Sentinel~~ — DROP. 사유: Microsoft Sentinel(SIEM)·SentinelOne(보안)·Sentinel AI(CI/CD) AI/SW 다수 충돌
+- ~~AIWORKX AppBench~~ — DROP. 사유: appbench.ai(YC 기반) 충돌
+- ~~AIWORKX SceneScan~~ — DROP. 사유: Nerian Vision 등록 상표 충돌
 
-| 후보명 | 최종 AIWORKX 브랜드명 | 결과 | 비고 |
-|--------|----------------------|------|------|
-| UIProbe | AIWORKX UIProbe | ✅ **1순위** | 상표권 안전, Probe 토큰 기등재, NLU·Intent 직결 |
-| IntentProbe | AIWORKX IntentProbe | ✅ **2순위 (v2 신규)** | Q One 핵심 차별점(NLU Intent) 직접 반영 |
-| FlowProbe | AIWORKX FlowProbe | ✅ **3순위 (v2 신규)** | 흐름(Flow)+탐침(Probe), 직관적 |
-| UXProbe | AIWORKX UXProbe | ⚠️ **4순위 (v2 신규)** | UI/UX 테스트 포지셔닝 명확, 글로벌 직관 — 아래 Concerns 참조 |
-| AppBench | AIWORKX AppBench | 🔴 **보류** | appbench.ai(YC 기반) 충돌 — 법무팀 조회 완료 전까지 보류 |
-| SceneScan | — | ❌ 탈락 | Nerian Vision·Wärtsilä 등록 상표 충돌 |
+**🔄 검토 중 후보 (v3 — 사업부 확정 전)**:
 
-### UXProbe Concerns
+| 후보명 | 최종 AIWORKX 브랜드명 | 결과 | TM 리스크 | 비고 |
+|--------|----------------------|------|----------|------|
+| UIProbe | AIWORKX UIProbe | 🔄 **검토 중** | 🟡 주의 | uiprobe.io(디자인QA, 도메인 다름) + mcp-ui-probe(소규모) — PO 피드백 "UI 한정" 이슈 별도 |
+| QualProbe | AIWORKX QualProbe | 🔄 **검토 중 (v3 신규)** | 🟢 안전 | Quality+Probe, 기등재 토큰, NRB 즉시 상정 가능 |
+| Scrutiq | AIWORKX Scrutiq | 🔄 **검토 중 (v3 신규)** | 🟢 안전 | Scrutiny+IQ, 신규 토큰 NRB 필요 |
+| AutoProbe | AIWORKX AutoProbe | 🔄 **검토 중 (v3 신규)** | 🟡 주의 | Autonomous+Probe, AgRobotics AutoProbe(농업) 유사명 존재 |
+| Assurai | AIWORKX Assurai | 🔄 **검토 중 (v3 신규)** | 🟡 주의 | Assure+AI, AssurAI 데이터셋(AI안전 학술) 동일 AI 도메인 |
+| IntentProbe | AIWORKX IntentProbe | ⏸️ 보류 (v2→v3) | 🟢 안전 | v2 2순위였으나 PO "UI 한정" 피드백으로 우선순위 하향 |
+| FlowProbe | AIWORKX FlowProbe | ⏸️ 보류 (v2→v3) | 🟢 안전 | v2 3순위였으나 품질 전 영역 포괄성 부족 |
 
-| 항목 | 내용 |
-|------|------|
-| **포지셔닝 범위** | UX는 UI보다 넓은 개념 — 사용성·접근성·디자인 전반을 포함. Q One의 실제 기능(UI 자동화 테스트)보다 범위가 넓어 제품 기능 오버프로미스 위험 |
-| **경쟁사 연상** | UX Testing 카테고리에서 UserTesting, Hotjar, Maze 등 UX 리서치 도구와 혼동 가능 — Q One은 기능 테스트 자동화이지 UX 리서치 툴이 아님 |
-| **내부 일관성** | Probe 시리즈(UIProbe·AgentProbe·FarmProbe 등)에서 앞 토큰이 기술 기능을 지칭하는데, UX는 기술 스택이 아닌 사용자 경험 레이어 → 시리즈 일관성 저하 |
-| **타겟 고객 오인** | 금융·공공 특화 제품에서 "UX"는 UI/디자인 부서 연상 강함 — 실제 타겟(QA팀·개발팀)과 괴리 |
-| **결론** | UIProbe가 Q One의 실제 기능(UI 자동화)을 더 정확하게 표현. UXProbe는 포지셔닝 확장 시 고려 가능하나 현재 1순위 부적합 |
+**KIPRIS WebSearch 사전 조회 결과 (2026-04-07)**:
+- QualProbe: 🟢 안전 — 동일명 미발견
+- Scrutiq: 🟢 안전 — 동일명 미발견
+- UIProbe: 🟡 주의 — uiprobe.io(Beta 운영), mcp-ui-probe(npm). 도메인 상이하나 이름 동일
 
-**최종 추천**:
-- 1순위: **AIWORKX UIProbe** — 상표권 안전, Probe 기등재 토큰, 외부 표기 직관
-- 2순위: **AIWORKX IntentProbe** — NLU Intent 핵심 차별점 직접 반영
+**KIPRIS 조회 링크**:
+- [QualProbe KIPRIS 조회](https://www.kipris.or.kr/srch/srchList.jsp?searchString=QualProbe&tab=trademark)
+- [Scrutiq KIPRIS 조회](https://www.kipris.or.kr/srch/srchList.jsp?searchString=Scrutiq&tab=trademark)
+- [AutoProbe KIPRIS 조회](https://www.kipris.or.kr/srch/srchList.jsp?searchString=AutoProbe&tab=trademark)
+- [Assurai KIPRIS 조회](https://www.kipris.or.kr/srch/srchList.jsp?searchString=Assurai&tab=trademark)
+- [UIProbe KIPRIS 조회](https://www.kipris.or.kr/srch/srchList.jsp?searchString=UIProbe&tab=trademark)
 
-**다음 단계**: NRB 상정 (UIProbe 1순위·IntentProbe 대안 병행), Brand Governance 레지스트리 업데이트
+**다음 단계**: 사업부 UIProbe vs QualProbe 최종 선택 확정 → 변리사 KIPRIS Class 42 정식 조회 의뢰 → NRB 상정
 
-**SharePoint**: [Test_QOne_네이밍검토_20260331.docx](https://testworks.sharepoint.com/sites/aiworkx-/Shared%20Documents/네이밍%20검토/Test/QOne_20260331/Test_QOne_네이밍검토_20260331.docx)
+**SharePoint (v3 ★최신)**: [Test_QOne_네이밍검토_20260406_v3.docx](https://testworks.sharepoint.com/sites/aiworkx-/_layouts/15/Doc.aspx?sourcedoc=%7B0230447C-9E8D-4F94-AA62-B921ED20EADF%7D&file=Test_QOne_%EB%84%A4%EC%9D%B4%EB%B0%8D%EA%B2%80%ED%86%A0_20260406_v3.docx&action=default&mobileredirect=true)
+
+**SharePoint (v2)**: [Test_QOne_네이밍검토_20260331.docx](https://testworks.sharepoint.com/sites/aiworkx-/Shared%20Documents/네이밍%20검토/Test/QOne_20260331/Test_QOne_네이밍검토_20260331.docx)
 
 ---
 
-## ToD™ — Technology Ingredient Brand (최신: v3 rev.3, 2026-03-31)
+## ToD™ — Technology Ingredient Brand (최신: v3 rev.5, 2026-04-06) ★최신
 
 **검토 대상**: AIWORKX 기술 인그리디언트 브랜드 `ToD™` (Powered by ToD™ 표기용)
 **현행 정의**: Task-oriented Deterministic AI
 
 **검토 경과**:
+
 | 회차 | 날짜 | 주요 내용 |
 |------|------|----------|
 | v1 | 2026-03-20 | Linea™·Axia™ 제안 → AX prefix 전략 전환 결정 |
 | v2 | 2026-03-26 | AXO/AXON/AXEN 검토 → 상표·업종 충돌 탈락 |
 | v3 | 2026-03-30 | AXDO™ 1순위 확정, AXDC™ 신규 추가 (4순위) |
-| v3 rev.3 | 2026-03-31 | **AXDC™ 1순위 승격, AXDO™ 2순위로 조정** |
+| v3 rev.3 | 2026-03-31 | AXDC™ 1순위 승격, AXDO™ 2순위로 조정 |
+| v3 rev.4 | 2026-03-31 | AXDC™ KIPRIS/TM 가조사 완료 (변리사 정식 조회 예정) |
+| **v3 rev.5** | **2026-04-06** | **KIPRIS 변리사 조회 결과 확인 (6개 전종). AXGO™ USPTO 주의 발견. 최종 순위 확정.** |
 
-**v3 rev.3 후보 순위**:
+**v3 rev.5 후보 순위 (KIPRIS 변리사 조회 완료, 2026-04-06)**:
 
-| 순위 | 후보 | 발음 | 풀네임 | TM 리스크 |
-|------|------|------|--------|----------|
-| ★ 1순위 | **AXDC™** | /악-디씨/ | AX+DC (Direct Compute / AC→DC 메타포) | KIPRIS Class 42 조회 필요 |
-| 2순위 | AXDO™ | /악-두/ | AX+DO (실행·완수) | 클린 |
-| 3순위 | AXHIT™ | /악-힛/ | AX+HIT (목표 명중·달성) | 클린 |
-| 4순위 | AXGO™ | /악-고/ | AX+GO (실행 개시) | 클린 |
-| 5순위 | AXRUN™ | /악-런/ | AX+RUN (작동·실행) | 클린 |
-| 6순위 | AXSET™ | /악-셋/ | AX+SET (완료·세팅) | 클린 |
+| 순위 | 후보 | 발음 | 풀네임 | KIPRIS 결과 | TM 판정 |
+|------|------|------|--------|------------|--------|
+| ★ 1순위 | **AXDC™** | /에이엑스-디씨/ | AX+DC (Direct Compute / AC→DC 메타포) | **0건** — 동일·유사 완전 클린 | 🟢 안전 |
+| 2순위 | AXDO™ | /에이엑스-두/ | AX+DO (실행·완수) | 14건 (국내5+해외9), 업종 무관 | 🟢 클린 |
+| 3순위 | AXHIT™ | /에이엑스-힛/ | AX+HIT (목표 명중·달성) | 1건 (MAXHIT, Cl.012 — 업종 다름) | 🟢 클린 |
+| ⚠️ 4순위 | AXGO™ | /에이엑스-고/ | AX+GO (실행 개시) | 48건 (국내26+해외22), USPTO "AXGO" Cl.009 등록 1건 [NEW] | 🟠 주의 |
+| 5순위 | AXRUN™ | /에이엑스-런/ | AX+RUN (작동·실행) | 10건 (국내6+해외4), 업종 무관 | 🟢 클린 |
+| 6순위 | AXSET™ | /에이엑스-셋/ | AX+SET (완료·세팅) | 6건 (국내1+해외5), 업종 무관 | 🟢 클린 |
 
-**⚠️ AXDC™ 주의사항**: AC/DC 록밴드 연상 → 보수적 엔터프라이즈(금융·공공) 고객군 이미지 부담 가능. 글로벌 출원 전 법무팀 AC/DC 상표 혼동 가능성 사전 확인 필수.
+**⚠️ 주요 주의사항**:
+- **AXDC™**: AC/DC 록밴드 연상 → 보수적 엔터프라이즈(금융·공공) 이미지 부담 가능. 법무팀 AC/DC 상표 혼동 가능성 사전 확인 필수
+- **AXGO™**: USPTO Class 009 등록상표 1건 (Xiao Jun Zhou) 발견 → 글로벌 출원 시 저촉 위험. 국내 출원은 클린
 
 **탈락 후보 누적 (v1~v3, 총 12개)**: AXO, AXON, AXEN, AXCO, AXFIN, AXEND, AXMIT, AXIM, AXIVE, AXEVO, AXELO, AXWORK
 
-**최종 추천**:
-- 1순위: **AXDC™** — AC/DC 변형, 이중 레이어 의미(기술적·전략적), 브랜드 임팩트 우위 (KIPRIS 확인 후 NRB 상정)
+**최종 추천 (v3r5)**:
+- 1순위: **AXDC™** — KIPRIS 0건 완전 클린, AC/DC 이중 레이어 의미(기술적·전략적), 브랜드 임팩트 우위
 - 2순위: **AXDO™** — 실행·완수 직관적, 상표 클린, 즉시 출원 가능
 
-**다음 단계**: 법무팀 AXDC™ KIPRIS Class 42 정식 조회 + AC/DC 상표 혼동 가능성 검토 → NRB 1순위 상정
+**다음 단계**:
+- ① [법무팀] AXDC™ AC/DC 상표 혼동 가능성 최종 검토
+- ② [법무팀] AXDC™ KIPRIS Class 42 변리사 정식 출원 의뢰
+- ③ [주의] AXGO™ USPTO Class 009 저촉 여부 — 글로벌 출원 전 법무팀 검토 필요
+- ④ [경영진] AXDC™ 확정 시 NRB 1순위 상정
+- ⑤ [확정 후] Brand Governance Token System 등록
 
-**SharePoint**: [기타_ToD_네이밍검토_20260331_v3r3.docx](https://testworks.sharepoint.com/sites/aiworkx-/Shared%20Documents/네이밍%20검토/기타/ToD_20260330_v3/기타_ToD_네이밍검토_20260331_v3r3.docx)
+**SharePoint (v3r5 ★최신)**: [기타_ToD_네이밍검토_20260406_v3r5.docx](https://testworks.sharepoint.com/sites/aiworkx-/Shared%20Documents/네이밍%20검토/4.%20기타%20-%20ToD/ToD_20260330_v3/기타_ToD_네이밍검토_20260406_v3r5.docx)
+
+**SharePoint (v3r3)**: [기타_ToD_네이밍검토_20260331_v3r3.docx](https://testworks.sharepoint.com/sites/aiworkx-/Shared%20Documents/네이밍%20검토/기타/ToD_20260330_v3/기타_ToD_네이밍검토_20260331_v3r3.docx)
 
 ---
 
@@ -130,7 +154,11 @@
 - 1순위: **AIWORKX DataMill** — Mill(제분소) 은유로 비정형→AI-Ready 가공 의미 직관적, 한국 충돌 없음 (KIPRIS 확인 후 확정)
 - 2순위: **AIWORKX RawFlow** — 파이프라인 흐름 강조, 상표 클린
 
-**다음 단계**: DataMill KIPRIS Class 42 법무팀 정식 조회 → Brand Governance NRB 등록 → Engine Layer 위치 결정 (Agent Category v2r2 피드백 연동)
+**KIPRIS WebSearch 사전 조회 결과 (2026-04-07)**:
+- DataMill: 🟡 주의 — datamill.co(데이터 분석), datamillsoftware.com(MS Dynamics, 1998년 설립), datamill.solutions(독일, 데이터 품질) — 한국 직접 충돌 미확인이나 글로벌 SW 다수 사용
+- RawFlow: 🟡 주의 — 경미한 유사명, 동일 업종 없음
+
+**다음 단계**: 변리사 DataMill KIPRIS Class 42 정식 조회 의뢰 → Brand Governance NRB 등록 → Engine Layer 위치 결정 (Agent Category v2r2 피드백 연동)
 
 **SharePoint**: [Data_Blackolive_네이밍검토_20260331_v3.docx](https://testworks.sharepoint.com/sites/aiworkx-/Shared%20Documents/네이밍%20검토/Data/Blackolive_20260331/Data_Blackolive_네이밍검토_20260331_v3.docx)
 
@@ -155,20 +183,24 @@
 - ~~AIWORKX TestFarm~~ — testfarm.org 동일 업종(임베디드 SW 테스트 자동화) 직접 충돌 (🔴). FarmProbe로 즉시 대체.
 - ~~AIWORKX AutoBench~~ — autobench.org AI 벤치마크 플랫폼 + GitHub AutoBench 조직 동일 업종 충돌 (🔴). DROP 확정.
 
-**네이밍 후보 최종 결과 (v3)**:
+**네이밍 후보 최종 결과 (v3 + 2026-04-07 대안 추가 검토)**:
 
 | 후보명 | 최종 AIWORKX 브랜드명 | 결과 | TM 리스크 |
 |--------|----------------------|------|----------|
 | ~~TestFarm~~ | — | ⛔ DROP | 🔴 위험 — testfarm.org 동일 업종 충돌 |
-| FarmProbe | AIWORKX FarmProbe | ✅ **1순위** | 🟢 안전 — Probe 기등재 토큰, KIPRIS 법무팀 확인 후 NRB 즉시 상정 가능 |
-| SystemProbe | AIWORKX SystemProbe | ✅ **2순위** | 🟢 안전 — V&V 전문성 직접 표현, 범용 포지셔닝 적합 |
+| FarmProbe | AIWORKX FarmProbe | ✅ **1순위** | 🟢 안전 — Probe 기등재 토큰, KIPRIS WebSearch 안전 확인 (2026-04-07) |
+| DeviceProbe | AIWORKX DeviceProbe | ✅ **2순위 (2026-04-07 신규)** | 🟢 안전 — Probe 기등재 토큰, SoC/디바이스 테스트 직관적, KIPRIS WebSearch 안전 확인 |
+| SystemProbe | AIWORKX SystemProbe | ✅ **3순위** | 🟡 주의 — Datadog Agent "system-probe" 동일명 컴포넌트 (한국 활동 중), V&V 범용성 장점 |
 | ~~AutoBench~~ | — | ⛔ DROP | 🔴 위험 — autobench.org 동일 업종 충돌 |
 | ~~SiliconBench~~ | — | ❌ 탈락 | — 반도체 한정 포지셔닝, 확장성 부족 |
 | ~~DevBench~~ | — | ❌ 탈락 | — 개발자 도구 연상, V&V 포지셔닝 불명확 |
+| ~~V-Farm~~ | — | ⛔ DROP (2026-04-07) | 🔴 위험 — V-Farm(영국 v-farm.co.uk) 수직농업 활성 브랜드 + Rule 2 위반("V" 과도 축약) |
+| V&V Farm | AIWORKX V&V Farm | ⏸️ 보류 (2026-04-07) | 🟡 주의 — V&V Farms Inc.(미국 농업) 비동종이나, "V&V" 범용약어 식별력 약함 + Rule 2 부분위반 |
 
-**최종 추천 (v3)**:
+**최종 추천 (v3+)**:
 - 1순위: **AIWORKX FarmProbe** — Probe 기등재 토큰, TM 클린, Intelligent Board Farm 아키텍처 직결, NRB 즉시 상정 가능
-- 2순위: **AIWORKX SystemProbe** — V&V 시스템 전체 포괄, 글로벌 직관적, TM 클린
+- 2순위: **AIWORKX DeviceProbe** — Probe 기등재 토큰, TM 클린, SoC/디바이스 HW 테스트 직관적, NRB 즉시 상정 가능
+- 3순위: **AIWORKX SystemProbe** — V&V 시스템 전체 포괄, 글로벌 직관적, Datadog system-probe 주의 필요
 
 **KIPRIS 조회 링크**:
 - [FarmProbe KIPRIS 조회](https://www.kipris.or.kr/srch/srchList.jsp?searchString=FarmProbe&tab=trademark)
@@ -205,14 +237,23 @@
 - Omni Docu (AIWORKX Ingest) / Omni OCR (AIWORKX Lens): **Agent 카테고리 유지** (Option A 채택)
 - Engine 레이어 신설(Option C) 삭제 — Ingredient Tech는 **AXDC™(ToD™ 기반) 단일 체계**로 운영
 
-**최종 추천 요약**:
-- AIWORKX Forge (🟡) — Studio 대체, No-Code Agent 빌더 (KIPRIS 법무팀 확인 필요)
-- AIWORKX Relay (🟡) — Connect 대체, API 연동·중계 (KIPRIS 법무팀 확인 필요)
+**KIPRIS WebSearch 사전 조회 결과 (2026-04-07)**:
+- **Forge**: 🔴 **위험** — Mistral AI "Forge"(AI 모델 빌더), Honeywell Forge(AI SW), Autodesk Forge(한국 활동 중), theforgeai.com(노코드 AI앱), Forge.AI(NLP), Coforge "Forge-X", USPTO 출원(SN 97358404) — AI/SW 동일 업종 다수 충돌
+- **Relay**: 🔴 **위험** — Relay.app(AI 워크플로 자동화 SaaS, 2026 Winter "Best for Operations"), RelayThat(디자인 자동화), RELAYTO(콘텐츠 플랫폼) — AI/SaaS 동일 업종 충돌
+
+**⚠️ Forge·Relay 재검토 필요 (2026-04-07)**:
+- Forge·Relay 모두 KIPRIS WebSearch에서 🔴 위험 판정 — Agent v2r6 확정 당시 미확인 사항
+- Studio(MS Copilot Studio 충돌)·Connect(MuleSoft 충돌) 이미 DROP → **4개 토큰 모두 충돌**
+- 대안 탐색 또는 법무팀 정밀 판단 필요
+
+**최종 추천 요약 (2026-04-07 업데이트)**:
+- ~~AIWORKX Forge~~ (🔴 재검토) — AI/SW 업종 다수 충돌, 대안 탐색 필요
+- ~~AIWORKX Relay~~ (🔴 재검토) — Relay.app AI SaaS 충돌, 대안 탐색 필요
 - **AIWORKX Care** (🟢) — Center 대체, AICC 고객 케어 ★즉시 사용 가능
 - **AIWORKX Ingest** (🟢) — Docu 대체, RAG 파이프라인 ★즉시 사용 가능
 - **AIWORKX Lens** (🟢) — OCR 대체, IDP 문서 인식 ★즉시 사용 가능
 
-**다음 단계**: Forge·Relay KIPRIS Class 42 법무팀 정식 조회 → NRB 상정 → Care·Ingest·Lens 즉시 NRB 상정 가능
+**다음 단계**: Forge·Relay 대안 탐색 또는 법무팀 정밀 검토 → Care·Ingest·Lens 즉시 NRB 상정 가능
 
 **SharePoint (v2r6, 최종)**: [Agent_AgentCategory_네이밍검토_20260401_v2r6.docx](https://testworks.sharepoint.com/sites/aiworkx-/_layouts/15/Doc.aspx?sourcedoc=%7B6BE9AAC4-D22C-46B2-885C-4B2384505171%7D&file=Agent_AgentCategory_%EB%84%A4%EC%9D%B4%EB%B0%8D%EA%B2%80%ED%86%A0_20260401_v2r6.docx&action=default&mobileredirect=true)
 
@@ -277,14 +318,17 @@
 
 | 순위 | 후보명 | 최종 AIWORKX 브랜드명 | TM 리스크 | 결과 |
 |------|--------|----------------------|----------|------|
-| ★ 1순위 | **SiteProbe** | AIWORKX SiteProbe | 🟢 안전 | Probe 기등재 토큰, NRB 즉시 상정 가능 |
-| 2순위 | SiteVault | AIWORKX SiteVault | 🟢 안전 | 블랙박스 VP 가장 직관적, Vault 신규 토큰 NRB 필요 |
-| 3순위 | BuildPrint | AIWORKX BuildPrint | 🟡 주의 | build-to-print 범용 용어 존재, 시설 관리 확장 시 범위 제약 |
+| ★ 1순위 | **SiteProbe** | AIWORKX SiteProbe | 🟢 안전 | Probe 기등재 토큰, KIPRIS WebSearch 안전 확인 (2026-04-07), NRB 즉시 상정 가능 |
+| ~~2순위~~ | ~~SiteVault~~ | — | 🔴 **DROP (2026-04-07)** | **Veeva Systems 등록상표** — 임상시험 관리 eISF 플랫폼, 한국 CRO(LSK Global PS) 활동 중, 대형 상장사(NYSE: VEEV) |
+| 2순위 | BuildPrint | AIWORKX BuildPrint | 🟡 주의 | build-to-print 범용 용어 존재, 시설 관리 확장 시 범위 제약 |
 
-**최종 추천**:
-- 1순위: **AIWORKX SiteProbe** — 상표권 클린, Probe 기등재 토큰으로 NRB 즉시 상정 가능, "Site"가 건설+시설 모두 포괄, Probe 시리즈 일관성 우수
-- 2순위: **AIWORKX SiteVault** — 블랙박스 VP 가장 직관적 전달, 상표 클린, Vault 신규 토큰 Rule 4 NRB 상정 필요
+**⛔ DROP 메모 (2026-04-07 추가)**:
+- ~~AIWORKX SiteVault~~ — DROP. 사유: Veeva Systems "SiteVault" 등록상표 (임상시험 사이트 관리 SW), 한국 CRO LSK Global PS 등 국내 사용 중, NYSE 상장 대기업으로 상표 방어력 강함.
 
-**다음 단계**: 법무팀 SiteProbe·SiteVault KIPRIS Class 42 정식 조회 → 클린 확인 시 NRB 즉시 상정 → Brand Governance 레지스트리 FieldPrint → SiteProbe 업데이트
+**최종 추천 (2026-04-07 업데이트)**:
+- 1순위: **AIWORKX SiteProbe** — 상표권 클린 (KIPRIS WebSearch 🟢), Probe 기등재 토큰으로 NRB 즉시 상정 가능, "Site"가 건설+시설 모두 포괄
+- 2순위: **AIWORKX BuildPrint** — SiteVault DROP 후 차순위, build-to-print 범용성 주의
+
+**다음 단계**: 변리사 SiteProbe KIPRIS Class 42 정식 조회 의뢰 → 클린 확인 시 NRB 즉시 상정 → Brand Governance 레지스트리 FieldPrint → SiteProbe 업데이트
 
 **로컬 문서**: `Data_AsBuilt_네이밍검토_20260401.docx`

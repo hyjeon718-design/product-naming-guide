@@ -39,45 +39,56 @@
 
 ---
 
-## Q One — Test 사업부 (최신: v3, 2026-04-06) ★검토 중 — UIProbe/QualProbe 미확정
+## Q One — Test 사업부 (최신: v4, 2026-04-08) ★최신 — Autonomous QA 정체성 반영, Intelliq 1순위 제안
 
-**솔루션명 (가칭)**: Q One (AI 기반 UX/UI 테스트 + API 테스트 + 데이터 검증 AI 자동화 솔루션)
-**핵심 기능**: 스텝 기반 + AI 의도 기반 UI 테스트 자동화, API 테스트, 데이터 검증, ToD/NLU 통합, 온프레미스 LLM, Persona 기반 테스트, 금융·공공 특화
-**⚠️ v3 재검토 사유**: 솔루션 PO UIProbe 피드백 — "UI 영역 한정 인식, API·데이터 검증 확장성 미반영, AI 지능형(Intelligence)·에이전트 자율성(Autonomous)·품질 근간(Foundation) 키워드 요청"
-**🔄 UIProbe 충돌 현황 (2026-04-07 재확인)**: uiprobe.io(Figma 디자인 QA, Beta 운영 중) + mcp-ui-probe(npm v0.2.0, MCP 기반 UI 테스트, Star 6) — AgentProbe(Akto) 대비 상대적으로 낮은 충돌. uiprobe.io는 디자인 QA(도메인 다름), mcp-ui-probe는 소규모. **사업부 최종 확정 대기 중.**
+**솔루션명 (가칭)**: Q One (AI 기반 UX/UI 테스트 + API 테스트 + 데이터 검증 + 지식 자산화 + Action Flow Map)
+**브랜드 포지션**: AUTONOMOUS QA
+**핵심 기능**: 비즈니스 문서 기반 테스트 설계, 좌표 기반 추출·매핑, Action Flow Map(서비스 구조 시각화), Full-Spectrum QA(UI+API+Data 통합)
+**PO 키워드 요청**: Intelligence(지능형) · Autonomous(자율성) · Foundation(품질 근간)
+**⚠️ v3 재검토 사유**: 솔루션 PO UIProbe 피드백 — "UI 영역 한정 인식, API·데이터 검증 확장성 미반영"
+**🔄 v4 변경사항 (2026-04-08)**: Autonomous QA 정체성 반영 신규 후보 4개 추가 (Intelliq, QualScan, Qualitiq, TestIQ) + AI QA 시장·경쟁사 분석 추가
 
 **⛔ DROP 확정 메모**:
 - ~~AIWORKX Sentinel~~ — DROP. 사유: Microsoft Sentinel(SIEM)·SentinelOne(보안)·Sentinel AI(CI/CD) AI/SW 다수 충돌
 - ~~AIWORKX AppBench~~ — DROP. 사유: appbench.ai(YC 기반) 충돌
 - ~~AIWORKX SceneScan~~ — DROP. 사유: Nerian Vision 등록 상표 충돌
 
-**🔄 검토 중 후보 (v3 — 사업부 확정 전)**:
+**네이밍 후보 검토 결과 (v4 — 전체 9개)**:
 
-| 후보명 | 최종 AIWORKX 브랜드명 | 결과 | TM 리스크 | 비고 |
-|--------|----------------------|------|----------|------|
-| UIProbe | AIWORKX UIProbe | 🔄 **검토 중** | 🟡 주의 | uiprobe.io(디자인QA, 도메인 다름) + mcp-ui-probe(소규모) — PO 피드백 "UI 한정" 이슈 별도 |
-| QualProbe | AIWORKX QualProbe | 🔄 **검토 중 (v3 신규)** | 🟢 안전 | Quality+Probe, 기등재 토큰, NRB 즉시 상정 가능 |
-| Scrutiq | AIWORKX Scrutiq | 🔄 **검토 중 (v3 신규)** | 🟢 안전 | Scrutiny+IQ, 신규 토큰 NRB 필요 |
-| AutoProbe | AIWORKX AutoProbe | 🔄 **검토 중 (v3 신규)** | 🟡 주의 | Autonomous+Probe, AgRobotics AutoProbe(농업) 유사명 존재 |
-| Assurai | AIWORKX Assurai | 🔄 **검토 중 (v3 신규)** | 🟡 주의 | Assure+AI, AssurAI 데이터셋(AI안전 학술) 동일 AI 도메인 |
-| IntentProbe | AIWORKX IntentProbe | ⏸️ 보류 (v2→v3) | 🟢 안전 | v2 2순위였으나 PO "UI 한정" 피드백으로 우선순위 하향 |
-| FlowProbe | AIWORKX FlowProbe | ⏸️ 보류 (v2→v3) | 🟢 안전 | v2 3순위였으나 품질 전 영역 포괄성 부족 |
+| # | 후보명 | 최종 AIWORKX 브랜드명 | 결과 | TM 리스크 | 비고 |
+|---|--------|----------------------|------|----------|------|
+| ★1 | **Intelliq** | AIWORKX Intelliq | ✅ **1순위 (v4 신규)** | 🟢 안전 | Intelligence+Q(uality) 조어, PO 키워드 Intelligence·Quality 모두 충족, 상표 식별력 최고 |
+| 2 | QualScan | AIWORKX QualScan | ✅ **2순위 (v4 신규)** | 🟢 안전 | Quality+Scan, Qual·Scan 모두 기등재 토큰 → NRB 즉시 상정 가능, 가장 빠른 실행 경로 |
+| 3 | Scrutiq | AIWORKX Scrutiq | ✅ **3순위 (v3→v4 유지)** | 🟢 안전 | Scrutiny+IQ 조어, Intelligence 키워드 강력, 신규 토큰 NRB 필요 |
+| 4 | Qualitiq | AIWORKX Qualitiq | 🔄 검토 중 (v4 신규) | 🟢 안전 | Quality+IQ 조어, Intelligence·Quality 충족 |
+| 5 | TestIQ | AIWORKX TestIQ | 🔄 검토 중 (v4 신규) | 🟢 안전 | Test+IQ, Intelligence 충족, 발음/기억성 우수 |
+| 6 | QualProbe | AIWORKX QualProbe | 🔄 검토 중 (v3) | 🟢 안전 | Quality+Probe, 기등재 토큰, Intelligence 키워드 미충족 |
+| 7 | UIProbe | AIWORKX UIProbe | ⏸️ 하향 (v3→v4) | 🟡 주의 | PO "UI 한정" 피드백 + uiprobe.io 충돌 |
+| 8 | AutoProbe | AIWORKX AutoProbe | 🔄 검토 중 (v3) | 🟡 주의 | Autonomous+Probe, AgRobotics AutoProbe(농업) 유사 |
+| 9 | Assurai | AIWORKX Assurai | 🔄 검토 중 (v3) | 🟡 주의 | Assure+AI, AssurAI 데이터셋(학술) AI 도메인 |
+| — | IntentProbe | AIWORKX IntentProbe | ⏸️ 보류 (v2→v3) | 🟢 안전 | PO "UI 한정" 피드백으로 우선순위 하향 |
+| — | FlowProbe | AIWORKX FlowProbe | ⏸️ 보류 (v2→v3) | 🟢 안전 | 품질 전 영역 포괄성 부족 |
 
-**KIPRIS WebSearch 사전 조회 결과 (2026-04-07)**:
-- QualProbe: 🟢 안전 — 동일명 미발견
-- Scrutiq: 🟢 안전 — 동일명 미발견
-- UIProbe: 🟡 주의 — uiprobe.io(Beta 운영), mcp-ui-probe(npm). 도메인 상이하나 이름 동일
+**최종 추천 (v4)**:
+- 1순위: **AIWORKX Intelliq** /인텔리큐/ — Intelligence+Quality 완전 조어, 상표 식별력 최고, PO 키워드 직접 반영, Q One의 "Q"가 Intelliq의 "q"로 자연 계승
+- 2순위: **AIWORKX QualScan** /퀄스캔/ — Qual+Scan 기등재 토큰 → NRB 즉시 상정, 제품 3대 필러(문서 스캔·추출 매핑·UI 스캔) 포괄
+- 3순위: **AIWORKX Scrutiq** /스크루티큐/ — Scrutiny+IQ 조어, Intelligence 키워드 강력, 신규 토큰 NRB 필요
 
-**KIPRIS 조회 링크**:
-- [QualProbe KIPRIS 조회](https://www.kipris.or.kr/srch/srchList.jsp?searchString=QualProbe&tab=trademark)
-- [Scrutiq KIPRIS 조회](https://www.kipris.or.kr/srch/srchList.jsp?searchString=Scrutiq&tab=trademark)
-- [AutoProbe KIPRIS 조회](https://www.kipris.or.kr/srch/srchList.jsp?searchString=AutoProbe&tab=trademark)
-- [Assurai KIPRIS 조회](https://www.kipris.or.kr/srch/srchList.jsp?searchString=Assurai&tab=trademark)
-- [UIProbe KIPRIS 조회](https://www.kipris.or.kr/srch/srchList.jsp?searchString=UIProbe&tab=trademark)
+**시장 분석 (v4 추가)**:
+- Gartner 2028 전망: 기업 70%가 AI-Augmented Testing 도구 SDLC 통합 (2025 초 20%)
+- Forrester 2025 Q4: "Autonomous Testing Platforms" Wave 최초 발행
+- 경쟁사: testRigor, Applitools Autonomous, Functionize, Virtuoso QA, mabl, Katalon 등 — 대부분 조어형 네이밍 사용
+- Q One 고유 차별점: Knowledge Repo(문서→테스트 지식 변환), Action Flow Map(서비스 구조 시각화), Full-Spectrum QA
 
-**다음 단계**: 사업부 UIProbe vs QualProbe 최종 선택 확정 → 변리사 KIPRIS Class 42 정식 조회 의뢰 → NRB 상정
+**다음 단계**:
+1. [04-14] 사업부 PO 후보 선택 (Intelliq / QualScan / Scrutiq / 기타)
+2. [04-14] 선택 후보 변리사 KIPRIS Class 42 정식 조회 의뢰
+3. [04-21] 변리사 결과 수신 → NRB 상정
+4. [04-25] Brand Governance 레지스트리 업데이트 + 경영진 승인
 
-**SharePoint (v3 ★최신)**: [Test_QOne_네이밍검토_20260406_v3.docx](https://testworks.sharepoint.com/sites/aiworkx-/_layouts/15/Doc.aspx?sourcedoc=%7B0230447C-9E8D-4F94-AA62-B921ED20EADF%7D&file=Test_QOne_%EB%84%A4%EC%9D%B4%EB%B0%8D%EA%B2%80%ED%86%A0_20260406_v3.docx&action=default&mobileredirect=true)
+**SharePoint (v4 ★최신)**: 업로드 대기 중
+
+**SharePoint (v3)**: [Test_QOne_네이밍검토_20260406_v3.docx](https://testworks.sharepoint.com/sites/aiworkx-/_layouts/15/Doc.aspx?sourcedoc=%7B0230447C-9E8D-4F94-AA62-B921ED20EADF%7D&file=Test_QOne_%EB%84%A4%EC%9D%B4%EB%B0%8D%EA%B2%80%ED%86%A0_20260406_v3.docx&action=default&mobileredirect=true)
 
 **SharePoint (v2)**: [Test_QOne_네이밍검토_20260331.docx](https://testworks.sharepoint.com/sites/aiworkx-/Shared%20Documents/네이밍%20검토/Test/QOne_20260331/Test_QOne_네이밍검토_20260331.docx)
 

@@ -301,9 +301,50 @@ SharePoint Word 초안 업로드 완료 후 반드시 실행하세요.
    - 경로: `네이밍 검토/{사업부}/{솔루션명}_{YYYYMMDD}/{파일명}.docx`
    - Microsoft Graph API로 파일 내용(bytes) 가져오기 → base64 인코딩
 2. Teams 채널에 완성본 공지 (`TEAMS_WEBHOOK_URL`)
-3. Outlook으로 이메일 발송 — **Word 파일을 반드시 첨부**
-   - attachments 배열에 base64 인코딩된 파일 포함
-   - 이메일 규칙 및 첨부 기술 스펙 → `references/email-template.md` 참조
+3. Outlook으로 이메일 발송
+   - **HTML 디자인**: `references/email-template.md`의 템플릿 필수 적용 (검정 헤더 바 + 1순위 하이라이트 + 노란 업데이트 박스 + 후보 테이블 + SharePoint 링크)
+   - **Word 파일 첨부**: attachments 배열에 base64 인코딩된 파일 포함
+   - ⚠️ 아래 **이메일 발송 가드 규칙** 반드시 준수
+
+---
+
+## ⚠️ 이메일 발송 가드 규칙 (중복 발송 방지)
+
+> **원인**: SharePoint 업로드 실패 시에도 이메일이 발송되어, 재시도 시 이메일이 2통 발송되는 문제.
+
+**필수 준수 사항:**
+
+1. **SharePoint 업로드 성공 검증 후에만 이메일 발송** — ITEM_ID가 `ERROR`이거나 빈값이면 이메일 발송 금지
+2. **SHARE_URL 유효성 검증** — `N/A`이거나 빈값이면 이메일 발송 금지
+3. **업로드 실패 → 재시도 시 이메일은 최종 성공 시 1회만 발송** — 실패한 bash 블록에서 이메일이 나가면 안 됨
+4. **업로드와 이메일을 같은 bash 블록에 넣을 때 반드시 가드 삽입**
+
+**Bash 가드 패턴 (필수 적용):**
+
+```bash
+# SharePoint 업로드 실행
+UPLOAD_RESULT=$(curl -s -X PUT ... --data-binary @"${FILE_PATH}")
+ITEM_ID=$(echo "$UPLOAD_RESULT" | python3 -c "...")
+
+# ★ 가드 1: 업로드 성공 검증
+if [ "$ITEM_ID" = "ERROR" ] || [ -z "$ITEM_ID" ]; then
+  echo "UPLOAD_FAILED — 이메일 발송 건너뜀"
+  exit 1
+fi
+
+# 공유 링크 생성
+SHARE_URL=$(...)
+
+# ★ 가드 2: 공유 링크 유효성 검증
+if [ "$SHARE_URL" = "N/A" ] || [ -z "$SHARE_URL" ]; then
+  echo "SHARE_LINK_FAILED — 이메일 발송 건너뜀"
+  exit 1
+fi
+
+# ★ 모든 검증 통과 후에만 이메일 발송
+curl -s -X POST ... sendMail
+echo "EMAIL_SENT"
+```
 
 ---
 
@@ -316,7 +357,7 @@ SharePoint Word 초안 업로드 완료 후 반드시 실행하세요.
    - 경로: `네이밍 검토/{사업부}/{솔루션명}_{최초YYYYMMDD}/` (폴더명 변경 없음)
    - 파일명: `{사업부}_{솔루션명}_네이밍검토_{오늘날짜}_v{n}.docx`
    - 재검토 사유(예: "상표권 재조회 반영")를 문서 제목·섹션 1에 명시
-3. **이메일 발송** — 신규 버전 Word 파일 첨부 후 `Impact.brand@aiworkx.ai`로 발송
+3. **이메일 발송** — `references/email-template.md` 디자인 적용 + Word 파일 첨부 후 `Impact.brand@aiworkx.ai`로 발송 **(⚠️ 이메일 발송 가드 규칙 준수)**
 4. **review-history.md SharePoint 링크** — 최신 버전 링크로 업데이트 (★최신 표시)
 
 > 재검토 결과를 로컬 파일에만 반영하고 SharePoint·이메일을 생략하는 것은 **금지**입니다.

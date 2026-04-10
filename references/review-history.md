@@ -39,7 +39,7 @@
 
 ---
 
-## Q One — Test 사업부 (최신: v4, 2026-04-08) ★최신 — Autonomous QA 정체성 반영, Intelliq 1순위 제안
+## Q One — Test 사업부 (최신: v4-1, 2026-04-10) ★최신 — Intelliq DROP + QualScan 1순위 승격
 
 **솔루션명 (가칭)**: Q One (AI 기반 UX/UI 테스트 + API 테스트 + 데이터 검증 + 지식 자산화 + Action Flow Map)
 **브랜드 포지션**: AUTONOMOUS QA
@@ -47,19 +47,21 @@
 **PO 키워드 요청**: Intelligence(지능형) · Autonomous(자율성) · Foundation(품질 근간)
 **⚠️ v3 재검토 사유**: 솔루션 PO UIProbe 피드백 — "UI 영역 한정 인식, API·데이터 검증 확장성 미반영"
 **🔄 v4 변경사항 (2026-04-08)**: Autonomous QA 정체성 반영 신규 후보 4개 추가 (Intelliq, QualScan, Qualitiq, TestIQ) + AI QA 시장·경쟁사 분석 추가
+**🚨 v4-1 변경사항 (2026-04-10)**: Intelliq 상표권 심각한 충돌 발견 → 즉시 DROP. QualScan 1순위 승격.
 
 **⛔ DROP 확정 메모**:
 - ~~AIWORKX Sentinel~~ — DROP. 사유: Microsoft Sentinel(SIEM)·SentinelOne(보안)·Sentinel AI(CI/CD) AI/SW 다수 충돌
 - ~~AIWORKX AppBench~~ — DROP. 사유: appbench.ai(YC 기반) 충돌
 - ~~AIWORKX SceneScan~~ — DROP. 사유: Nerian Vision 등록 상표 충돌
+- ~~AIWORKX Intelliq~~ — **DROP (v4-1, 2026-04-10)**. 사유: (1) Excellarate/Encora "IntelliQ™" QA 테스트 자동화 프레임워크 — 동일 업종 직접 충돌 (2) IntelliQA Ltd(UK) 테스트 자동화 기업 — 동일 업종 (3) GlobalLogic "InteliQ" AI QA 솔루션 — 동일 업종 (4) USPTO LIVE 등록상표 "INTELLIQ" (The Wisory Inc.) (5) intelliq.com 등 모든 도메인 점유 (6) 전 세계 15개+ 기업/제품이 IntelliQ/InteliQ 사용 중 — 브랜드 완전 포화
 
 **네이밍 후보 검토 결과 (v4 — 전체 9개)**:
 
 | # | 후보명 | 최종 AIWORKX 브랜드명 | 결과 | TM 리스크 | 비고 |
 |---|--------|----------------------|------|----------|------|
-| ★1 | **Intelliq** | AIWORKX Intelliq | ✅ **1순위 (v4 신규)** | 🟢 안전 | Intelligence+Q(uality) 조어, PO 키워드 Intelligence·Quality 모두 충족, 상표 식별력 최고 |
-| 2 | QualScan | AIWORKX QualScan | ✅ **2순위 (v4 신규)** | 🟢 안전 | Quality+Scan, Qual·Scan 모두 기등재 토큰 → NRB 즉시 상정 가능, 가장 빠른 실행 경로 |
-| 3 | Scrutiq | AIWORKX Scrutiq | ✅ **3순위 (v3→v4 유지)** | 🟢 안전 | Scrutiny+IQ 조어, Intelligence 키워드 강력, 신규 토큰 NRB 필요 |
+| ~~★1~~ | ~~Intelliq~~ | ~~AIWORKX Intelliq~~ | ⛔ **DROP (v4-1)** | 🔴 위험 | Excellarate "IntelliQ™" QA동일업종 + IntelliQA(UK) 테스트자동화 + USPTO LIVE등록 + 15개+기업 사용 — 브랜드 포화 |
+| ★1 | **QualScan** | AIWORKX QualScan | ✅ **1순위 (v4-1 승격)** | 🟢 안전 | Quality+Scan, Qual·Scan 모두 기등재 토큰 → NRB 즉시 상정 가능, 가장 빠른 실행 경로 |
+| 2 | Scrutiq | AIWORKX Scrutiq | ✅ **2순위 (v4-1 승격)** | 🟢 안전 | Scrutiny+IQ 조어, Intelligence 키워드 강력, 신규 토큰 NRB 필요 |
 | 4 | Qualitiq | AIWORKX Qualitiq | 🔄 검토 중 (v4 신규) | 🟢 안전 | Quality+IQ 조어, Intelligence·Quality 충족 |
 | 5 | TestIQ | AIWORKX TestIQ | 🔄 검토 중 (v4 신규) | 🟢 안전 | Test+IQ, Intelligence 충족, 발음/기억성 우수 |
 | 6 | QualProbe | AIWORKX QualProbe | 🔄 검토 중 (v3) | 🟢 안전 | Quality+Probe, 기등재 토큰, Intelligence 키워드 미충족 |
@@ -69,10 +71,10 @@
 | — | IntentProbe | AIWORKX IntentProbe | ⏸️ 보류 (v2→v3) | 🟢 안전 | PO "UI 한정" 피드백으로 우선순위 하향 |
 | — | FlowProbe | AIWORKX FlowProbe | ⏸️ 보류 (v2→v3) | 🟢 안전 | 품질 전 영역 포괄성 부족 |
 
-**최종 추천 (v4)**:
-- 1순위: **AIWORKX Intelliq** /인텔리큐/ — Intelligence+Quality 완전 조어, 상표 식별력 최고, PO 키워드 직접 반영, Q One의 "Q"가 Intelliq의 "q"로 자연 계승
-- 2순위: **AIWORKX QualScan** /퀄스캔/ — Qual+Scan 기등재 토큰 → NRB 즉시 상정, 제품 3대 필러(문서 스캔·추출 매핑·UI 스캔) 포괄
-- 3순위: **AIWORKX Scrutiq** /스크루티큐/ — Scrutiny+IQ 조어, Intelligence 키워드 강력, 신규 토큰 NRB 필요
+**최종 추천 (v4-1, Intelliq DROP 후 재조정)**:
+- 1순위: **AIWORKX QualScan** /퀄스캔/ — Qual+Scan 기등재 토큰 → NRB 즉시 상정, 제품 3대 필러(문서 스캔·추출 매핑·UI 스캔) 포괄
+- 2순위: **AIWORKX Scrutiq** /스크루티큐/ — Scrutiny+IQ 조어, Intelligence 키워드 강력, 신규 토큰 NRB 필요
+- 3순위: **AIWORKX Qualitiq** /퀄리티큐/ — Quality+IQ 조어, Intelligence·Quality 모두 충족
 
 **시장 분석 (v4 추가)**:
 - Gartner 2028 전망: 기업 70%가 AI-Augmented Testing 도구 SDLC 통합 (2025 초 20%)
@@ -81,7 +83,7 @@
 - Q One 고유 차별점: Knowledge Repo(문서→테스트 지식 변환), Action Flow Map(서비스 구조 시각화), Full-Spectrum QA
 
 **다음 단계**:
-1. [04-14] 사업부 PO 후보 선택 (Intelliq / QualScan / Scrutiq / 기타)
+1. [04-14] 사업부 PO 후보 선택 (QualScan / Scrutiq / Qualitiq / 기타) — ⚠️ Intelliq DROP됨
 2. [04-14] 선택 후보 변리사 KIPRIS Class 42 정식 조회 의뢰
 3. [04-21] 변리사 결과 수신 → NRB 상정
 4. [04-25] Brand Governance 레지스트리 업데이트 + 경영진 승인

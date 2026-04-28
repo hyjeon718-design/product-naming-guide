@@ -58,8 +58,8 @@
 6. [05-12] 변리사 결과 수신 → NRB 상정
 7. [05-15] Brand Governance 레지스트리 업데이트 + 경영진 승인
 
-**SharePoint (v1 ★최신)**: 업로드 예정 — `네이밍 검토/Agent/CodeReviewExt_20260428/Agent_CodeReviewExt_네이밍검토_20260428_v1.docx`
-> ⚠️ 본 v1 draft는 SharePoint 업로드 전 상태로 git에 선반영. 업로드 완료 후 SharePoint 링크와 함께 v1 final로 갱신 예정.
+**SharePoint (v1 ★최신)**: [Agent_CodeReviewExt_네이밍검토_20260428_v1.docx](https://testworks.sharepoint.com/:w:/s/aiworkx-/IQC4QNqYH9YZQI3E9fQyawagAX2cRSCw3mh2sQKjPRdVrE0)
+**이메일 발송**: 2026-04-28 → impact.brand@aiworkx.ai (HTML 디자인 + Word 첨부) ✅
 
 ---
 

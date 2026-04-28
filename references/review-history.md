@@ -7,7 +7,7 @@
 ## CodeReview 확장 — Agent 사업부 (최신: v1 draft, 2026-04-28) ★최신 — KB금융 RFI 대응 + 역할 확장 (코드 리뷰 + Text-to-SQL + 온톨로지)
 
 **솔루션명 (가칭)**: Code Review (확장) — 기존 IT 코드 리뷰 Agent 역할 확장
-**핵심 기능**: 코드 리뷰 + 코드 분석 + Text-to-SQL + 기업 특화 온톨로지 + 멀티 에이전트 플랫폼. 현업↔IT 소통 가속, 금융권/기간계 분리, 샌드박스 보안, 제조·금융 도메인 특화. C#·COBOL 등 레거시 지원 + 로컬 LLM 옵션.
+**핵심 기능**: 코드 리뷰 + 코드 분석 + Text-to-SQL + 기업 특화 온톨로지 + 멀티 에이전트 플랫폼. **Agent / Tool Calling / MCP 다 호환**. 현업↔IT 소통 가속, 금융권/기간계 분리, 샌드박스 보안, 제조·금융 도메인 특화. C#·COBOL 등 레거시 지원 + 로컬 LLM 옵션.
 **AxDC™ 탑재**: ✅ Powered by AxDC™ 표기 필수 (Ontology + ToD = AxDC)
 **참고 RFI**: KB금융지주 Code Review Agent 기술 검증 정보제공요청서 (2026-02-27 마감)
 **이전 검토**: Agent_AgentCategory_신규솔루션_네이밍검토_20260401_v3.docx — IT 코드 리뷰 Agent → DevProbe(1순위) / CodeTrace(2순위)
@@ -17,7 +17,10 @@
 - ~~CodeBridge~~ — DROP. 사유: codebridge.tech / bridge-defense.com/codebridge / codebridgesoftware.com / codebridgehq.com / codebridge.info — 5+ 동일 업종 포화
 - WorkBridge — 🟡 주의. Workbridge Associates(Motion Recruitment IT 스태핑) IT 인접
 
-**⛔ 신규 탐색 추가 DROP (8개)**: BizBridge(bizbridge.io AI 거래) / CodeMesh(codemeshmcp.com 멀티에이전트) / CodeWeave(codeweave.co GenAI Stacks, Patent Pending) / CodeAtlas(코드 의존성 시각화) / CodeNexus(VSCode LLM ext + Code Nexus Helsinki) / CodeAxis(codeaxis.ai 의료코딩) / AxCode(Siemens AX Code + AX Platform) / CodeFort(codefortify.ai 코드 보안 + codefort.com SaaS) / AskCode(askcode.org + AskCodebase) / DevWeaver(Weaver AI $55M)
+**⛔ 신규 탐색 추가 DROP (10개)**: BizBridge(bizbridge.io AI 거래) / CodeMesh(codemeshmcp.com 멀티에이전트) / CodeWeave(codeweave.co GenAI Stacks, Patent Pending) / CodeAtlas(코드 의존성 시각화) / CodeNexus(VSCode LLM ext + Code Nexus Helsinki) / CodeAxis(codeaxis.ai 의료코딩) / AxCode(Siemens AX Code + AX Platform) / CodeFort(codefortify.ai 코드 보안 + codefort.com SaaS) / AskCode(askcode.org + AskCodebase) / DevWeaver(Weaver AI $55M)
+
+**⛔ 추가 사용자 제안 DROP (2026-04-28 추가)**:
+- ~~IT Bridge~~ — DROP. 사유: **MCP 호환** 의도와 정확히 같은 카테고리에서 다수 충돌 — MuleSoft MCP Bridge(Salesforce, GA) / Itential MCP Bridge / Coder AI Bridge / MCP Bridge(mcpbridge.dev Multi-IDE) / IT-Bridge Innovations(it-bridge.io) / IT Bridge(itbridge.ca Azure+AI) / IT Bridge(itbridge.az 사이버보안+AI) / IT Bridge Builders(Kaseya+IBM) / AI-Bridge GmbH(ML SW) — 도메인 6+ 동시 점유, 글로벌 IT/MCP/AI 보안 카테고리 완전 포화
 
 **네이밍 후보 검토 결과 (v1)**:
 

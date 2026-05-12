@@ -4,6 +4,314 @@
 
 ---
 
+## 📌 출원 완료 상표 현황 (2026-05-11 기준, 총 4건)
+
+| # | 상표 | 카테고리 | 역할 | 출원 상태 |
+|---|------|----------|------|----------|
+| 1 | **AIWORKX** | Master Brand | 전사 통합 마스터 브랜드 | ✅ 출원 완료 |
+| 2 | **AgentRigor** (에이전트리거) | **Test** (구 Verification, 통합) | AI 에이전트 신뢰성 평가 솔루션 (2026-04-30 정식 출시) | ✅ 출원 완료 |
+| 3 | **AxDC™** [액쓰디·씨] | Ingredient Tech | ToD 기반 기술 인그리디언트 브랜드 (해당 제품에만 적용) | ✅ 출원 완료 |
+| 4 | **AIWORKX DeviceProbe** | Test | SoC/디바이스 HW V&V 테스트 (Intelligent Board Farm) | ✅ 출원 완료 |
+
+**주의사항**:
+- AAEF/AgentProbe/EvalProbe는 모두 **이전 단계 가칭** → 최종 공식 명칭은 **AgentRigor** (이전 가칭 사용 금지)
+- AxDC™ 표기는 **ToD™ 탑재 해당 제품에만 적용** (전 제품 아님)
+- AxDC = `Action × Do · Complete` (AI eXecution Data Center 풀이는 잘못된 해석, 사용 금지)
+
+---
+
+## 🎯 Before & After 브랜드 구조 정비 (2026 기준)
+
+**브랜드군 3대 축**:
+
+| 브랜드군 | 정의 | 핵심 기술 |
+|----------|------|-----------|
+| **AI Contact Center Agent** | 콜봇/상담 챗봇 등 고객 접점 응대형 Agent | ToD-NLU, NLG, Orchestrator |
+| **Workflow Productivity Agent** | 심사/요약/정산 등 백오피스 자동화 Agent | MCP, sLM, Embed.Model, Guardrail |
+| **Dev & Test Agent** | 개발·QA 목적의 AI Agent 또는 도구형 Agent | SQL Generator, Code Analyzer, sLM |
+
+**제품군 Before → After 매핑 (총 16건)**
+
+| 기존 프로젝트명 | 기존 분류 (비공식) | 정비 후 브랜드군 | 제품 제안명 |
+|----------------|-------------------|------------------|------------|
+| TWC – AI 콜봇서비스 | 상담봇 | AI Contact Center Agent | AIWORKX Agent – **CallBot** |
+| KB카드 캄보디아 AI 챗봇 | 상담봇 | AI Contact Center Agent | AIWORKX Agent – **CareBot** |
+| KT텔레캅 취약계층 케어콜 | 케어콜 | AI Contact Center Agent | AIWORKX Agent – **ElderCare** |
+| 남북하나재단 케어콜 | 케어콜 | AI Contact Center Agent | AIWORKX Agent – **CareLine** |
+| 농정원 RAG 챗봇 | 정보검색 챗봇 | Workflow Productivity Agent | AIWORKX RAG – **AgroSearch** |
+| 심평원 심사업무 RAG | 의료 챗봇 | Workflow Productivity Agent | AIWORKX Agent – **MedReview** |
+| SEMES 반도체 트러블슈팅 RAG | 산업지식검색 | Workflow Productivity Agent | AIWORKX Agent – **SEMES Insight** |
+| 콜 상담 내역 자동 요약 | 요약 Agent | Workflow Productivity Agent | AIWORKX Agent – **ReviewBot** |
+| KB카드 기업카드심사 | 심사 자동화 | Workflow Productivity Agent | AIWORKX Agent – **ClaimsAI** |
+| KB캐피탈 대출심사 | 심사 자동화 | Workflow Productivity Agent | AIWORKX Agent – **LoanJudge** |
+| KB카드 정산업무 | 정산 자동화 | Workflow Productivity Agent | AIWORKX Agent – **SettlementBot** |
+| 아이엠뱅크 채권관리 | 채권관리 | Workflow Productivity Agent | AIWORKX Agent – **Collect** |
+| 하나카드 채권양도 | 채권양도 | Workflow Productivity Agent | AIWORKX Agent – **TransferBot** |
+| 신한카드 Agent Shell | Agent Shell 개발 | Workflow Productivity Agent | AIWORKX Agent – **MultiFlow** |
+| 하나카드 Text to SQL | SQL 변환 | Dev & Test Agent | AIWORKX Dev – **SQLGen** |
+| KB카드 코드리뷰 | 코드 분석 | Dev & Test Agent | AIWORKX Dev – **CodeQA** |
+
+**핵심 변화 요약**:
+- 실행 주체(Agent)와 설계 플랫폼(Studio) 구분 명확화
+- 단순 '업무명 기반' 분류 → 고객 인식 중심 기능 브랜드화
+- White paper / 전시 / Deck / 제안서 내 Naming 일관성 확보
+
+**로컬 문서**: `Aiworkx Brand Before After.docx`
+
+---
+
+## 📋 네이밍 검토 전체 List-up (2026-05-11 기준)
+
+### A. 출원 완료 (4건) ✅
+
+| # | 상표 | 카테고리 | 상태 |
+|---|------|----------|------|
+| 1 | AIWORKX | Master | ✅ 출원 완료 |
+| 2 | AgentRigor (에이전트리거) | **Test** (구 Verification, 통합) | ✅ 출원 완료 / 2026-04-30 출시 |
+| 3 | AxDC™ [액쓰디·씨] | Ingredient Tech | ✅ 출원 완료 |
+| 4 | AIWORKX DeviceProbe | Test | ✅ 출원 완료 |
+
+### B. 검토 완료 — 추천 확정 (NRB 대기 / 출원 진행 중)
+
+| # | 솔루션 | 카테고리 | 추천 1순위 | TM | 최신 버전 | 상태 |
+|---|--------|---------|----------|-----|----------|------|
+| 5 | AAEF | Test | AIWORKX EvalProbe → **AgentRigor 통합** | 🟢 | v3 (2026-04-02) | ✅ AgentRigor로 흡수·출원 완료 |
+| 6 | Q One | Test | AIWORKX **QualProbe** | 🟢 (KIPRIS 사전 🟢) | v7 (2026-04-16) | KIPRIS 사전 클린 → 변리사 정식 조회 단계 |
+| 7 | TedWorks | Test | AIWORKX **DeviceProbe™** ✅ | 🟢 | v4 (2026-04-08) | ✅ **검토 완료 + 출원 완료 (확정)** — FarmProbe 폐기 |
+| 8 | blackolive | Data | AIWORKX **DataAnvil** | 🟢 (KIPRIS 사전 🟢) | v4 (2026-04-16) | KIPRIS 사전 클린 → 변리사 정식 조회 단계 |
+| 9 | As Built | Data | AIWORKX **SiteProbe** | 🟠 (KIPRIS 사전 🟠) | v1 (2026-04-01) | siteprobe.com 등 동일명 다수(업종 상이) → 정식 조회 시 정밀 확인 필요 |
+| 10 | ToD (Ingredient) | Ingredient | **AxDC™** | 🟢 | v3r5 (2026-04-06) | ✅ 출원 완료 |
+| 11 | CareCall | Agent | A:**WatchCall** / B:**NestCall** | 🟢 (KIPRIS 사전 🟢) | v2 (2026-04-30) | 양 후보 KIPRIS 사전 클린 → PO 시나리오 결정 + 변리사 정식 조회 |
+
+### C. 검토 진행 중 — 충돌·재검토 필요
+
+| # | 솔루션 | 카테고리 | 이슈 | 다음 단계 |
+|---|--------|---------|------|----------|
+| 12 | Agent Category (v2r6 5개) | Agent | Forge·Relay 🔴 KIPRIS 충돌 / Care·Ingest·Lens 🟢 안전 | Forge·Relay 대안 재탐색 |
+| 13 | **AIWORKX AI Agent Suite (본부장 회신, 6개)** | Agent | Suite 명칭 확정 / AI Studio·AI Connect Rule 1 위반 + TM 충돌 / AI Code 신규 게이트 체크 필요 | 정합성 미팅 (05-13) |
+| 14 | Agent 신규 솔루션 (8개) | Agent | Screen/DevProbe/RouteCall/Thread/GovDesk/Adjudge/Radar/Corpus 🟢 1순위 안정 | NRB 상정 대기 |
+
+### D. 신규 검토 요청 (2026-05-11 신규)
+
+| # | 솔루션 | 카테고리 | 게이트 체크 | 판정 | 대안 |
+|---|--------|---------|----------|------|------|
+| 15 | **CallBridge** | AI Contact Center | 🔴 callbridgeai.com 동일업종 | ⛔ DROP 권고 | BridgeCall / LinkCall / JoinCall |
+| 16 | **CodeBridge** | Dev & Test | 🔴 codebridge.tech 등 4개+ SW/AI 충돌 | ⛔ DROP 권고 | CodeProbe / CodeQA / DevProbe |
+| 17 | **심평원 의료 RAG** | Workflow Productivity | 🟢 MedReview 클린 (식별력 보완 권고) | 🟢 후보 추가 검토 | MedReview / HIRAssist / ClaimReview |
+
+### E. Before & After 매핑 (총 16건)
+
+상세는 위 "🎯 Before & After 브랜드 구조 정비" 섹션 참조. 핵심:
+- **AI Contact Center Agent (4)**: CallBot · CareBot · ElderCare · CareLine
+- **Workflow Productivity Agent (10)**: AgroSearch · MedReview · SEMES Insight · ReviewBot · ClaimsAI · LoanJudge · SettlementBot · Collect · TransferBot · MultiFlow
+- **Dev & Test Agent (2)**: SQLGen · CodeQA
+
+### 🔍 KIPRIS 사전 조회 결과 (2026-05-11, WebSearch 기반 게이트 체크)
+
+> **목적**: KIPRIS 변리사 정식 조회 의뢰 전 사전 게이트 체크. 정식 출원 의사결정의 1차 필터.
+
+| 후보 | 솔루션 | 사전 결과 | 동일·유사명 발견 | 판정 |
+|------|--------|----------|-----------------|------|
+| **DataAnvil** | blackolive | 🟢 안전 | 동일명 미발견 | 정식 조회 의뢰 진행 권고 |
+| **SiteProbe** | As Built | 🟠 **주의** | siteprobe.com (웹 업타임 모니터링) / bartTC/siteprobe GitHub (Sitemap Validator) / PyPI siteprobe / C² Systems "SiteProbe" (셀룰러 사이트 모니터링) — 업종 상이하나 SW 동종 다수 | 정식 조회 필수 + 글로벌 출원 시 정밀 확인 |
+| **QualProbe** | Q One | 🟢 안전 | 동일명 미발견 (Qualitest·Qt 등 유사군은 별개 어휘) | 정식 조회 의뢰 진행 권고 |
+| **WatchCall** | CareCall A안 | 🟢 안전 | 동일명 미발견. 참조: SKT NUGU CareCall·Naver Clova CareCall(케어콜 일반 카테고리) — Watch 어휘로 차별화 |
+| **NestCall** | CareCall B안 | 🟢 안전 | 동일명 미발견 | 정식 조회 의뢰 진행 권고 |
+
+**⚠️ SiteProbe 주의 상세** (As Built 솔루션):
+- **siteprobe.com** — Website Uptime Monitor (실서비스 운영 중, 도메인 점유)
+- **bartTC/siteprobe** — GitHub OSS, Sitemap Validation & Performance Analyzer (PyPI·crates.io 배포)
+- **C² Systems "SiteProbe"** — 통신 사이트·DAS 모니터링 제품군(SitePortal·SiteGate·SiteWatch+ 패밀리)
+- **업종 판단**: AIWORKX SiteProbe는 건설 현장 V&V/시공 데이터 도메인 → 위 3건과 카테고리 상이
+- **권고**: KIPRIS Class 42 정식 조회 + USPTO 동시 확인. 도메인 siteprobe.ai/.io 등 대체 확보 검토. 차순위 BuildPrint 활성 유지
+
+**다음 단계 (KIPRIS 변리사 정식 조회 의뢰)**:
+1. **DataAnvil** (blackolive) — Class 42 의뢰
+2. **SiteProbe** (As Built) — Class 42 의뢰 + USPTO 정밀 확인
+3. **QualProbe** (Q One) — Class 42 의뢰
+4. **WatchCall · NestCall** (CareCall) — Class 9·38·42·45 의뢰 (PO A/B 결정 후 또는 병행)
+
+> **참고**: TedWorks → **DeviceProbe™ 검토 완료 + 출원 완료 (확정, 2026-05-12)**. FarmProbe는 폐기 처리.
+
+---
+
+### 📅 우선순위 즉시 액션 (2026-05-11~05-18)
+
+1. **CallBridge·CodeBridge**: AI Expo 2026 demo 표기 임시 운영 + 출시 전 정식 네이밍 별도 진행
+2. **사업부 회신 (AI Agent Suite 6개)**: 05-13 브랜드팀 정합성 미팅 (Rule 1/3 위반 vs 기능 직관성)
+3. **심평원 RAG**: HIRAssist 신규 제안 포함 3개 후보 KIPRIS 게이트 체크
+4. **Forge·Relay 대안 재탐색**: Agent Category 미완성 2개 토큰 (Studio·Connect 대체)
+5. **NRB 상정 대기**: Q One QualProbe / blackolive DataAnvil / As Built SiteProbe / CareCall WatchCall|NestCall (TedWorks DeviceProbe™ 확정 완료)
+
+---
+
+## 📨 Agent 사업부 회신 — AIWORKX AI Agent Suite 6개 구성안 (2026-04-08, 최병정 본부장)
+
+**발신**: 최병정 본부장 (byoungjeong.choi@aiworkx.ai) → 전혜영 팀장 외
+**제목**: Re: [네이밍 검토] Agent 카테고리 솔루션 네이밍 제안
+**내용**: 사업부 내부 논의 후 정리된 솔루션명 공식 회신
+
+**Suite 정의 (본부장 공식)**: `AIWORKX AI Agent Suite` = AI 에이전트 기반 솔루션을 **설계·개발·운영하기 위한 통합 플랫폼**.
+- 6개 핵심 솔루션으로 구성, 조합하여 다양한 산업·업무 영역의 AI 프로젝트 수행 (현재 기준)
+- 핵심 솔루션 추가 시 경영진 논의 결정
+
+**Part 1. AIWORKX AI Agent Suite — 6개 핵심 솔루션**:
+
+| # | 솔루션명 | 역할 |
+|---|---------|------|
+| 1 | **AI Studio** | AI 에이전트 설계 |
+| 2 | **AI Connect** | AI 모델·서비스 간 API 연동 허브 |
+| 3 | **AI Center** | AI 에이전트 통합 운영·모니터링 센터 |
+| 4 | **AI Document** | 문서 수집·정제·구조화 엔진 |
+| 5 | **AI OCR** | 지능형 OCR / 문서 인식 엔진 |
+| 6 | **AI Code** | AI 기반 코드 생성·분석 도구 |
+
+**Part 2**: 활용 프로젝트는 Suite 솔루션 조합으로 구현 → 별도 솔루션명 없이 프로젝트명으로 관리
+
+**⚠️ 브랜드 아키텍처 정합성 분석**:
+
+| 사업부 제안 | Agent v2r6 제안 | TM 상태 | 권고 |
+|------------|----------------|--------|------|
+| AI Studio | ~~AIWORKX Studio~~ → AIWORKX Forge | 🔴 Studio·Forge 둘 다 DROP | 대안 재탐색 |
+| AI Connect | ~~AIWORKX Connect~~ → AIWORKX Relay | 🔴 Connect·Relay 둘 다 DROP | 대안 재탐색 |
+| AI Center | AIWORKX Care | 🟢 Care 클린 | **Care 유지 권고** |
+| AI Document | AIWORKX Ingest | 🟢 Ingest 클린 | **Ingest 유지 권고** |
+| AI OCR | AIWORKX Lens | 🟢 Lens 클린 | **Lens 유지 권고** |
+| AI Code | (신규) | 🟡 게이트 체크 필요 | 후속 검토 |
+
+**🚨 Rule 위반 우려**:
+- **Rule 1 위반**: "AI Studio / AI Connect …"는 `AI` 접두사 — 마스터 브랜드 `AIWORKX` 시작 원칙 위배
+- **Rule 3 위반**: 4개 정의된 카테고리(Test/Agent/Data/Edu — Verification은 Test로 통합) 적용 필요 → `AI Studio` 형태는 카테고리 미반영
+- **외부 표기 충돌**: AI Studio = Microsoft Copilot Studio / AI Connect = MuleSoft Anypoint Connect → 동일 업종 직접 TM 충돌 (이미 DROP 사유)
+
+**다음 단계**:
+1. [05-13] 사업부 PO + 브랜드팀 정합성 검토 미팅 — Rule 1/3 위반 vs 기능 직관성 트레이드오프
+2. AI Studio·AI Connect 대안 재탐색 (Forge·Relay 외 신규 토큰)
+3. AI Center / AI Document / AI OCR → 기존 v2r6 제안(Care / Ingest / Lens) 채택 검토
+4. AI Code → 별도 게이트 체크 + Dev & Test Agent 브랜드군과 연계 (Dev SQLGen/CodeQA 패밀리)
+
+**SharePoint**: 회신 메일 원본 — Outlook 보관 (2026-04-08 11:54)
+
+---
+
+## CodeBridge — Dev & Test Agent (v1 발행, 2026-05-12) ⚠️ Gate Check 🔴 + 대안 DevProbe 1순위
+
+**SharePoint (v1 ★최신, 2026-05-12)**: [Agent_CodeBridge_네이밍검토_20260512_v1.docx](https://testworks.sharepoint.com/:w:/s/aiworkx-/IQB5cMUPgSj8SpOoh8yb6yf2AUY5U9LFfp4dp2rYEmD1yK8)
+
+---
+
+## CodeBridge — Dev & Test Agent (신규 검토 요청, 2026-05-11) ⚠️ Gate Check 🔴
+
+**검토 대상**: AI 기반 코드 생성·분석·리뷰 Agent (Suite #6 AI Code 대안 후보)
+**핵심 기능**: 코드 생성·리뷰·분석 자동화 (Dev & Test Agent 영역)
+
+**🚨 Gate Check 결과 (WebSearch TM 사전 조회, 2026-05-11)**:
+
+| 충돌 항목 | 위험도 | 상세 |
+|----------|-------|------|
+| **Codebridge Technology Inc.** (codebridge.tech) | 🔴 **위험** | 우크라이나 발원 글로벌 SW 개발사, **AI Agent Development Services 운영 중** — 동일 업종 직접 충돌 |
+| **CodeBridge HQ** (codebridgehq.com) | 🔴 **위험** | AI 기반 SW 개발 에이전시 |
+| **CodeBridge Software Inc.** (codebridgesoftware.com) | 🔴 **위험** | 2009년 설립 SW 컨설팅 |
+| **CodeBridge (Bridge Defense)** (bridge-defense.com/codebridge) | 🔴 **위험** | AI 기반 방위산업 SW |
+| **BridgeCode** (bridgemind.ai/products/bridgecode) | 🟠 주의 | BridgeMind AI Coding CLI — 발음·어순 근접 |
+
+**판정**: ⛔ **CodeBridge 즉시 DROP 권고**
+- 사유: 4개+ 활성 SW/AI 동일 업종 브랜드 사용 중 + 주요 도메인(.tech/.com/hq.com/software.com) 전부 점유
+- 브랜드 포화도가 IntelliQ 수준에 근접 — 글로벌 출원 사실상 불가
+
+**대안 후보 방향** (Dev & Test Agent — CodeQA·SQLGen 패밀리 연계):
+1. AIWORKX **CodeProbe** — Probe 패밀리 일관성, 코드 분석·검증 직관적
+2. AIWORKX **CodeQA** — Before&After 매핑 기등재(KB카드 코드리뷰 → CodeQA)
+3. AIWORKX **DevProbe** — Agent v3 신규솔루션 IT 코드 리뷰 1순위 (기등재)
+
+**다음 단계**:
+1. [05-13] CodeProbe·CodeQA·DevProbe 3개 후보 WebSearch + KIPRIS 게이트 체크
+2. [05-15] 사업부 PO 1순위 확정
+3. [05-18] v1 검토 문서 작성 → NRB 상정
+
+---
+
+## 의료심사 보조 RAG Agent — Workflow Productivity Agent (v1 발행, 2026-05-12) ✅ HIRAssist 1순위
+
+**SharePoint (v1 ★최신, 2026-05-12)**: [Agent_MedReviewAgent_네이밍검토_20260512_v1.docx](https://testworks.sharepoint.com/:w:/s/aiworkx-/IQDOOrvUIUM7SoZxl-6JLx1lAdTZZ0SlXgv4HEd3r5EEiVQ)
+
+---
+
+## 심평원 의료 보조 RAG Agent — Workflow Productivity Agent (신규 검토 요청, 2026-05-11) ✅ Gate Check 🟢
+
+**검토 대상**: 건강보험심사평가원(HIRA) 심사업무 지원 RAG 챗봇
+**핵심 기능**: 의료 행위·약제 심사 지원 + 청구 데이터 분석 + 의료 가이드라인 검색 (Workflow Productivity Agent 영역)
+**Before & After 매핑**: 기존 "심평원 심사업무 지원 RAG 챗봇" → **AIWORKX Agent – MedReview** (제안명)
+
+**Gate Check 결과 (WebSearch TM 사전 조회, 2026-05-11)**:
+
+| 후보명 | 위험도 | 상세 |
+|--------|-------|------|
+| **MedReview** | 🟢 안전 | 동일 업종 활성 브랜드 미발견. 단, "의학 리뷰"는 일반 학술 용어로 식별력 보완 필요 |
+| MedRAG | 🟡 주의 | 학술 논문·오픈소스 다수 (MedRAG benchmark 등) |
+| MedGPT | 🔴 위험 | OpenAI 연상 + 다수 의료 GPT 브랜드 충돌 |
+
+**대안 후보 검토 권고**:
+1. AIWORKX **MedReview** — Before&After 기등재, TM 클린, 단 식별력 보완 필요
+2. AIWORKX **HIRAssist** — HIRA(심평원 영문 약칭) + Assist 결합, 도메인 특화 식별력 강함 ⭐ 신규 제안
+3. AIWORKX **ClaimReview** — 보험·의료 심사 리뷰 직관적, 글로벌 확장성
+4. AIWORKX **MedScan** — 의료 검사·검토 메타포, Test 카테고리 Scan 패밀리와 차별
+
+**최종 추천 (v1 초안)**:
+- 1순위: **AIWORKX HIRAssist** — 심평원 도메인 특화, 식별력 최상, TM whitespace 예상
+- 2순위: **AIWORKX MedReview** — Before&After 기등재 안정성, TM 클린
+- 3순위: **AIWORKX ClaimReview** — 글로벌 보험 심사 확장성
+
+**다음 단계**:
+1. [05-13] 3개 후보 WebSearch + KIPRIS 정식 게이트 체크 (HIRAssist 신규 제안)
+2. [05-13] 심평원 측 브랜드 사용 협의 필요 여부 확인 (HIRA 약칭 활용 시)
+3. [05-15] 사업부 PO + 의료 RAG 담당 PM 1순위 확정
+4. [05-18] v1 검토 문서 작성
+
+---
+
+## CallBridge — AI Contact Center Agent (v1 발행, 2026-05-12) ⚠️ Gate Check 🔴 + 대안 BridgeCall 1순위
+
+**SharePoint (v1 ★최신, 2026-05-12)**: [Agent_CallBridge_네이밍검토_20260512_v1.docx](https://testworks.sharepoint.com/:w:/s/aiworkx-/IQDoSX23A8UlRo0fvadSr6x4AX_4IsZ9bo34U0e5jl6zmRg)
+
+---
+
+## CallBridge — AI Contact Center Agent (신규 검토 요청, 2026-05-11) ⚠️ Gate Check 🔴
+
+**검토 대상**: AI Expo 2026 전시회 demo 시연 솔루션 (가칭 CallBridge)
+**핵심 기능**: AI 콜 자동화·중계·전환 (AI Contact Center Agent 영역)
+
+**🚨 Gate Check 결과 (WebSearch TM 사전 조회, 2026-05-11)**:
+
+| 충돌 항목 | 위험도 | 상세 |
+|----------|-------|------|
+| **CallBridge AI** (callbridgeai.com) | 🔴 **위험** | AI 콜 자격 검증 SaaS — **동일 업종(AI 텔레포니 Agent) 직접 충돌**. `.com` 점유 + 실서비스 운영 중 |
+| "Call Bridging" 일반 용어 | 🟠 주의 | VoIP/PBX 표준 용어 (Nextiva 등 통신 업계 정의) — 식별력 약함, Rule 2 기술 일반어 위반 소지 |
+| Clarabridge (Verint) | 🟡 주의 | CX 플랫폼 브랜드, 발음 근접성 |
+
+**판정**: ⛔ **CallBridge 즉시 DROP 권고**
+- 사유: 동일 업종 활성 SaaS 직접 충돌 + 도메인 점유 + 일반 산업용어 식별력 미흡
+- **AI Expo 2026 demo 표기는 임시 명칭으로 한정**하고, 출시 전 정식 네이밍 별도 검토 필수
+
+**대안 후보 방향** (AIWORKX Call 패밀리 일관성 + 차별화):
+1. AIWORKX **BridgeCall** — 어순 변경(Bridge→Call 후치), Call 패밀리 일관성 확보 (WebSearch 1차 검증 필요)
+2. AIWORKX **LinkCall** — 연결 메타포 유지, 짧고 직관적
+3. AIWORKX **JoinCall** — 통화 결합·매개 의미 직접 표현
+
+**Call 패밀리 포트폴리오 현황**:
+- AIWORKX RouteCall — 유통·물류 콜봇 (Agent v3 신규솔루션)
+- AIWORKX FreightCall — 화물 콜봇 (Agent v3 신규솔루션)
+- AIWORKX WatchCall / NestCall — 복지 안부 + 이상징후 모니터링 (CareCall v2)
+- **AIWORKX [신규 후보] — AI Expo 2026 demo 솔루션** ← 본 건
+
+**다음 단계**:
+1. [05-12~] CallBridge 가칭 demo 표기 유지 여부 확인 (AI Expo 종료 후 즉시 교체 권고)
+2. [05-12~] 대안 3개 후보 (BridgeCall/LinkCall/JoinCall) WebSearch + KIPRIS Class 9·38·42 게이트 체크
+3. [05-15] 사업부 PO 1순위 확정 → v1 검토 문서 작성
+4. [05-18] NRB 상정 (신규 토큰 Rule 4 적용)
+
+---
+
 ## AAEF — Test 사업부 (최신: v3, 2026-04-02) ★최신
 
 **솔루션명 (가칭)**: AAEF (AI Agent Evaluation Framework)
@@ -39,7 +347,7 @@
 
 ---
 
-## Q One — Test 사업부 (최신: v4-1, 2026-04-10) ★최신 — Intelliq DROP + QualScan 1순위 승격
+## Q One — Test 사업부 (최신: v7, 2026-04-16) ★최신 — ReqProbe 검토 + QualProbe 1순위 유지
 
 **솔루션명 (가칭)**: Q One (AI 기반 UX/UI 테스트 + API 테스트 + 데이터 검증 + 지식 자산화 + Action Flow Map)
 **브랜드 포지션**: AUTONOMOUS QA
@@ -48,6 +356,8 @@
 **⚠️ v3 재검토 사유**: 솔루션 PO UIProbe 피드백 — "UI 영역 한정 인식, API·데이터 검증 확장성 미반영"
 **🔄 v4 변경사항 (2026-04-08)**: Autonomous QA 정체성 반영 신규 후보 4개 추가 (Intelliq, QualScan, Qualitiq, TestIQ) + AI QA 시장·경쟁사 분석 추가
 **🚨 v4-1 변경사항 (2026-04-10)**: Intelliq 상표권 심각한 충돌 발견 → 즉시 DROP. QualScan 1순위 승격.
+**🔄 v5(→v6) 변경사항 (2026-04-10)**: Probe 경쟁 환경 분석 + Test 카테고리 포트폴리오 일관성 관점 재검토 → QualProbe 1순위 복원
+**🔄 v7 변경사항 (2026-04-16)**: ReqProbe(Requirement+Probe) Gate Check 완료(TM 최고 수준 클린, 도메인 전부 가용) + QualProbe vs ReqProbe 9개 기준 비교 → QualProbe 1순위 유지, ReqProbe 2순위. Test 3분류(Embedded/Application/AI Agent) 확정.
 
 **⛔ DROP 확정 메모**:
 - ~~AIWORKX Sentinel~~ — DROP. 사유: Microsoft Sentinel(SIEM)·SentinelOne(보안)·Sentinel AI(CI/CD) AI/SW 다수 충돌
@@ -71,10 +381,10 @@
 | — | IntentProbe | AIWORKX IntentProbe | ⏸️ 보류 (v2→v3) | 🟢 안전 | PO "UI 한정" 피드백으로 우선순위 하향 |
 | — | FlowProbe | AIWORKX FlowProbe | ⏸️ 보류 (v2→v3) | 🟢 안전 | 품질 전 영역 포괄성 부족 |
 
-**최종 추천 (v4-1, Intelliq DROP 후 재조정)**:
-- 1순위: **AIWORKX QualScan** /퀄스캔/ — Qual+Scan 기등재 토큰 → NRB 즉시 상정, 제품 3대 필러(문서 스캔·추출 매핑·UI 스캔) 포괄
-- 2순위: **AIWORKX Scrutiq** /스크루티큐/ — Scrutiny+IQ 조어, Intelligence 키워드 강력, 신규 토큰 NRB 필요
-- 3순위: **AIWORKX Qualitiq** /퀄리티큐/ — Quality+IQ 조어, Intelligence·Quality 모두 충족
+**최종 추천 (v7)**:
+- 1순위: **AIWORKX QualProbe** /퀄프로브/ — Probe 패밀리 일관성 + Qual·Probe 기등재 토큰 NRB 즉시 + Q DNA 계승 + 시장 오인 없음
+- 2순위: **AIWORKX ReqProbe** /렉프로브/ — TM 최고 수준 클린 + 도메인 전부 가용(.com/.ai/.io) + Q One 고유 차별점(문서→테스트) 직결. ⚠️ RM 도구 오인 리스크
+- 3순위: **AIWORKX Scrutiq** /스크루티큐/ — Scrutiny+IQ 조어, Intelligence 키워드 강력, 신규 토큰 NRB 필요
 
 **시장 분석 (v4 추가)**:
 - Gartner 2028 전망: 기업 70%가 AI-Augmented Testing 도구 SDLC 통합 (2025 초 20%)
@@ -83,12 +393,14 @@
 - Q One 고유 차별점: Knowledge Repo(문서→테스트 지식 변환), Action Flow Map(서비스 구조 시각화), Full-Spectrum QA
 
 **다음 단계**:
-1. [04-14] 사업부 PO 후보 선택 (QualScan / Scrutiq / Qualitiq / 기타) — ⚠️ Intelliq DROP됨
+1. [04-21] 사업부 PO 최종 확정 (QualProbe / ReqProbe / Scrutiq) — ⚠️ Intelliq DROP됨
 2. [04-14] 선택 후보 변리사 KIPRIS Class 42 정식 조회 의뢰
 3. [04-21] 변리사 결과 수신 → NRB 상정
 4. [04-25] Brand Governance 레지스트리 업데이트 + 경영진 승인
 
-**SharePoint (v4 ★최신)**: 업로드 대기 중
+**SharePoint (v7 ★최신)**: [Test_QOne_네이밍검토_20260416_v7.docx](https://testworks.sharepoint.com/:w:/s/aiworkx-/IQCKOWcv8JuoTq4l6ohQ3KOkAQNx8Ys4ioiZkPrrphI_2Hc)
+
+**SharePoint (v6)**: [Test_QOne_네이밍검토_20260410_v5.docx](https://testworks.sharepoint.com/:w:/s/aiworkx-/IQDijilYTMYFTagZKcK-rqL-AZ27Awn_c13OpoI7ocyEK44)
 
 **SharePoint (v3)**: [Test_QOne_네이밍검토_20260406_v3.docx](https://testworks.sharepoint.com/sites/aiworkx-/_layouts/15/Doc.aspx?sourcedoc=%7B0230447C-9E8D-4F94-AA62-B921ED20EADF%7D&file=Test_QOne_%EB%84%A4%EC%9D%B4%EB%B0%8D%EA%B2%80%ED%86%A0_20260406_v3.docx&action=default&mobileredirect=true)
 
@@ -98,7 +410,7 @@
 
 ## ToD™ — Technology Ingredient Brand (최신: v3 rev.5, 2026-04-06) ★최신
 
-**검토 대상**: AIWORKX 기술 인그리디언트 브랜드 `ToD™` (Powered by ToD™ 표기용)
+**검토 대상**: AIWORKX 기술 인그리디언트 브랜드 `AxDC™` (Powered by AxDC™ 표기용)
 **현행 정의**: Task-oriented Deterministic AI
 
 **검토 경과**:
@@ -146,7 +458,7 @@
 
 ---
 
-## blackolive — Data 사업부 (최신: v3, 2026-03-31)
+## blackolive — Data 사업부 (최신: v4, 2026-04-16) ★최신 — DataMill DROP + DataAnvil 1순위 신규
 
 **솔루션명 (가칭)**: blackolive
 **핵심 기능**: 비정형 데이터(문서·이미지·음성) AI 활용 가능 형태로 가공·저장하는 데이터 파운데이션 플랫폼
@@ -173,7 +485,18 @@
 
 **다음 단계**: 변리사 DataMill KIPRIS Class 42 정식 조회 의뢰 → Brand Governance NRB 등록 → Engine Layer 위치 결정 (Agent Category v2r2 피드백 연동)
 
-**SharePoint**: [Data_Blackolive_네이밍검토_20260331_v3.docx](https://testworks.sharepoint.com/sites/aiworkx-/Shared%20Documents/네이밍%20검토/Data/Blackolive_20260331/Data_Blackolive_네이밍검토_20260331_v3.docx)
+**v4 변경사항 (2026-04-16)**: DataMill 심각한 TM 충돌 발견(5+ LIVE) → DROP. Mill 계열 은유 계승 신규 대안 탐색. DataAnvil 1순위.
+
+**최종 추천 (v4)**:
+- 1순위: **AIWORKX DataAnvil** — 대장간 은유(raw→refined), Mill 계열 산업 은유 계승, TM whitespace
+- 2순위: **AIWORKX DataFurnace** — 용광로 은유, TM 무충돌
+- 3순위: **AIWORKX DataLathe** — 선반(정밀 가공) 은유, 완전 whitespace
+
+**⛔ DROP (v4, 2026-04-16)**: ~~DataMill~~ — Data Mill(미국) + datamill.solutions(독일) + DataMill Analytics + Datamill(UK) + Datamill Software 5+ LIVE 동일 업종 충돌 + 도메인 전부 선점
+
+**SharePoint (v4 ★최신)**: [Data_Blackolive_네이밍검토_20260416_v4.docx](https://testworks.sharepoint.com/:w:/s/aiworkx-/IQB95JWDXCfuR4gJOx0JaVfKAY96pZX1EkTHwzQmZV86Xfg)
+
+**SharePoint (v3)**: [Data_Blackolive_네이밍검토_20260331_v3.docx](https://testworks.sharepoint.com/sites/aiworkx-/Shared%20Documents/네이밍%20검토/Data/Blackolive_20260331/Data_Blackolive_네이밍검토_20260331_v3.docx)
 
 ---
 
@@ -181,7 +504,7 @@
 
 **솔루션명 (가칭)**: TedWorks
 **핵심 기능**: SW/SoC/App V&V(검증·확인) 자동화 솔루션 — AI 반도체·차량용 SoC Intelligent Board Farm 기반 대용량 테스트 자동화
-**ToD™ 탑재**: Q.One 연동 → 반복 테스트 자동 스케줄링 / Powered by ToD™ 표기 필수
+**AxDC™ 탑재**: Q.One 연동 → 반복 테스트 자동 스케줄링 / Powered by AxDC™ 표기 필수
 
 **⚠️ WebSearch 상표권 재조회 결과 (2026-04-02)**:
 
@@ -273,7 +596,9 @@
 
 **다음 단계**: Forge·Relay 대안 탐색 또는 법무팀 정밀 검토 → Care·Ingest·Lens 즉시 NRB 상정 가능
 
-**SharePoint (v2r6, 최종)**: [Agent_AgentCategory_네이밍검토_20260401_v2r6.docx](https://testworks.sharepoint.com/sites/aiworkx-/_layouts/15/Doc.aspx?sourcedoc=%7B6BE9AAC4-D22C-46B2-885C-4B2384505171%7D&file=Agent_AgentCategory_%EB%84%A4%EC%9D%B4%EB%B0%8D%EA%B2%80%ED%86%A0_20260401_v2r6.docx&action=default&mobileredirect=true)
+**SharePoint (v2r7 ★최신, 2026-05-12)**: [Agent_AgentCategory_네이밍검토_20260512_v2r7.docx](https://testworks.sharepoint.com/:w:/s/aiworkx-/IQDq9oXoBlmPQpFVGic_7VkhAbXryza1ZM92oQ3Q_hgjSME) — Omni 6개 (OpsAgent/DocReady/ScanAgent/DevProbe + Studio·Connect 재탐색), CEO 비전 반영
+
+**SharePoint (v2r6)**: [Agent_AgentCategory_네이밍검토_20260401_v2r6.docx](https://testworks.sharepoint.com/sites/aiworkx-/_layouts/15/Doc.aspx?sourcedoc=%7B6BE9AAC4-D22C-46B2-885C-4B2384505171%7D&file=Agent_AgentCategory_%EB%84%A4%EC%9D%B4%EB%B0%8D%EA%B2%80%ED%86%A0_20260401_v2r6.docx&action=default&mobileredirect=true)
 
 **SharePoint (v1, 2026-03-30)**: [Agent_AgentCategory_네이밍검토_20260330.docx](https://testworks.sharepoint.com/sites/aiworkx-/Shared%20Documents/네이밍%20검토/Agent/AgentCategory_20260330/Agent_AgentCategory_네이밍검토_20260330.docx)
 
@@ -297,7 +622,7 @@
 | 정책 데이터 분석 | **AIWORKX Radar** | 🟢 | AIWORKX Prism | 🟢 | ~~Foresight~~ 🔴 ~~Signal~~ 🔴 |
 | 공공 RAG 시스템 | **AIWORKX Corpus** | 🟢 | AIWORKX Archive | 🟢 | ~~Codex~~ 🔴 ~~Lex~~ 🔴 |
 
-**ToD™ 표기 대상 (Powered by AXDC™)**: GovDesk, Adjudge, Corpus
+**AxDC™ 표기 대상 (Powered by AxDC™)**: GovDesk, Adjudge, Corpus
 
 **DROP 사유 요약**:
 - ~~Dispatch~~: Bland AI Dispatch·DispatchMVP·VoiceInfra 등 동일 물류 AI 업종 다수 충돌
@@ -318,11 +643,69 @@
 
 ---
 
+## CareCall — Agent 사업부 (최신: v2, 2026-04-30) ★최신 — HugCall REJECT + NestCall 휴머니티 톤 + 도메인 분석
+
+**솔루션명 (가칭)**: CareCall (케어콜)
+**핵심 기능**: 복지·공공·케어·안전 영역 안부 확인 자동 발신 + 시나리오 기반 응대 + 이상징후 탐지 + 후속조치 연계 + 관리자 모니터링·리포트
+**AxDC™ 탑재**: ✅ Powered by AxDC™ 표기 필수
+**⚠️ 한국 시장 충돌 지형**: 네이버 클로바 케어콜이 전국 128개 시군구(50%+) 점유 → "Care/케어콜" 토큰 회피 + 이상징후 모니터링 강조 방향
+
+**네이밍 후보 검토 결과 (v1)**:
+
+| 순위 | 후보 | 최종 AIWORKX 브랜드명 | TM 리스크 | 결과 |
+|------|------|----------------------|----------|------|
+| ★ 1순위 | **WatchCall** | AIWORKX WatchCall | 🟢 안전 | 능동적 모니터링 + Call 패밀리 일관성 + 클로바 차별화 + KIPRIS 0건 |
+| 2순위 | HeraldCall | AIWORKX HeraldCall | 🟢 안전 | 공공·복지 격조 있는 톤 + 글로벌 확장 우수 |
+| 3순위 | KindCall | AIWORKX KindCall | 🟢 안전 | 친절·따뜻함 직접 표현, 발음 용이 |
+
+**⛔ DROP 메모 (v1, 2026-04-27)**:
+- ~~Sentry~~ — Sentry.io 글로벌 SaaS 거인 (USPTO 등록)
+- ~~Vigil~~ — VigilAI(경찰), Vigil Insurance, Vigil Guard AI 다수 충돌
+- ~~Beacon~~ — Beacon Healthcare + Beacon Health(YC) 다수
+- ~~Pulse~~ — **Velvetel Pulse(AICC 동일 카테고리) + USPTO 등록** 직접 충돌
+- ~~Lifeline~~ — Philips Lifeline 글로벌 + 미 연방 Lifeline Program
+- ~~Aegis~~ — AegisAI, Aegis CDS, 한국 쿤텍 AEGIS 등 포화
+- ~~Outreach~~ — Outreach.io 세일즈 SaaS 거인
+- ~~SafeCall~~ — Safecall Ltd UK 휘슬블로잉 SaaS
+
+**⚠️ CAUTION (사용 자제)**:
+- WelCall (UK Telecom Italia 등록), AssureCall (Orlando 콜센터), Reach (REACH.ai), WellCall (헬스케어 코칭)
+
+**Agent Call 패밀리 포트폴리오**:
+- AIWORKX RouteCall — 유통·물류 콜봇
+- AIWORKX FreightCall — 화물 콜봇
+- **AIWORKX WatchCall ★ — 복지 안부 + 이상징후 모니터링 (신규)**
+
+**다음 단계**:
+1. [05-04] 사업부 PO 최종 확정 (WatchCall / HeraldCall / KindCall)
+2. [05-04] 변리사 정식 출원 검토 의뢰 (KIPRIS Class 9·38·42·45)
+3. [05-04] 도메인 선점 검토 (watchcall.ai/.com/.io)
+4. [05-11] 변리사 결과 수신 → NRB 상정
+5. [05-15] Brand Governance 레지스트리 업데이트
+
+**v2 변경사항 (2026-04-30)**:
+- HugCall / HuggingCall Gate Check → **REJECT 확정** (Hugging Face USPTO 등록 5447473 + 클로바 차별화 실패)
+- 사회적 가치 톤 Top 3 재구성: NestCall(둥지) ★ / KindCall / DodamCall(우리말 고유어)
+- 도메인 선점 검토: WatchCall .com $49K Afternic 매물 / HeraldCall .com 표준가 / KindCall .ai·.com 점유
+- 두 시나리오 권고: A(모니터링 톤 - WatchCall) / B(휴머니티 톤 - NestCall)
+
+**최종 추천 (v2, 두 시나리오)**:
+- **시나리오 A (모니터링 톤)**: AIWORKX WatchCall ★ — 능동 감지·기술 신뢰, .com $49K 부담
+- **시나리오 B (휴머니티 톤)**: AIWORKX NestCall ★ — 둥지 메타포, 따뜻함+안전감+모니터링 시그널 동시
+
+**⛔ DROP (v2 추가)**: ~~HugCall~~, ~~HuggingCall~~ — Hugging Face USPTO 등록 AI 카테고리 직접 충돌 + 클로바 Care 어휘축 동일
+
+**SharePoint (v2 ★최신)**: [Agent_CareCall_네이밍검토_20260430_v2.docx](https://testworks.sharepoint.com/:w:/s/aiworkx-/IQDPCZ93qRMZRaGoSPYMGQ1kAcpRjDtDY_tVUDm-76HH_6g)
+
+**SharePoint (v1)**: [Agent_CareCall_네이밍검토_20260427_v1.docx](https://testworks.sharepoint.com/:w:/s/aiworkx-/IQDfymNUFuS3SavkD26pAjRAAQ_X0bxC7Qa0VjuRvaJZZRE)
+
+---
+
 ## As Built — Data 사업부 (최신: v1, 2026-04-01)
 
 **솔루션명 (가칭)**: As Built (건설 현장 블랙박스)
 **핵심 기능**: 시공 과정의 모든 데이터(영상·로그·시공기록·안전기록 등)를 AI로 자동 수집·구조화·분석하여 건설 현장과 시설 관리 전반에 활용하는 데이터 파운데이션 플랫폼
-**ToD™ 탑재**: ✅ Powered by AXDC™ (ToD™ 기반) 표기 필수
+**AxDC™ 탑재**: ✅ Powered by AxDC™ 표기 필수
 
 **⛔ 기존 후보 전원 DROP (v1)**:
 
@@ -336,17 +719,24 @@
 
 | 순위 | 후보명 | 최종 AIWORKX 브랜드명 | TM 리스크 | 결과 |
 |------|--------|----------------------|----------|------|
-| ★ 1순위 | **SiteProbe** | AIWORKX SiteProbe | 🟢 안전 | Probe 기등재 토큰, KIPRIS WebSearch 안전 확인 (2026-04-07), NRB 즉시 상정 가능 |
+| ★ 1순위 | **SiteProbe** | AIWORKX SiteProbe | 🟠 주의 (2026-05-11 재조회) | siteprobe.com·bartTC/siteprobe·C² Systems SiteProbe 동일명 다수(SW 동종, 업종 상이) — 정식 조회 시 정밀 확인 필요 |
 | ~~2순위~~ | ~~SiteVault~~ | — | 🔴 **DROP (2026-04-07)** | **Veeva Systems 등록상표** — 임상시험 관리 eISF 플랫폼, 한국 CRO(LSK Global PS) 활동 중, 대형 상장사(NYSE: VEEV) |
 | 2순위 | BuildPrint | AIWORKX BuildPrint | 🟡 주의 | build-to-print 범용 용어 존재, 시설 관리 확장 시 범위 제약 |
 
 **⛔ DROP 메모 (2026-04-07 추가)**:
 - ~~AIWORKX SiteVault~~ — DROP. 사유: Veeva Systems "SiteVault" 등록상표 (임상시험 사이트 관리 SW), 한국 CRO LSK Global PS 등 국내 사용 중, NYSE 상장 대기업으로 상표 방어력 강함.
 
-**최종 추천 (2026-04-07 업데이트)**:
-- 1순위: **AIWORKX SiteProbe** — 상표권 클린 (KIPRIS WebSearch 🟢), Probe 기등재 토큰으로 NRB 즉시 상정 가능, "Site"가 건설+시설 모두 포괄
-- 2순위: **AIWORKX BuildPrint** — SiteVault DROP 후 차순위, build-to-print 범용성 주의
+**⚠️ SiteProbe 재조회 결과 (2026-05-11)**:
+- **siteprobe.com** — Website Uptime Monitor (실서비스 운영 중, 도메인 점유)
+- **bartTC/siteprobe** — GitHub OSS, Sitemap Validator (PyPI·crates.io 배포)
+- **C² Systems "SiteProbe"** — 통신 사이트·DAS 모니터링 (SitePortal·SiteGate·SiteWatch+ 패밀리)
+- **업종 판단**: AIWORKX SiteProbe는 건설 현장 V&V/시공 데이터 도메인 → 위 3건과 카테고리 상이하나 SW 동종
+- **권고**: KIPRIS Class 42 정식 조회 + USPTO 동시 확인 필수. 도메인 siteprobe.ai/.io 등 대체 확보 검토. 차순위 BuildPrint 활성 유지
 
-**다음 단계**: 변리사 SiteProbe KIPRIS Class 42 정식 조회 의뢰 → 클린 확인 시 NRB 즉시 상정 → Brand Governance 레지스트리 FieldPrint → SiteProbe 업데이트
+**최종 추천 (2026-05-11 업데이트)**:
+- 1순위: **AIWORKX SiteProbe** — 한국 KIPRIS 사전 클린 추정, 단 동일명 SW 글로벌 다수 → 변리사 Class 42 정식 조회 + USPTO 정밀 확인 필수
+- 2순위: **AIWORKX BuildPrint** — SiteProbe 정식 조회 결과에 따라 승격 가능
 
-**로컬 문서**: `Data_AsBuilt_네이밍검토_20260401.docx`
+**다음 단계**: 변리사 SiteProbe KIPRIS Class 42 정식 조회 + USPTO 정밀 확인 의뢰 → 클린 확인 시 NRB 상정 / 충돌 발견 시 BuildPrint 승격
+
+**SharePoint (v1 ★최신)**: [Data_AsBuilt_네이밍검토_20260401.docx](https://testworks.sharepoint.com/:w:/s/aiworkx-/IQD7dqHZlL5-ToNRDD52H54xAdFQ6hgq85K0PTzgkVxQE3Q?e=b9Hjb6)

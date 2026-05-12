@@ -74,7 +74,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 |------|------|
 | Rule 1 | 항상 AIWORKX로 시작. AWX 축약 외부 표기 금지 |
 | Rule 2 | 카테고리 → 제품명 순서 (역전 불가) |
-| Rule 3 | 카테고리는 5개만: Test / Agent / Data / Verification / Edu |
+| Rule 3 | 카테고리는 4개만: **Test** (Verification 통합) / Agent / Data / Edu — 2026-05-12 Verification 카테고리 Test로 통합 |
 | Rule 4 | 신규 카테고리는 NRB → 경영진 승인 필수 |
 | Rule 5 | 해당 제품에 `Powered by ToD™` 표기 |
 

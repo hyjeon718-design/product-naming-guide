@@ -270,13 +270,29 @@
 
 ---
 
-## CallBridge — AI Contact Center Agent (v1 발행, 2026-05-12) ⚠️ Gate Check 🔴 + 대안 BridgeCall 1순위
+## CallBridge — 코드명 (구 CareCall 복지 AICC) v1 발행, 2026-05-12 ★최신
 
-**SharePoint (v1 ★최신, 2026-05-12)**: [Agent_CallBridge_네이밍검토_20260512_v1.docx](https://testworks.sharepoint.com/:w:/s/aiworkx-/IQDoSX23A8UlRo0fvadSr6x4AX_4IsZ9bo34U0e5jl6zmRg)
+**⚠️ 코드명 중복 주의**: "CallBridge"는 두 가지 맥락에서 사용됨
+- (A) 복지 AICC 솔루션 코드명 (구 CareCall → CallBridge) ← **본 v1 문서 대상**
+- (B) AI Expo 2026 demo 솔루션 가칭 (별도 — 아래 별도 섹션 참조)
+
+**SharePoint (v1 ★최신, 2026-05-12, 복지 AICC)**: [Agent_CallBridge_네이밍검토_20260512_v1.docx](https://testworks.sharepoint.com/:w:/s/aiworkx-/IQC50nMbFiTcS6vf_edXpo8gASgcV5VcgmDTeqjHLmTaffU)
+
+**v1 주요 내용 (복지 AICC 맥락)**:
+- 코드명 CareCall → CallBridge 전환 (단, 외부 제품명 사용 불가 — 해피톡 콜브릿지 충돌)
+- CareBridge 추가 검토 → **⛔ DROP** 확정 (Elevance Health $2.7B + Carebridge EAP + USPTO Optum360 + carebridge.kr 4중 충돌)
+- 누적 DROP 11건 정리 (Sentry/Vigil/Beacon/Pulse/Lifeline/Aegis/Outreach/SafeCall/HugCall/HuggingCall/CareBridge)
+- v2 권고 유지: 시나리오 A(WatchCall) / B(NestCall)
+
+**⛔ DROP (v1 신규)**: ~~CareBridge~~ — Elevance Health 자회사 $2.7B 인수 + USPTO 78594787 (Optum360, UnitedHealth 계열) + carebridge.com/.kr/.io/.health 전부 점유 + 한국 시니어케어 기업 운영 중 → 4중 충돌
+
+**최종 권고 (v2 유지)**:
+- 시나리오 A (모니터링 톤): **AIWORKX WatchCall** ★
+- 시나리오 B (휴머니티 톤): **AIWORKX NestCall** ★
 
 ---
 
-## CallBridge — AI Contact Center Agent (신규 검토 요청, 2026-05-11) ⚠️ Gate Check 🔴
+## CallBridge — AI Contact Center Agent (별도 맥락, AI Expo 2026 demo, 2026-05-11) ⚠️ Gate Check 🔴
 
 **검토 대상**: AI Expo 2026 전시회 demo 시연 솔루션 (가칭 CallBridge)
 **핵심 기능**: AI 콜 자동화·중계·전환 (AI Contact Center Agent 영역)
@@ -309,6 +325,66 @@
 2. [05-12~] 대안 3개 후보 (BridgeCall/LinkCall/JoinCall) WebSearch + KIPRIS Class 9·38·42 게이트 체크
 3. [05-15] 사업부 PO 1순위 확정 → v1 검토 문서 작성
 4. [05-18] NRB 상정 (신규 토큰 Rule 4 적용)
+
+---
+
+## CodeReview 확장 — Agent 사업부 (v1, 2026-04-28) — KB금융 RFI 대응 + 역할 확장 (코드 리뷰 + Text-to-SQL + 온톨로지)
+
+**솔루션명 (가칭)**: Code Review (확장) — 기존 IT 코드 리뷰 Agent 역할 확장
+**핵심 기능**: 코드 리뷰 + 코드 분석 + Text-to-SQL + 기업 특화 온톨로지 + 멀티 에이전트 플랫폼. **Agent / Tool Calling / MCP 다 호환**. 현업↔IT 소통 가속, 금융권/기간계 분리, 샌드박스 보안, 제조·금융 도메인 특화. C#·COBOL 등 레거시 지원 + 로컬 LLM 옵션.
+**AxDC™ 탑재**: ✅ Powered by AxDC™ 표기 필수 (Ontology + ToD = AxDC)
+**참고 RFI**: KB금융지주 Code Review Agent 기술 검증 정보제공요청서 (2026-02-27 마감)
+**이전 검토**: Agent_AgentCategory_신규솔루션_네이밍검토_20260401_v3.docx — IT 코드 리뷰 Agent → DevProbe(1순위) / CodeTrace(2순위)
+
+**⛔ 사용자 제안 후보 검토 결과**:
+- ~~DevBridge~~ — DROP. 사유: Devbridge(시카고 SW 컨설팅, Cognizant Softvision 2021 인수, USPTO 등록상표) 직접 충돌
+- ~~CodeBridge~~ — DROP. 사유: codebridge.tech / bridge-defense.com/codebridge / codebridgesoftware.com / codebridgehq.com / codebridge.info — 5+ 동일 업종 포화
+- WorkBridge — 🟡 주의. Workbridge Associates(Motion Recruitment IT 스태핑) IT 인접
+
+**⛔ 신규 탐색 추가 DROP (10개)**: BizBridge(bizbridge.io AI 거래) / CodeMesh(codemeshmcp.com 멀티에이전트) / CodeWeave(codeweave.co GenAI Stacks, Patent Pending) / CodeAtlas(코드 의존성 시각화) / CodeNexus(VSCode LLM ext + Code Nexus Helsinki) / CodeAxis(codeaxis.ai 의료코딩) / AxCode(Siemens AX Code + AX Platform) / CodeFort(codefortify.ai 코드 보안 + codefort.com SaaS) / AskCode(askcode.org + AskCodebase) / DevWeaver(Weaver AI $55M)
+
+**⛔ 추가 사용자 제안 DROP (2026-04-28 추가)**:
+- ~~IT Bridge~~ — DROP. 사유: **MCP 호환** 의도와 정확히 같은 카테고리에서 다수 충돌 — MuleSoft MCP Bridge(Salesforce, GA) / Itential MCP Bridge / Coder AI Bridge / MCP Bridge(mcpbridge.dev Multi-IDE) / IT-Bridge Innovations(it-bridge.io) / IT Bridge(itbridge.ca Azure+AI) / IT Bridge(itbridge.az 사이버보안+AI) / IT Bridge Builders(Kaseya+IBM) / AI-Bridge GmbH(ML SW) — 도메인 6+ 동시 점유, 글로벌 IT/MCP/AI 보안 카테고리 완전 포화
+
+**네이밍 후보 검토 결과 (v1)**:
+
+| 순위 | 후보 | 최종 AIWORKX 브랜드명 | TM 리스크 | NRB 경로 | 결과 |
+|------|------|----------------------|----------|---------|------|
+| ★ 1순위 | **ReqBridge** | AIWORKX ReqBridge | 🟢 안전 | Req·Bridge 신규 토큰 등재 NRB | RFI 양 축(요구사항+코드) 직결, Bridge 패밀리 中 유일 클린 |
+| 2순위 | **DevProbe** | AIWORKX DevProbe | 🟢 안전 | 기등재(2026-04-01 v3) — NRB 즉시 상정 | KB RFI 일정 대응 가장 빠른 경로, Probe 패밀리 일관성 |
+| 3순위 | **CodeRigor** | AIWORKX CodeRigor | 🟡 주의 | Rigor 신규 토큰 등재 NRB (AgentRigor 시리즈) | testRigor(코드리스 테스트 자동화) 인접 카테고리 인지 혼동 우려 |
+| 대안 | CodeTrace | AIWORKX CodeTrace | 🟢 안전 | Trace 등재 토큰 — NRB 즉시 상정 | v3 2순위 검토 완료 |
+| 대안 | WorkBridge | AIWORKX WorkBridge | 🟡 주의 | Work·Bridge 신규 토큰 NRB | Workbridge Associates IT 스태핑 인접 |
+
+**최종 추천 (v1)**:
+- 1순위: **AIWORKX ReqBridge** /렉브릿지/ — RFI 양 축(요구사항 Review Agent + Code Review Agent) 직결, Bridge 패밀리 中 유일 글로벌 클린, 회사 핵심 가치 ‘현업↔IT 소통 가속’과 alignment
+- 2순위: **AIWORKX DevProbe** /데브프로브/ — 2026-04-01 v3 1순위 확정, NRB 즉시, KB RFI 일정 대응 최적
+- 3순위: **AIWORKX CodeRigor** /코드리거/ — AgentRigor 시리즈 일관성, Rigor 패밀리 구축 (testRigor 인지 주의)
+
+**KIPRIS WebSearch 사전 조회 결과 (2026-04-28)**:
+- ReqBridge: 🟢 안전 — 동명 미발견, reqbridge.com/.ai/.io 도메인 점유 미확인
+- DevProbe: 🟢 안전 — v3 검토에서 안전 확인
+- CodeRigor: 🟡 주의 — 동명 미발견, testRigor(Generative AI 테스트 자동화) Rigor 토큰 활성 사용
+- CodeTrace: 🟢 안전 — Trace 등재 토큰
+- WorkBridge: 🟡 주의 — Workbridge Associates IT 스태핑 인접
+
+**KIPRIS 조회 링크**:
+- [ReqBridge KIPRIS 조회](https://www.kipris.or.kr/srch/srchList.jsp?searchString=ReqBridge&tab=trademark)
+- [CodeRigor KIPRIS 조회](https://www.kipris.or.kr/srch/srchList.jsp?searchString=CodeRigor&tab=trademark)
+- [WorkBridge KIPRIS 조회](https://www.kipris.or.kr/srch/srchList.jsp?searchString=WorkBridge&tab=trademark)
+
+**다음 단계**:
+1. [05-02] 사업부 PO 최종 후보 선택 (ReqBridge / DevProbe / CodeRigor)
+2. [05-05] 변리사 정식 출원 검토 의뢰 (KIPRIS Class 9·42, KIPRIS WebSearch 사전 조사 완료 기반)
+3. [05-05] [법무팀] CodeRigor — testRigor 상표 혼동 가능성 정밀 검토 (선택 시)
+4. [05-05] [법무팀] ReqBridge — Bridge 패밀리 글로벌(USPTO·EUIPO) 출원 가능성 검토
+5. [05-05] 도메인 선점 검토 (reqbridge.ai / .com / .io)
+6. [05-12] 변리사 결과 수신 → NRB 상정
+7. [05-15] Brand Governance 레지스트리 업데이트 + 경영진 승인
+
+**SharePoint (v1, 2026-04-28)**: [Agent_CodeReviewExt_네이밍검토_20260428_v1.docx](https://testworks.sharepoint.com/:w:/s/aiworkx-/IQC4QNqYH9YZQI3E9fQyawagAX2cRSCw3mh2sQKjPRdVrE0)
+**이메일 발송**: 2026-04-28 → impact.brand@aiworkx.ai (HTML 디자인 + Word 첨부) ✅
+**후속**: 2026-05-12 가칭 변경 `CodeReview 확장` → `CodeBridge`, 신규 v1 발행 (아래 CodeBridge 섹션 참조)
 
 ---
 
@@ -643,7 +719,9 @@
 
 ---
 
-## CareCall — Agent 사업부 (최신: v2, 2026-04-30) ★최신 — HugCall REJECT + NestCall 휴머니티 톤 + 도메인 분석
+## CareCall (현 코드명: CallBridge) — Agent 사업부 (v1: 2026-05-12 / v2: 2026-04-30)
+
+> ⚠️ **2026-05-12 이후 본 솔루션 내부 코드명은 CallBridge로 전환**. 상단 "CallBridge — 코드명 (구 CareCall 복지 AICC)" 섹션의 v1 문서가 ★최신입니다. 본 섹션은 v1·v2 검토 이력 보존용.
 
 **솔루션명 (가칭)**: CareCall (케어콜)
 **핵심 기능**: 복지·공공·케어·안전 영역 안부 확인 자동 발신 + 시나리오 기반 응대 + 이상징후 탐지 + 후속조치 연계 + 관리자 모니터링·리포트

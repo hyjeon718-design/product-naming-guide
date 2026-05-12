@@ -194,9 +194,62 @@
 
 ---
 
-## CodeBridge — Dev & Test Agent (v1 발행, 2026-05-12) ⚠️ Gate Check 🔴 + 대안 DevProbe 1순위
+## CodeBridge — Agent 사업부 (v1 발행, 2026-05-12) ★최신 — KB금융 RFI 대응 + Tool Calling/MCP 호환
 
-**SharePoint (v1 ★최신, 2026-05-12)**: [Agent_CodeBridge_네이밍검토_20260512_v1.docx](https://testworks.sharepoint.com/:w:/s/aiworkx-/IQB5cMUPgSj8SpOoh8yb6yf2AUY5U9LFfp4dp2rYEmD1yK8)
+**솔루션명 (가칭)**: CodeBridge — 이전 가칭: Code Review (확장) / IT 코드 리뷰 Agent
+**핵심 기능**: 코드 리뷰 + 코드 분석 + Text-to-SQL + 기업 특화 온톨로지 + 멀티 에이전트 플랫폼. **Agent / Tool Calling / MCP 다 호환**. 현업↔IT 소통 가속, 금융권/기간계 분리, 샌드박스 보안, 제조·금융 도메인 특화. C#·COBOL 등 레거시 지원 + 로컬 LLM 옵션.
+**AxDC™ 탑재**: ✅ Powered by AxDC™ 표기 필수 (Ontology + ToD = AxDC)
+**참고 RFI**: KB금융지주 Code Review Agent 기술 검증 정보제공요청서 (2026-02-27 마감)
+**선행 검토**: Agent_CodeReviewExt_네이밍검토_20260428_v1.docx (가칭 변경 전, 분석 동일)
+**⚠️ 가칭 CodeBridge 자체**: 내부 작업 식별용. 외부 브랜드명으로는 글로벌 충돌(codebridge.tech 외 5+)로 사용 불가 — 본 검토는 외부 브랜드명 후보 도출이 목적.
+
+**⛔ 사용자 제안 후보 검토 결과**:
+- ~~DevBridge~~ — DROP. Devbridge(시카고 SW, Cognizant Softvision 2021 인수, USPTO 등록상표) 직접 충돌
+- ~~CodeBridge~~ — DROP (가칭으로만 사용). codebridge.tech / bridge-defense.com/codebridge / codebridgesoftware.com / codebridgehq.com / codebridge.info — 5+ 동일 업종 포화
+- ~~IT Bridge~~ — DROP. MuleSoft MCP Bridge(Salesforce GA) + Itential MCP + Coder AI Bridge + MCP Bridge(mcpbridge.dev) + IT-Bridge Innovations + IT Bridge(itbridge.ca/.az) + IT Bridge Builders + AI-Bridge GmbH — MCP/AI 카테고리 완전 포화, 도메인 6+ 점유
+- WorkBridge — 🟡 주의. Workbridge Associates(Motion Recruitment) IT 인접
+
+**⛔ 신규 탐색 추가 DROP (10개)**: BizBridge / CodeMesh / CodeWeave(Patent Pending) / CodeAtlas / CodeNexus / CodeAxis(의료코딩) / AxCode(Siemens) / CodeFort(codefortify.ai) / AskCode / DevWeaver(Weaver AI $55M)
+
+**네이밍 후보 검토 결과 (v1)**:
+
+| 순위 | 후보 | 최종 AIWORKX 브랜드명 | TM 리스크 | NRB 경로 | 비고 |
+|------|------|----------------------|----------|---------|------|
+| ★ 1순위 | **ReqBridge** | AIWORKX ReqBridge | 🟢 안전 | Req·Bridge 신규 토큰 등재 NRB | RFI 양 축(요구사항+코드) 직결, Bridge 패밀리 中 유일 클린 |
+| 2순위 | **DevProbe** | AIWORKX DevProbe | 🟢 안전 | 기등재(2026-04-01 v3) — NRB 즉시 | KB RFI 일정 대응 가장 빠른 경로, Probe 패밀리 일관성 |
+| 3순위 | **CodeRigor** | AIWORKX CodeRigor | 🟡 주의 | Rigor 신규 토큰 등재 NRB (AgentRigor 시리즈) | testRigor 인접 카테고리 인지 혼동 우려 |
+| 대안 | CodeTrace | AIWORKX CodeTrace | 🟢 안전 | Trace 등재 토큰 — NRB 즉시 | v3 2순위 검토 완료 |
+| 대안 | WorkBridge | AIWORKX WorkBridge | 🟡 주의 | Work·Bridge 신규 토큰 NRB | Workbridge Associates IT 스태핑 인접 |
+
+**최종 추천 (v1, 2026-05-12)**:
+- 1순위: **AIWORKX ReqBridge** /렉브릿지/ — RFI 양 축 직결, Bridge 패밀리 中 유일 글로벌 클린, 회사 핵심 가치 ‘현업↔IT 소통 가속’과 alignment, AgentRigor·AxDC™·DeviceProbe 출원 완료 라인업과 시그니처 일관
+- 2순위: **AIWORKX DevProbe** /데브프로브/ — 2026-04-01 v3 1순위 확정, NRB 즉시, KB RFI 일정 대응 최적
+- 3순위: **AIWORKX CodeRigor** /코드리거/ — AgentRigor 시리즈 일관성 (testRigor 인지 주의)
+
+**KIPRIS WebSearch 사전 조회 결과 (2026-05-12 재확인, 2026-04-28 조사 결과 유지)**:
+- ReqBridge: 🟢 안전 — 동명 미발견, 도메인 점유 미확인 (선점 가능)
+- DevProbe: 🟢 안전 — v3 검토 안전 확인 + 출원 완료 DeviceProbe와 Probe 패밀리 일관
+- CodeRigor: 🟡 주의 — testRigor(Generative AI 테스트 자동화) Rigor 토큰 활성 사용
+- CodeTrace: 🟢 안전 — Trace 등재 토큰
+- WorkBridge: 🟡 주의 — Workbridge Associates IT 인접
+
+**KIPRIS 조회 링크**:
+- [ReqBridge KIPRIS 조회](https://www.kipris.or.kr/srch/srchList.jsp?searchString=ReqBridge&tab=trademark)
+- [CodeRigor KIPRIS 조회](https://www.kipris.or.kr/srch/srchList.jsp?searchString=CodeRigor&tab=trademark)
+- [WorkBridge KIPRIS 조회](https://www.kipris.or.kr/srch/srchList.jsp?searchString=WorkBridge&tab=trademark)
+
+**다음 단계**:
+1. [05-15] 사업부 PO 최종 후보 선택 (ReqBridge / DevProbe / CodeRigor)
+2. [05-19] 변리사 정식 출원 검토 의뢰 (KIPRIS Class 9·42, KIPRIS WebSearch 사전 조사 완료 기반)
+3. [05-19] [법무팀] CodeRigor — testRigor 상표 혼동 가능성 정밀 검토 (선택 시)
+4. [05-19] [법무팀] ReqBridge — Bridge 패밀리 글로벌(USPTO·EUIPO) 출원 가능성 검토
+5. [05-19] 도메인 선점 검토 (reqbridge.ai / .com / .io)
+6. [05-15] 가칭 CodeBridge 외부 노출 차단 가이드 공유 (RFI 답변서·홍보 자료 작성 팀)
+7. [05-26] 변리사 결과 수신 → NRB 상정
+8. [05-29] Brand Governance 레지스트리 업데이트 + 경영진 승인
+
+**SharePoint (v1 ★최신, 2026-05-12)**: [Agent_CodeBridge_네이밍검토_20260512_v1.docx](https://testworks.sharepoint.com/:w:/s/aiworkx-/IQB5cMUPgSj8SpOoh8yb6yf2ATL_2vwQ1AsqKFcdn2zXxTg)
+**이메일 발송**: 2026-05-12 → impact.brand@aiworkx.ai (HTML 디자인 + Word 첨부)
 
 ---
 
@@ -231,54 +284,82 @@
 
 ---
 
-## 의료심사 보조 RAG Agent — Workflow Productivity Agent (v1 발행, 2026-05-12) ✅ HIRAssist 1순위
+## 의료심사 보조 RAG Agent — Workflow Productivity Agent (최신: v2, 2026-05-12) ★최신 — Adjudge 1순위 승격
 
-**SharePoint (v1 ★최신, 2026-05-12)**: [Agent_MedReviewAgent_네이밍검토_20260512_v1.docx](https://testworks.sharepoint.com/:w:/s/aiworkx-/IQDOOrvUIUM7SoZxl-6JLx1lAdTZZ0SlXgv4HEd3r5EEiVQ)
+**검토 대상**: 건강보험심사평가원(HIRA) 심사업무 지원 RAG 챗봇 → 일반 의료보험 심사 보조 Agent 확장
+**파생 사업**: RAG 기반 심사기준조회 AI 챗봇 PoC (HIRA 중기 ISP 수립 사업, '25.07~09)
+**핵심 기능**: Semantic + Graph RAG Hybrid, Decision LM 모듈, 고시 일자 기반 시점 필터링, HITL 검수, 온프레미스 운영, 골든 질문셋 신뢰성 검증
+**AxDC™ 탑재**: ✅ 권장 (Decision LM 자체 모듈 기반 — 출시 문서 "Powered by AxDC™" 표기 권장)
+
+**🚨 v2 변경사항 (2026-05-12)**: v1 1순위 HIRAssist는 심평원 브랜드 협의 리스크 + 일반 시장 확장 시 도메인 종속 한계 식별. 신규 5종 후보 재도출(식별력·도메인 적합성·카테고리 일관성 기준). 사전 스크리닝에서 5종 DROP, 5종 통과. **AIWORKX Adjudge가 1순위로 승격**(Agent v3 "AI 심사 자동화" 1순위 토큰 활용).
+
+### v2 사전 스크리닝 결과
+
+**🚫 DROP (5종)**:
+| 후보 | DROP 사유 |
+|------|----------|
+| ~~Edict~~ | GitHub cft0808/edict (OpenClaw) 9개 specialized AI agents + audit trails 동일 업종 |
+| ~~Charter~~ | Charter Global "Orcaworks" Agentic AI + Orca Foundry retrieval(RAG) 동일 업종 |
+| ~~Verdict~~ | verdictlegal.ai AI 컴플라이언스 RAG (EU AI Act/NIST AI RMF) 동일 업종 |
+| ~~Tenet~~ | Berlin Tenet AI Roll-up Fund €80M + Tenet Healthcare AI 의료 도메인 인접 |
+| ~~Rubric~~ | Rubric AI 의료·라이프사이언스·금융 도메인 데이터 인프라 직접 충돌 |
+
+**✅ Gate Check 통과 (5종)**:
+| 순위 | 후보 | 의미 | TM 리스크 | 비고 |
+|------|------|------|----------|------|
+| ★1 | **AIWORKX Adjudge** | adjudicate(심사·판결) | 🟢 안전 | Agent v3 "AI 심사 자동화" 1순위 토큰 → 카테고리 일관성, 즉시 NRB 상정 가능 |
+| 2 | **AIWORKX AuditProbe** | Audit + Probe (감사·탐침) | 🟢 안전 | Probe·Audit 모두 기등재 토큰 조합, NRB 즉시 상정 가능, Probe 시리즈 일관성 |
+| 3 | **AIWORKX Decree** | 칙령·고시·법령 | 🟢 안전(최상) | WebSearch 0건 — 가장 클린, 고시 일자 필터 의미 직결, 신규 토큰 NRB 필요 |
+| 4 | **AIWORKX Mandate** | 위임·법령·지시 | 🟢 안전 | 정부·공공·규제 위임 매핑, 신규 토큰 NRB 필요 |
+| 5 | **AIWORKX Provision** | 조항·규정 | 🟡 주의 | 심사기준·급여기준 조항 매핑, 일반명사 식별력 보완 필요 |
+
+### v1 후보 비교 (참조)
+- ~~HIRAssist~~ (v1 ★1순위) → 심평원 브랜드 협의 리스크 + 도메인 종속 → 우선순위 하향. 단 PoC 캠페인명으로 별도 유지 가능
+- ~~MedReview~~ (v1 2순위) → 학술 용어 식별력 약함
+- ~~ClaimReview~~ (v1 3순위) → ClaimReview Schema(Google) 충돌 위험
+
+### v2 최종 추천
+- **1순위: AIWORKX Adjudge** /애드저지/ — 의미 직결 + Agent 카테고리 일관성 + TM 클린 + 도메인 확장성
+- **2순위: AIWORKX AuditProbe** /오딧프로브/ — 기등재 토큰 조합 NRB 즉시 상정, Probe 시리즈 일관성
+- **3순위: AIWORKX Decree** /디크리/ — WebSearch 0건 최고 클린, 발음·기억성 우수
+
+### 주요 경쟁사 (브랜드팀 분석)
+- 🌐 글로벌: Cognizant Agentic Claims Adjudication, Palantir Foundry Health (FDE 방식)
+- 🇰🇷 국내: kt ds BAMBIT 새록, KB카드 Graph RAG, 심평원 KMS (현행 시스템)
+- AIWORKX 차별점: Decision LM 모듈 + 고시 일자 시점 필터 + Semantic+Graph RAG Hybrid + HITL 검수
+
+### 다음 단계
+1. [05-15] 사업부 PO 후보 선택 (Adjudge / AuditProbe / Decree)
+2. [05-19] 변리사 정식 출원 검토 의뢰 (KIPRIS Class 9+42, WebSearch 사전 조사 완료 기반)
+3. [05-22] Adjudge 토큰 단일 적용 vs 분리 운영 결정 (Agent v3 AI 심사 자동화 vs 본 솔루션)
+4. [05-22] AxDC™ 탑재 확정 + Powered by AxDC™ 표기 결정
+5. [05-29] 변리사 결과 수신 → NRB 상정
+6. [06-05] Brand Governance 레지스트리 업데이트 + 경영진 승인
+
+**SharePoint (v2 ★최신, 2026-05-12)**: [Agent_MedReviewAgent_네이밍검토_20260512_v2.docx](https://testworks.sharepoint.com/:w:/s/aiworkx-/IQC7W5SU1A-wT4iGuU1WzW6jATHczatFkerbo_B9vsGh2zk)
+
+**SharePoint (v1, 2026-05-12)**: [Agent_MedReviewAgent_네이밍검토_20260512_v1.docx](https://testworks.sharepoint.com/:w:/s/aiworkx-/IQDOOrvUIUM7SoZxl-6JLx1lAdTZZ0SlXgv4HEd3r5EEiVQ)
 
 ---
 
-## 심평원 의료 보조 RAG Agent — Workflow Productivity Agent (신규 검토 요청, 2026-05-11) ✅ Gate Check 🟢
-
-**검토 대상**: 건강보험심사평가원(HIRA) 심사업무 지원 RAG 챗봇
-**핵심 기능**: 의료 행위·약제 심사 지원 + 청구 데이터 분석 + 의료 가이드라인 검색 (Workflow Productivity Agent 영역)
-**Before & After 매핑**: 기존 "심평원 심사업무 지원 RAG 챗봇" → **AIWORKX Agent – MedReview** (제안명)
-
-**Gate Check 결과 (WebSearch TM 사전 조회, 2026-05-11)**:
-
-| 후보명 | 위험도 | 상세 |
-|--------|-------|------|
-| **MedReview** | 🟢 안전 | 동일 업종 활성 브랜드 미발견. 단, "의학 리뷰"는 일반 학술 용어로 식별력 보완 필요 |
-| MedRAG | 🟡 주의 | 학술 논문·오픈소스 다수 (MedRAG benchmark 등) |
-| MedGPT | 🔴 위험 | OpenAI 연상 + 다수 의료 GPT 브랜드 충돌 |
-
-**대안 후보 검토 권고**:
-1. AIWORKX **MedReview** — Before&After 기등재, TM 클린, 단 식별력 보완 필요
-2. AIWORKX **HIRAssist** — HIRA(심평원 영문 약칭) + Assist 결합, 도메인 특화 식별력 강함 ⭐ 신규 제안
-3. AIWORKX **ClaimReview** — 보험·의료 심사 리뷰 직관적, 글로벌 확장성
-4. AIWORKX **MedScan** — 의료 검사·검토 메타포, Test 카테고리 Scan 패밀리와 차별
-
-**최종 추천 (v1 초안)**:
-- 1순위: **AIWORKX HIRAssist** — 심평원 도메인 특화, 식별력 최상, TM whitespace 예상
-- 2순위: **AIWORKX MedReview** — Before&After 기등재 안정성, TM 클린
-- 3순위: **AIWORKX ClaimReview** — 글로벌 보험 심사 확장성
-
-**다음 단계**:
-1. [05-13] 3개 후보 WebSearch + KIPRIS 정식 게이트 체크 (HIRAssist 신규 제안)
-2. [05-13] 심평원 측 브랜드 사용 협의 필요 여부 확인 (HIRA 약칭 활용 시)
-3. [05-15] 사업부 PO + 의료 RAG 담당 PM 1순위 확정
-4. [05-18] v1 검토 문서 작성
-
----
-
-## CallBridge — 코드명 (구 CareCall 복지 AICC) v1 발행, 2026-05-12 ★최신
+## CallBridge — 코드명 (구 CareCall 복지 AICC) v2 발행, 2026-05-12 ★최신
 
 **⚠️ 코드명 중복 주의**: "CallBridge"는 두 가지 맥락에서 사용됨
-- (A) 복지 AICC 솔루션 코드명 (구 CareCall → CallBridge) ← **본 v1 문서 대상**
+- (A) 복지 AICC 솔루션 코드명 (구 CareCall → CallBridge) ← **본 v2 문서 대상**
 - (B) AI Expo 2026 demo 솔루션 가칭 (별도 — 아래 별도 섹션 참조)
 
-**SharePoint (v1 ★최신, 2026-05-12, 복지 AICC)**: [Agent_CallBridge_네이밍검토_20260512_v1.docx](https://testworks.sharepoint.com/:w:/s/aiworkx-/IQC50nMbFiTcS6vf_edXpo8gASgcV5VcgmDTeqjHLmTaffU)
+**SharePoint (v2 ★최신, 2026-05-12, 복지 AICC)**: [Agent_CallBridge_네이밍검토_20260512_v2.docx](https://testworks.sharepoint.com/:w:/s/aiworkx-/IQD8LMAw4vgaS5z_rB94GAmeAcJD6vu6EWezNkpO55eCGqI)
 
-**v1 주요 내용 (복지 AICC 맥락)**:
+**SharePoint (v1, 2026-05-12)**: [Agent_CallBridge_네이밍검토_20260512_v1.docx](https://testworks.sharepoint.com/:w:/s/aiworkx-/IQC50nMbFiTcS6vf_edXpo8gASgcV5VcgmDTeqjHLmTaffU)
+
+**v2 변경사항 (v1 대비, 2026-05-12)**:
+- 문서 구조 재정리 — 검토/DROP/살아있는 후보 분리 강화
+- **도메인 6종 즉시 방어 등록 액션 우선순위 격상 (Next Step #1)** — 기한 05-13
+- Test 4대 카테고리 체계 반영 (Verification → Test 통합)
+- TedWorks DeviceProbe™ 확정 사항 반영 (FarmProbe 폐기)
+- AxDC™ 표기 범위 명확화 — 해당 제품에만 적용
+
+**v1 주요 내용 (2026-05-12, 복지 AICC 맥락)**:
 - 코드명 CareCall → CallBridge 전환 (단, 외부 제품명 사용 불가 — 해피톡 콜브릿지 충돌)
 - CareBridge 추가 검토 → **⛔ DROP** 확정 (Elevance Health $2.7B + Carebridge EAP + USPTO Optum360 + carebridge.kr 4중 충돌)
 - 누적 DROP 11건 정리 (Sentry/Vigil/Beacon/Pulse/Lifeline/Aegis/Outreach/SafeCall/HugCall/HuggingCall/CareBridge)
